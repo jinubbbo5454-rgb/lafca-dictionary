@@ -18,9 +18,9 @@ body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Hir
 .wrap { max-width: 880px; margin: 0 auto; padding: 24px 20px 64px; }
 header { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 12px; }
 header h1 { font-size: 21px; margin: 0; letter-spacing: .02em; }
-.stat, .download, .grammar-link { font-size: 12px; }
+.stat, .grammar-link { font-size: 12px; }
 .stat { color: var(--meta); }
-.download { margin-left: auto; }
+.grammar-link { margin-left: auto; }
 a { color: var(--accent); }
 button, input, select { font: inherit; }
 button { cursor: pointer; }
@@ -135,7 +135,6 @@ textarea { font: inherit; }
     <h1>ラフカ語辞書</h1>
     <span class="stat" id="stat"></span>
     <a class="grammar-link" href="ラフカ語文法.pdf">文法</a>
-    <a class="download" href="ラフカ語辞書.zpdc" download>ZpDICを保存</a>
   </header>
   <main>
     <div class="searchbar"><form id="search-form" class="panel" role="search">
@@ -455,7 +454,7 @@ window.addEventListener('hashchange', () => { page = 0; render(); });
 syncFilters();
 render();
 
-/* Browser and Node share the same editing, validation and export rules. */
+/* Browser and Node share the same editing and validation rules. */
 (function (root) {
   'use strict';
   const POS = ['名詞','代名詞','動詞','形容詞','連体詞','副詞','前置詞','接続詞','小辞','間投詞'];
@@ -469,7 +468,7 @@ render();
   const forms = e => e.tables.flatMap(t => t.rows.flatMap(r => r.cells));
   function validate(e) {
     const fail = m => { throw new Error((e?.head || '語彙') + '：' + m); };
-    if (!e || !/^[a-f0-9]{16}$/.test(e.id) || !parseInt(e.id.slice(0,12),16)) fail('項目IDが不正です。');
+    if (!e || !/^[a-f0-9]{16}$/.test(e.id)) fail('項目IDが不正です。');
     const keys=['id','head','pos','kind','numeralType','numberRestriction','meaning','tags','gender','class','protoForms','relations','tables'];
     if (Object.keys(e).length !== keys.length || keys.some(k => !Object.hasOwn(e,k))) fail('語彙データの形式が不正です。');
     if (typeof e.head !== 'string' || !/^-?[A-Za-zäöüšžč]+(?: [A-Za-zäöüšžč]+)*-?$/.test(e.head)) fail('見出しには個別の語・接辞・慣用句を入力してください。');
@@ -501,13 +500,13 @@ render();
     return e;
   }
   function validateEntries(entries) {
-    const ids = new Set(), numbers = new Set(), words = new Set();
+    const ids = new Set(), words = new Set();
     for (const e of entries) {
       validate(e);
-      const number = parseInt(e.id.slice(0,12),16), word = e.head.normalize('NFC') + '\0' + e.pos + '\0' + e.kind;
-      if (ids.has(e.id) || numbers.has(number)) throw new Error('項目IDが重複しています。');
+      const word = e.head.normalize('NFC') + '\0' + e.pos + '\0' + e.kind;
+      if (ids.has(e.id)) throw new Error('項目IDが重複しています。');
       if (words.has(word)) throw new Error('同じ見出し・品詞が既にあります：' + e.head);
-      ids.add(e.id); numbers.add(number); words.add(word);
+      ids.add(e.id); words.add(word);
     }
     for (const e of entries) for (const r of e.relations) if (!ids.has(r.id)) throw new Error('関連語が見つかりません：' + r.head);
     return entries;
@@ -543,16 +542,7 @@ render();
     return [...new Set([e.pos, e.kind === '単語' ? '' : e.kind, e.numeralType, GENDERS[e.gender] || '', e.class,
       {singular:'複数形なし',plural:'複数のみ'}[e.numberRestriction] || '', ...extra.filter(t => !structural.has(t))].filter(Boolean))];
   }
-  function zpdic(entries) {
-    const numbers = Object.fromEntries(entries.map(e => [e.id,parseInt(e.id.slice(0,12),16)]));
-    return {version:1, words:entries.map(e => ({number:numbers[e.id],spelling:e.head,pronunciation:'',tags:[...new Set(e.tags)],sections:[{
-      equivalents:[{titles:[e.pos || e.kind],terms:[e.meaning],termString:e.meaning,ignoredPattern:'',hidden:false}],
-      informations:e.protoForms.length ? [{title:'祖語型',text:e.protoForms.join(' / '),hidden:false}] : [], phrases:[],
-      variations:forms(e).map(f => ({title:f.label,spelling:f.value,pronunciation:''})),
-      relations:e.relations.map(r => ({titles:[r.title],number:numbers[r.id],spelling:r.head}))
-    }]})),examples:[]};
-  }
-  const api = {POS,CLASSES,GENDERS,clone,equal,forms,validate,validateEntries,validateDraft,apply,merge,tags,zpdic};
+  const api = {POS,CLASSES,GENDERS,clone,equal,forms,validate,validateEntries,validateDraft,apply,merge,tags};
   if (typeof module !== 'undefined') module.exports = api; else root.LafcaEditor = api;
 })(globalThis);
 
@@ -612,11 +602,10 @@ render();
     const savedEdits = {version:1,entries:[...replacements.keys()].sort().map(id => current.get(id))};
     const newData = {...data,entries};
     const newHtml = html.replace(DATA_PATTERN, (_,before,_old,after) => before + 'const DATA = ' + JSON.stringify(newData).replace(/</g,'\\u003c') + ';' + after);
-    const zpdc = json(E.zpdic(entries));
     const editsJson = json(savedEdits);
-    const version = {...manifest,entries:entries.length,htmlSha256:await sha256(newHtml),zpdicSha256:await sha256(zpdc),editsSha256:await sha256(editsJson)};
-    progress('辞書とZpDICを保存しています…');
-    const files = {'index.html':newHtml,'ラフカ語辞書.zpdc':zpdc,'edits.json':editsJson,'version.json':json(version)};
+    const version = {...manifest,entries:entries.length,htmlSha256:await sha256(newHtml),editsSha256:await sha256(editsJson)};
+    progress('辞書を保存しています…');
+    const files = {'index.html':newHtml,'edits.json':editsJson,'version.json':json(version)};
     const nextTree = await api('/git/trees','POST',{base_tree:commit.tree.sha,tree:Object.entries(files).map(([path,content]) => ({path,mode:'100644',type:'blob',content}))});
     const nextCommit = await api('/git/commits','POST',{message:'Update dictionary entries: ' + changes.map(c => c.after.head).join(', '),tree:nextTree.sha,parents:[head]});
     await api('/git/refs/heads/main','PATCH',{sha:nextCommit.sha,force:false});
@@ -821,7 +810,6 @@ render();
       E.apply(published,latest.changes.map(c=>c.after));persist(latest);
     }catch(e){fail(e);}finally{importInput.value='';}
   });
-  document.querySelector('.download').addEventListener('click',event=>{event.preventDefault();download('ラフカ語辞書.zpdc',JSON.stringify(E.zpdic(DATA.entries),null,2)+'\n','application/json');});
   window.addEventListener('storage',event=>{if(event.key===KEY){try{draft=readDraft();refresh();}catch(e){fail(e);}}});
   window.lafcaEditControls=e=>{const controls=node('div',undefined,'entry-edit-controls');if(editing)controls.append(button('編集',()=>openEditor(e.id)),button('複製して追加',()=>openEditor(e.id,true)));return controls;};
   try{draft=readDraft();refresh();if(draft.changes.length){editing=true;toolbar.hidden=false;mode.textContent='編集を終了';render();}}catch(e){fail(new Error('保存済みの変更を読み込めません。ブラウザーの保存領域が使えるか確認してください。元の保存内容は保持しています。'));}
