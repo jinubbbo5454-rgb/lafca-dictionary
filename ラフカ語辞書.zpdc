@@ -84,44 +84,6 @@
       ]
     },
     {
-      "number": 216316712332018,
-      "spelling": "-ča",
-      "pronunciation": "",
-      "tags": [
-        "接尾辞",
-        "女性名詞"
-      ],
-      "sections": [
-        {
-          "equivalents": [
-            {
-              "titles": [
-                "名詞接尾辞"
-              ],
-              "terms": [
-                "女性形を作る非生産的な接尾辞"
-              ],
-              "termString": "女性形を作る非生産的な接尾辞",
-              "ignoredPattern": "",
-              "hidden": false
-            }
-          ],
-          "informations": [],
-          "phrases": [],
-          "variations": [],
-          "relations": [
-            {
-              "titles": [
-                "派生語"
-              ],
-              "number": 266045199072312,
-              "spelling": "horča"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "number": 69341105621679,
       "spelling": "-el",
       "pronunciation": "",
@@ -216,36 +178,6 @@
                 "名詞から動詞を作る接尾辞"
               ],
               "termString": "名詞から動詞を作る接尾辞",
-              "ignoredPattern": "",
-              "hidden": false
-            }
-          ],
-          "informations": [],
-          "phrases": [],
-          "variations": [],
-          "relations": []
-        }
-      ]
-    },
-    {
-      "number": 40988756309458,
-      "spelling": "-t-",
-      "pronunciation": "",
-      "tags": [
-        "接辞",
-        "使役"
-      ],
-      "sections": [
-        {
-          "equivalents": [
-            {
-              "titles": [
-                "動詞接辞"
-              ],
-              "terms": [
-                "使役動詞を作る化石的な接辞。-en を伴う"
-              ],
-              "termString": "使役動詞を作る化石的な接辞。-en を伴う",
               "ignoredPattern": "",
               "hidden": false
             }
@@ -16894,7 +16826,15 @@
               "pronunciation": ""
             }
           ],
-          "relations": []
+          "relations": [
+            {
+              "titles": [
+                "派生語"
+              ],
+              "number": 2503402340866,
+              "spelling": "gessad"
+            }
+          ]
         }
       ]
     },
@@ -17098,8 +17038,8 @@
       ]
     },
     {
-      "number": 160453290130988,
-      "spelling": "gessad 等",
+      "number": 2503402340866,
+      "spelling": "gessad",
       "pronunciation": "",
       "tags": [
         "動名詞",
@@ -17116,9 +17056,9 @@
                 "動名詞"
               ],
               "terms": [
-                "動名詞「〜すること」"
+                "食べること"
               ],
-              "termString": "動名詞「〜すること」",
+              "termString": "食べること",
               "ignoredPattern": "",
               "hidden": false
             }
@@ -17177,7 +17117,15 @@
               "pronunciation": ""
             }
           ],
-          "relations": []
+          "relations": [
+            {
+              "titles": [
+                "派生元"
+              ],
+              "number": 11047892938620,
+              "spelling": "gassen"
+            }
+          ]
         }
       ]
     },
@@ -21847,15 +21795,7 @@
               "pronunciation": ""
             }
           ],
-          "relations": [
-            {
-              "titles": [
-                "派生元"
-              ],
-              "number": 216316712332018,
-              "spelling": "-ča"
-            }
-          ]
+          "relations": []
         }
       ]
     },
@@ -47136,38 +47076,9 @@
                 "前置詞"
               ],
               "terms": [
-                "〜の中に；最上級の範囲"
+                "〜の中に；最上級の範囲；〜（の時間）で"
               ],
-              "termString": "〜の中に；最上級の範囲",
-              "ignoredPattern": "",
-              "hidden": false
-            }
-          ],
-          "informations": [],
-          "phrases": [],
-          "variations": [],
-          "relations": []
-        }
-      ]
-    },
-    {
-      "number": 102574724477441,
-      "spelling": "u ＋ 与格",
-      "pronunciation": "",
-      "tags": [
-        "構文"
-      ],
-      "sections": [
-        {
-          "equivalents": [
-            {
-              "titles": [
-                "構文"
-              ],
-              "terms": [
-                "〜（の時間）で"
-              ],
-              "termString": "〜（の時間）で",
+              "termString": "〜の中に；最上級の範囲；〜（の時間）で",
               "ignoredPattern": "",
               "hidden": false
             }
@@ -51828,8 +51739,8 @@
       ]
     },
     {
-      "number": 120565351509754,
-      "spelling": "zen pfor ＋ 動名詞",
+      "number": 64957556020740,
+      "spelling": "zen pfor",
       "pronunciation": "",
       "tags": [
         "動詞慣用句"
@@ -51854,47 +51765,47 @@
           "variations": [
             {
               "title": "現在1複数",
-              "spelling": "zev pfor ＋ 動名詞",
+              "spelling": "zev pfor",
               "pronunciation": ""
             },
             {
               "title": "現在2単数",
-              "spelling": "zeč pfor ＋ 動名詞",
+              "spelling": "zeč pfor",
               "pronunciation": ""
             },
             {
               "title": "現在2複数",
-              "spelling": "zeg pfor ＋ 動名詞",
+              "spelling": "zeg pfor",
               "pronunciation": ""
             },
             {
               "title": "現在3単数",
-              "spelling": "ze pfor ＋ 動名詞",
+              "spelling": "ze pfor",
               "pronunciation": ""
             },
             {
               "title": "現在3複数",
-              "spelling": "zesi pfor ＋ 動名詞",
+              "spelling": "zesi pfor",
               "pronunciation": ""
             },
             {
               "title": "不定形",
-              "spelling": "zen pfor ＋ 動名詞",
+              "spelling": "zen pfor",
               "pronunciation": ""
             },
             {
               "title": "アオリスト",
-              "spelling": "zit pfor ＋ 動名詞",
+              "spelling": "zit pfor",
               "pronunciation": ""
             },
             {
               "title": "命令単数",
-              "spelling": "ze pfor ＋ 動名詞",
+              "spelling": "ze pfor",
               "pronunciation": ""
             },
             {
               "title": "命令複数",
-              "spelling": "zeg pfor ＋ 動名詞",
+              "spelling": "zeg pfor",
               "pronunciation": ""
             }
           ],
