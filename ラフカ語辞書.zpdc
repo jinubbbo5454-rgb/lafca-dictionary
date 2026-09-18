@@ -16824,17 +16824,59 @@
               "title": "過去分詞",
               "spelling": "digesset",
               "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数主格",
+              "spelling": "gessad",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数主格",
+              "spelling": "gessädi",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数属格",
+              "spelling": "gessaden",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数属格",
+              "spelling": "gessädins",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数与格",
+              "spelling": "gessäder",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数与格",
+              "spelling": "gessädirs",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数奪格",
+              "spelling": "gessadu",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数奪格",
+              "spelling": "gessadus",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数再帰格",
+              "spelling": "gessadel",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数再帰格",
+              "spelling": "gessädils",
+              "pronunciation": ""
             }
           ],
-          "relations": [
-            {
-              "titles": [
-                "派生語"
-              ],
-              "number": 2503402340866,
-              "spelling": "gessad"
-            }
-          ]
+          "relations": []
         }
       ]
     },
@@ -17034,98 +17076,6 @@
             }
           ],
           "relations": []
-        }
-      ]
-    },
-    {
-      "number": 2503402340866,
-      "spelling": "gessad",
-      "pronunciation": "",
-      "tags": [
-        "動名詞",
-        "派生語",
-        "中性名詞",
-        "固定型",
-        "子音幹"
-      ],
-      "sections": [
-        {
-          "equivalents": [
-            {
-              "titles": [
-                "動名詞"
-              ],
-              "terms": [
-                "食べること"
-              ],
-              "termString": "食べること",
-              "ignoredPattern": "",
-              "hidden": false
-            }
-          ],
-          "informations": [],
-          "phrases": [],
-          "variations": [
-            {
-              "title": "単数主格",
-              "spelling": "gessad",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数主格",
-              "spelling": "gessädi",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数属格",
-              "spelling": "gessaden",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "gessädins",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数与格",
-              "spelling": "gessäder",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数与格",
-              "spelling": "gessädirs",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数奪格",
-              "spelling": "gessadu",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数奪格",
-              "spelling": "gessadus",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数再帰格",
-              "spelling": "gessadel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "gessädils",
-              "pronunciation": ""
-            }
-          ],
-          "relations": [
-            {
-              "titles": [
-                "派生元"
-              ],
-              "number": 11047892938620,
-              "spelling": "gassen"
-            }
-          ]
         }
       ]
     },
@@ -21498,6 +21448,56 @@
               "title": "過去分詞",
               "spelling": "dihumt",
               "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数主格",
+              "spelling": "humad",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数主格",
+              "spelling": "humädi",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数属格",
+              "spelling": "humaden",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数属格",
+              "spelling": "humädins",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数与格",
+              "spelling": "humäder",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数与格",
+              "spelling": "humädirs",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数奪格",
+              "spelling": "humadu",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数奪格",
+              "spelling": "humadus",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数再帰格",
+              "spelling": "humadel",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数再帰格",
+              "spelling": "humädils",
+              "pronunciation": ""
             }
           ],
           "relations": []
@@ -22572,92 +22572,6 @@
             {
               "title": "複数再帰格",
               "spelling": "hulsels",
-              "pronunciation": ""
-            }
-          ],
-          "relations": []
-        }
-      ]
-    },
-    {
-      "number": 113726506733507,
-      "spelling": "humad",
-      "pronunciation": "",
-      "tags": [
-        "名詞",
-        "中性名詞固定型",
-        "中性名詞",
-        "固定型",
-        "子音幹",
-        "動名詞",
-        "派生語"
-      ],
-      "sections": [
-        {
-          "equivalents": [
-            {
-              "titles": [
-                "名詞"
-              ],
-              "terms": [
-                "来ること、来訪"
-              ],
-              "termString": "来ること、来訪",
-              "ignoredPattern": "",
-              "hidden": false
-            }
-          ],
-          "informations": [],
-          "phrases": [],
-          "variations": [
-            {
-              "title": "単数主格",
-              "spelling": "humad",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数主格",
-              "spelling": "humädi",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数属格",
-              "spelling": "humaden",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "humädins",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数与格",
-              "spelling": "humäder",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数与格",
-              "spelling": "humädirs",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数奪格",
-              "spelling": "humadu",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数奪格",
-              "spelling": "humadus",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数再帰格",
-              "spelling": "humadel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "humädils",
               "pronunciation": ""
             }
           ],
@@ -38649,6 +38563,56 @@
               "title": "過去分詞",
               "spelling": "disipt",
               "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数主格",
+              "spelling": "sibad",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数主格",
+              "spelling": "sibädi",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数属格",
+              "spelling": "sibaden",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数属格",
+              "spelling": "sibädins",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数与格",
+              "spelling": "sibäder",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数与格",
+              "spelling": "sibädirs",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数奪格",
+              "spelling": "sibadu",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数奪格",
+              "spelling": "sibadus",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞単数再帰格",
+              "spelling": "sibadel",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞複数再帰格",
+              "spelling": "sibädils",
+              "pronunciation": ""
             }
           ],
           "relations": []
@@ -38863,92 +38827,6 @@
             {
               "title": "複数再帰格",
               "spelling": "šewaqels",
-              "pronunciation": ""
-            }
-          ],
-          "relations": []
-        }
-      ]
-    },
-    {
-      "number": 58700735528001,
-      "spelling": "sibad",
-      "pronunciation": "",
-      "tags": [
-        "名詞",
-        "中性名詞固定型",
-        "中性名詞",
-        "固定型",
-        "子音幹",
-        "動名詞",
-        "派生語"
-      ],
-      "sections": [
-        {
-          "equivalents": [
-            {
-              "titles": [
-                "名詞"
-              ],
-              "terms": [
-                "生きること、生"
-              ],
-              "termString": "生きること、生",
-              "ignoredPattern": "",
-              "hidden": false
-            }
-          ],
-          "informations": [],
-          "phrases": [],
-          "variations": [
-            {
-              "title": "単数主格",
-              "spelling": "sibad",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数主格",
-              "spelling": "sibädi",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数属格",
-              "spelling": "sibaden",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "sibädins",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数与格",
-              "spelling": "sibäder",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数与格",
-              "spelling": "sibädirs",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数奪格",
-              "spelling": "sibadu",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数奪格",
-              "spelling": "sibadus",
-              "pronunciation": ""
-            },
-            {
-              "title": "単数再帰格",
-              "spelling": "sibadel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "sibädils",
               "pronunciation": ""
             }
           ],

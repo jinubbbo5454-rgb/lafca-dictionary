@@ -1,5 +1,5 @@
 {
-  "entries": 601,
+  "entries": 598,
   "sources": [
     {
       "file": "ラフカ語辞書.md",
@@ -10,6 +10,6 @@
       "sha256": "5b6677848c55acbdd912ea7d7efa8de550475ba3d3b075c5ca29365d462e824c"
     }
   ],
-  "htmlSha256": "6e2668a4089b3508199dc64873c7030821bb158d948fb51bda5f50bcf526c306",
-  "zpdicSha256": "362d44c7716c2902b5a3970ac4da07f40afb7844d31b8b9e07809d204f261448"
+  "htmlSha256": "888fb26729c19a4a72c383fecf02bde4f285b48b93ca4115585df970e52b4770",
+  "zpdicSha256": "e18ae2793004570f3291a88a4799b7fe7e94afbbf6ebe8cfc513e741ff687904"
 }
