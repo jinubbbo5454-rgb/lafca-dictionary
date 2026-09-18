@@ -743,7 +743,31 @@ render();
   }
   function apply(entries, replacements) {
     const byId = new Map(entries.map(e => [e.id, normalizeRelations(e)]));
-    for (const e of replacements) byId.set(e.id, normalizeRelations(e));
+    const symmetric = r => RELATION_TYPES.includes(r.title);
+    const same = (a,b) => a.title === b.title && a.id === b.id;
+    function complete() {
+      for (const e of byId.values()) {
+        e.relations = e.relations.filter((r,i,all) => !symmetric(r) || all.findIndex(x => same(x,r)) === i);
+        for (const r of e.relations.filter(symmetric)) {
+          if (r.id === e.id) throw new Error('自分自身を関連語には指定できません。');
+          const target = byId.get(r.id);
+          if (target && !target.relations.some(x => x.title === r.title && x.id === e.id)) target.relations.push({title:r.title,id:e.id,head:e.head});
+        }
+      }
+    }
+    complete();
+    const before = new Map([...byId].map(([id,e]) => [id,clone(e)]));
+    replacements = replacements.map(normalizeRelations);
+    for (const e of replacements) byId.set(e.id,e);
+    // Remove both ends before completing additions, so a stale reverse link
+    // cannot recreate a relation the user just removed or changed.
+    for (const e of replacements) for (const r of (before.get(e.id)?.relations || []).filter(symmetric)) {
+      if (!e.relations.some(x => same(x,r))) {
+        const target = byId.get(r.id);
+        if (target) target.relations = target.relations.filter(x => !(x.title === r.title && x.id === e.id));
+      }
+    }
+    complete();
     const result = [...byId.values()];
     for (const e of result) for (const r of e.relations) if (byId.has(r.id)) r.head = byId.get(r.id).head;
     const key = e => e.head.toLowerCase().normalize('NFD').replace(/[\u0308\u030c]/g,'');
@@ -771,12 +795,44 @@ render();
     }
     return draft;
   }
+  function draftFromEntries(published, entries, draft) {
+    const originals = new Map(published.map(e => [e.id,e]));
+    const previous = new Map(draft.changes.map(c => [c.after.id,c]));
+    const changes = [];
+    for (const after of entries) {
+      const before = previous.has(after.id) ? previous.get(after.id).before : originals.get(after.id) || null;
+      if (!equal(before,after)) changes.push({before:clone(before),after:clone(after)});
+    }
+    return validateDraft({version:1,changes});
+  }
+  function materializeDraft(published, draft) {
+    draft = validateDraft(draft);
+    return draftFromEntries(published,apply(published,draft.changes.map(c => c.after)),draft);
+  }
+  function updateDraft(published, draft, entry) {
+    draft = validateDraft(draft);
+    const current = apply(published,draft.changes.map(c => c.after));
+    return draftFromEntries(published,apply(current,[entry]),draft);
+  }
+  function revertDraft(published, draft, id) {
+    draft = validateDraft(draft);
+    let entries = apply(published,draft.changes.map(c => c.after));
+    const original = published.find(e => e.id === id);
+    if (original) entries = apply(entries,[original]);
+    else {
+      entries = entries.filter(e => e.id !== id);
+      for (const e of entries) e.relations = e.relations.filter(r => r.id !== id);
+      validateEntries(entries);
+    }
+    draft.changes = draft.changes.filter(c => c.after.id !== id);
+    return draftFromEntries(published,entries,draft);
+  }
   function tags(e, extra) {
     const structural = new Set([...POS,...Object.values(CLASSES).flat(),...Object.values(GENDERS),'基数','序数','単語','慣用句','接辞','複数形なし','複数のみ']);
     return [...new Set([e.pos, e.kind === '単語' ? '' : e.kind, e.numeralType, GENDERS[e.gender] || '', e.class,
       {singular:'複数形なし',plural:'複数のみ'}[e.numberRestriction] || '', ...extra.filter(t => !structural.has(t))].filter(Boolean))];
   }
-  const api = {POS,CLASSES,GENDERS,RELATION_TYPES,normalizeRelations,clone,equal,forms,validate,validateEntries,validateDraft,apply,merge,tags};
+  const api = {POS,CLASSES,GENDERS,RELATION_TYPES,normalizeRelations,clone,equal,forms,validate,validateEntries,validateDraft,apply,merge,materializeDraft,updateDraft,revertDraft,tags};
   if (typeof module !== 'undefined') module.exports = api; else root.LafcaEditor = api;
 })(globalThis);
 
@@ -849,6 +905,8 @@ render();
     const entries = E.merge(data.entries, changes);
     const replacements = new Map(edits.entries.map(e => [e.id,e]));
     for (const c of changes) replacements.set(c.after.id,c.after);
+    const previous = new Map(data.entries.map(e => [e.id,e]));
+    for (const e of entries) if (!E.equal(previous.get(e.id),e)) replacements.set(e.id,e);
     // Keep relation spellings current, including relations in previously edited entries.
     const current = new Map(entries.map(e => [e.id,e]));
     const savedEdits = {version:1,entries:[...replacements.keys()].sort().map(id => current.get(id))};
@@ -1117,7 +1175,7 @@ render();
   function closeEditor(){if(formSnapshot()!==initialForm&&!confirm('入力中の変更を破棄しますか？'))return;editor.close();}
   editor.addEventListener('cancel',e=>{e.preventDefault();closeEditor();});
   function readDraft(){const text=localStorage.getItem(KEY);return text?E.validateDraft(JSON.parse(text)):{version:1,changes:[]};}
-  function persist(next){requireOwner();next=E.validateDraft(next);E.apply(published,next.changes.map(c=>c.after));localStorage.setItem(KEY,JSON.stringify(next));draft=next;refresh();}
+  function persist(next){requireOwner();next=E.materializeDraft(published,next);localStorage.setItem(KEY,JSON.stringify(next));draft=next;refresh();}
   function refresh(){DATA.entries=ownerToken?E.apply(published,draft.changes.map(c=>c.after)):E.clone(published);refreshIndex();notice.textContent=draft.changes.length?draft.changes.length+' 件の未公開の変更（この端末に保存済み）':'';manage.disabled=!draft.changes.length;backup.disabled=!draft.changes.length;}
   function fail(error){if(!ownerToken)return;notice.textContent=error.message;render();}
   form.addEventListener('submit',event=>{
@@ -1145,10 +1203,7 @@ render();
       E.validate(e);E.apply(DATA.entries,[e]);
       const latest=readDraft(), current=latest.changes.find(c=>c.after.id===e.id)||null;
       if(!E.equal(current,openingChange))throw new Error('別のタブでこの語を編集しています。入力を控え、開き直してください。');
-      const before=current?current.before:published.find(x=>x.id===e.id)||null;
-      latest.changes=latest.changes.filter(c=>c.after.id!==e.id);
-      if(!E.equal(before,e))latest.changes.push({before:E.clone(before),after:E.clone(e)});
-      persist(latest);editor.close();showEntry(e.id);
+      persist(E.updateDraft(published,latest,e));editor.close();showEntry(e.id);
     }catch(error){errors.textContent=error.name==='QuotaExceededError'?'端末に保存する空き容量がありません。入力内容を控えてください。':error.message;}
   });
   const changesDialog=dialog('changes-dialog','変更を保存'), changesList=node('div'), publishStatus=node('p','','edit-status');publishStatus.setAttribute('role','status');publishStatus.id='publish-status';
@@ -1162,7 +1217,7 @@ render();
     changesList.replaceChildren();publishStatus.replaceChildren();
     for(const c of draft.changes){const row=node('div',undefined,'change-row');row.append(node('span',c.after.head+'（'+(c.before?'編集':'追加')+'）'),button('編集',()=>{changesDialog.close();openEditor(c.after.id);}),button('変更を取り消す',()=>{
       if(!confirm(c.after.head+' の未公開の変更を取り消しますか？'))return;
-      try{const latest=readDraft();latest.changes=latest.changes.filter(x=>x.after.id!==c.after.id);E.apply(published,latest.changes.map(x=>x.after));persist(latest);showChanges();}catch(e){publishStatus.textContent=e.message;}
+      try{persist(E.revertDraft(published,readDraft(),c.after.id));showChanges();}catch(e){publishStatus.textContent=e.message;}
     }));changesList.append(row);}
     publish.disabled=!draft.changes.length;
     if(!changesDialog.open)changesDialog.showModal();
