@@ -118,7 +118,7 @@ td:last-child { padding-right: 0; }
       <div class="opts filters">
         <label>項目 <select id="kind"><option value="">すべて</option><option>単語</option><option>接辞</option><option>慣用句</option></select></label>
         <label id="pos-filter">品詞 <select id="pos"><option value="">すべて</option></select></label>
-        <label id="numeral-filter">数詞 <select id="numeral"><option value="">すべて</option><option>基数</option><option>序数</option></select></label>
+        <label id="numeral-filter">数詞 <select id="numeral"><option value="">指定なし</option><option value="all">すべての数詞</option><option>基数</option><option>序数</option></select></label>
         <label id="gender-filter" hidden>性 <select id="gender" disabled><option value="">すべて</option><option value="M">男性</option><option value="F">女性</option><option value="N">中性</option></select></label>
         <label id="class-filter" hidden>分類 <select id="class" disabled><option value="">すべて</option></select></label>
         <button type="button" id="reset">リセット</button>
@@ -352,7 +352,7 @@ function render() {
     return (!id || e.id === id)
       && (!$('kind').value || e.kind === $('kind').value)
       && (!$('pos').value || e.pos === $('pos').value)
-      && (!$('numeral').value || e.numeralType === $('numeral').value)
+      && (!$('numeral').value || ($('numeral').value === 'all' ? Boolean(e.numeralType) : e.numeralType === $('numeral').value))
       && (!$('gender').value || e.gender === $('gender').value)
       && (!$('class').value || e.class === $('class').value || e.tags.includes($('class').value))
       && (!tag || e.tags.includes(tag) || e.pos === tag)
