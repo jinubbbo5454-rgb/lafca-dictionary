@@ -119,12 +119,11 @@ td:last-child { padding-right: 0; }
       </div>
       <div class="opts">
         <label><input id="useinfl" type="checkbox" checked>変化形も探す</label>
-        <label><input id="strict" type="checkbox">ä / a などを区別</label>
       </div>
       <div class="opts filters">
         <label>品詞 <select id="pos"><option value="">すべて</option></select></label>
-        <label>性 <select id="gender"><option value="">すべて</option><option value="M">男性</option><option value="F">女性</option><option value="N">中性</option></select></label>
-        <label>分類 <select id="class"><option value="">すべて</option></select></label>
+        <label id="gender-filter" hidden>性 <select id="gender" disabled><option value="">すべて</option><option value="M">男性</option><option value="F">女性</option><option value="N">中性</option></select></label>
+        <label id="class-filter" hidden>分類 <select id="class" disabled><option value="">すべて</option></select></label>
         <button type="button" id="reset">リセット</button>
       </div>
     </form></div>
@@ -144,9 +143,7 @@ td:last-child { padding-right: 0; }
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 24;
 let page = 0, tag = '';
-const normalize = (s, strict = false) => strict
-  ? s.normalize('NFC').toLowerCase()
-  : s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const normalize = s => s.normalize('NFC').toLowerCase();
 const flattened = e => e.tables.flatMap(t => t.rows.flatMap(r => r.cells));
 const fields = values => values.filter(Boolean).flatMap(v => [v, ...v.split(/[、,;；\n／/]+/).map(s => s.trim())]);
 const index = DATA.entries.map(entry => {
@@ -156,8 +153,7 @@ const index = DATA.entries.map(entry => {
     forms: fields(flattened(entry).map(f => f.value)),
     full: fields([entry.grammar, entry.etymology, entry.ald, entry.note, ...entry.tags, ...entry.usage])
   };
-  const fold = strict => Object.fromEntries(Object.entries(values).map(([k, v]) => [k, v.map(s => normalize(s, strict))]));
-  return {entry, exact: fold(true), loose: fold(false)};
+  return {entry, search: Object.fromEntries(Object.entries(values).map(([k, v]) => [k, v.map(normalize)]))};
 });
 function node(name, text, cls) {
   const el = document.createElement(name);
@@ -165,15 +161,35 @@ function node(name, text, cls) {
   if (cls) el.className = cls;
   return el;
 }
-for (const [id, items] of [
-  ['pos', DATA.entries.map(e => e.pos)],
-  ['class', DATA.entries.flatMap(e => [e.class, ...e.tags.filter(t => ['交替動詞', '中性ウムラウト型', '男性・中性同形型', '語幹短縮型', '不規則動詞', '母音幹'].includes(t))])]
-]) {
-  [...new Set(items.filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ja')).forEach(value => {
+function options(values) {
+  return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, 'ja')).map(value => {
     const option = node('option', value);
     option.value = value;
-    $(id).append(option);
+    return option;
   });
+}
+$('pos').append(...options(DATA.entries.map(e => e.pos)));
+const classTags = {
+  '名詞': ['母音幹'],
+  '動詞': ['交替動詞', '不規則動詞'],
+  '形容詞': ['中性ウムラウト型', '男性・中性同形型', '語幹短縮型']
+};
+function syncFilters() {
+  const pos = $('pos').value;
+  const noun = pos === '名詞';
+  $('gender-filter').hidden = !noun;
+  $('gender').disabled = !noun;
+  if (!noun) $('gender').value = '';
+  const classes = classTags[pos]
+    ? DATA.entries.filter(e => e.pos === pos).flatMap(e => [e.class, ...e.tags.filter(t => classTags[pos].includes(t))])
+    : [];
+  const selected = $('class').value;
+  const all = node('option', 'すべて');
+  all.value = '';
+  $('class').replaceChildren(all, ...options(classes));
+  $('class').value = classes.includes(selected) ? selected : '';
+  $('class-filter').hidden = !classes.length;
+  $('class').disabled = !classes.length;
 }
 $('stat').textContent = DATA.entries.length.toLocaleString() + ' 項目';
 function clearHash() {
@@ -181,12 +197,19 @@ function clearHash() {
 }
 function reset() {
   HTMLFormElement.prototype.reset.call($('search-form'));
+  syncFilters();
   tag = '';
   page = 0;
   clearHash();
 }
-function chooseTag(value) {
-  tag = value;
+function chooseTag(value, pos = $('pos').value) {
+  if (value) {
+    $('pos').value = pos;
+    $('gender').value = '';
+    $('class').value = '';
+    syncFilters();
+  }
+  tag = value === pos ? '' : value;
   page = 0;
   clearHash();
   render();
@@ -238,7 +261,7 @@ function entryView(e, open = false) {
     const b = node('button', t, 'tag' + (t === e.pos ? ' pos' : ''));
     b.type = 'button';
     b.title = t + 'で絞り込む';
-    b.addEventListener('click', () => chooseTag(t));
+    b.addEventListener('click', () => chooseTag(t, e.pos));
     tags.append(b);
   });
   card.append(tags, node('p', e.meaning, 'meaning'));
@@ -295,14 +318,13 @@ function showEntry(id) {
   window.scrollTo({top: 0, behavior: 'smooth'});
 }
 function render() {
-  const strict = $('strict').checked;
-  const tokens = normalize($('query').value.trim(), strict).split(/\s+/).filter(Boolean);
+  const tokens = normalize($('query').value.trim()).split(/\s+/).filter(Boolean);
   const scope = document.querySelector('input[name="scope"]:checked').value;
   const mode = document.querySelector('input[name="mode"]:checked').value;
   $('useinfl').disabled = scope === 'trans';
   const id = location.hash.startsWith('#word=') ? location.hash.slice(6) : '';
   const matched = index.filter(x => {
-    const e = x.entry, search = strict ? x.exact : x.loose;
+    const e = x.entry, search = x.search;
     let values = scope === 'head' ? search.head : scope === 'trans' ? search.trans : [...search.head, ...search.trans];
     if (scope === 'full') values = [...values, ...search.full];
     if (scope !== 'trans' && $('useinfl').checked) values = [...values, ...search.forms];
@@ -330,7 +352,15 @@ function changed() {
   render();
 }
 $('query').addEventListener('input', changed);
-$('search-form').addEventListener('change', e => { if (e.target.id !== 'query') changed(); });
+$('search-form').addEventListener('change', e => {
+  if (e.target.id === 'pos') {
+    $('gender').value = '';
+    $('class').value = '';
+    tag = '';
+    syncFilters();
+  }
+  if (e.target.id !== 'query') changed();
+});
 $('search-form').addEventListener('submit', e => { e.preventDefault(); changed(); });
 $('reset').addEventListener('click', () => { reset(); render(); $('query').focus(); });
 $('clear-tag').addEventListener('click', () => chooseTag(''));
@@ -340,6 +370,7 @@ for (const [id, step] of [['prev', -1], ['next', 1]]) $(id).addEventListener('cl
   window.scrollTo({top: 0, behavior: 'smooth'});
 });
 window.addEventListener('hashchange', () => { page = 0; render(); });
+syncFilters();
 render();
 </script>
 </body>
