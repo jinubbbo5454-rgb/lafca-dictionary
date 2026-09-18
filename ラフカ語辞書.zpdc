@@ -1770,7 +1770,8 @@
         "名詞",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -1796,18 +1797,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "bänni",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "bännen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "bännins",
               "pronunciation": ""
             },
             {
@@ -1816,28 +1807,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "bännirs",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "bännu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "bännus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "bännel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "bännils",
               "pronunciation": ""
             }
           ],
@@ -2364,7 +2340,8 @@
         "名詞",
         "男性",
         "Ⅱ型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -2396,18 +2373,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "bažudes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "bažuden",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "bažudens",
               "pronunciation": ""
             },
             {
@@ -2416,28 +2383,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "bažüders",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "bažudu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "bažudus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "bažudel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "bažudels",
               "pronunciation": ""
             }
           ],
@@ -2806,6 +2758,79 @@
       ]
     },
     {
+      "number": 243352009441716,
+      "spelling": "bidašta",
+      "pronunciation": "",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "-a幹",
+        "複数のみ"
+      ],
+      "sections": [
+        {
+          "equivalents": [
+            {
+              "titles": [
+                "名詞"
+              ],
+              "terms": [
+                "兄弟たち"
+              ],
+              "termString": "兄弟たち",
+              "ignoredPattern": "",
+              "hidden": false
+            }
+          ],
+          "informations": [
+            {
+              "title": "祖語型",
+              "text": "*bidáš-tā",
+              "hidden": false
+            }
+          ],
+          "phrases": [],
+          "variations": [
+            {
+              "title": "複数主格",
+              "spelling": "bidašta",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "bidaštan",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "bidaštar",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "bidašto",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "bidaštal",
+              "pronunciation": ""
+            }
+          ],
+          "relations": [
+            {
+              "titles": [
+                "対応する単数"
+              ],
+              "number": 86528189668381,
+              "spelling": "bidiš"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "number": 86528189668381,
       "spelling": "bidiš",
       "pronunciation": "",
@@ -2846,7 +2871,7 @@
             },
             {
               "title": "複数主格",
-              "spelling": "bidašta",
+              "spelling": "bidašes",
               "pronunciation": ""
             },
             {
@@ -2856,7 +2881,7 @@
             },
             {
               "title": "複数属格",
-              "spelling": "bidaštan",
+              "spelling": "bidašens",
               "pronunciation": ""
             },
             {
@@ -2866,7 +2891,7 @@
             },
             {
               "title": "複数与格",
-              "spelling": "bidaštar",
+              "spelling": "bidäšers",
               "pronunciation": ""
             },
             {
@@ -2876,7 +2901,7 @@
             },
             {
               "title": "複数奪格",
-              "spelling": "bidašto",
+              "spelling": "bidašus",
               "pronunciation": ""
             },
             {
@@ -2886,36 +2911,19 @@
             },
             {
               "title": "複数再帰格",
-              "spelling": "bidaštal",
-              "pronunciation": ""
-            },
-            {
-              "title": "規則複数主格",
-              "spelling": "bidašes",
-              "pronunciation": ""
-            },
-            {
-              "title": "規則複数属格",
-              "spelling": "bidašens",
-              "pronunciation": ""
-            },
-            {
-              "title": "規則複数与格",
-              "spelling": "bidäšers",
-              "pronunciation": ""
-            },
-            {
-              "title": "規則複数奪格",
-              "spelling": "bidašus",
-              "pronunciation": ""
-            },
-            {
-              "title": "規則複数再帰格",
               "spelling": "bidašels",
               "pronunciation": ""
             }
           ],
-          "relations": []
+          "relations": [
+            {
+              "titles": [
+                "集合名詞"
+              ],
+              "number": 243352009441716,
+              "spelling": "bidašta"
+            }
+          ]
         }
       ]
     },
@@ -3313,7 +3321,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -3339,18 +3348,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "bisviges",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "bisvigen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "bisvigens",
               "pronunciation": ""
             },
             {
@@ -3359,28 +3358,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "bisvigers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "bisvigu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "bisvigus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "bisvigel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "bisvigels",
               "pronunciation": ""
             }
           ],
@@ -4160,7 +4144,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -4192,18 +4177,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "brämes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "brämen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "brämens",
               "pronunciation": ""
             },
             {
@@ -4212,28 +4187,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "brämers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "brämu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "brämus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "brämel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "brämels",
               "pronunciation": ""
             }
           ],
@@ -5438,7 +5398,8 @@
         "名詞",
         "男性",
         "固定型",
-        "-o幹"
+        "-o幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -5470,18 +5431,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "čamos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "čamon",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "čamons",
               "pronunciation": ""
             },
             {
@@ -5490,28 +5441,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "čamors",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "čamu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "čamus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "čamol",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "čamols",
               "pronunciation": ""
             }
           ],
@@ -5682,7 +5618,8 @@
         "名詞",
         "女性",
         "固定型",
-        "母音幹"
+        "母音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -7298,7 +7235,8 @@
         "名詞",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -7330,18 +7268,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "čiri",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "čiren",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "čirins",
               "pronunciation": ""
             },
             {
@@ -7350,28 +7278,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "čirirs",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "čiru",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "čirus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "čirel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "čirils",
               "pronunciation": ""
             }
           ],
@@ -9021,7 +8934,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -9053,18 +8967,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "čozraces",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "čozracen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "čozracens",
               "pronunciation": ""
             },
             {
@@ -9073,28 +8977,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "čozräcers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "čozracu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "čozracus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "čozracel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "čozracels",
               "pronunciation": ""
             }
           ],
@@ -10324,7 +10213,8 @@
         "名詞",
         "女性",
         "固定型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -10356,18 +10246,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "deqas",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "deqan",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "deqans",
               "pronunciation": ""
             },
             {
@@ -10376,28 +10256,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "deqars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "deqo",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "deqos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "deqal",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "deqals",
               "pronunciation": ""
             }
           ],
@@ -10819,7 +10684,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -10845,18 +10711,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "distžihes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "distžihen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "distžihens",
               "pronunciation": ""
             },
             {
@@ -10865,28 +10721,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "distžihers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "distžihu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "distžihus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "distžihel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "distžihels",
               "pronunciation": ""
             }
           ],
@@ -11588,7 +11429,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -11620,18 +11462,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "dočubes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "dočuben",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "dočubens",
               "pronunciation": ""
             },
             {
@@ -11640,28 +11472,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "dočübers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "dočubu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "dočubus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "dočubel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "dočubels",
               "pronunciation": ""
             }
           ],
@@ -11901,7 +11718,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -11933,18 +11751,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "düfuves",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "düfuven",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "düfuvens",
               "pronunciation": ""
             },
             {
@@ -11953,28 +11761,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "düfüvers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "düfuvu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "düfuvus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "düfuvel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "düfuvels",
               "pronunciation": ""
             }
           ],
@@ -14567,7 +14360,8 @@
         "名詞",
         "女性",
         "固定型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -14599,18 +14393,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "fissas",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "fissan",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "fissans",
               "pronunciation": ""
             },
             {
@@ -14619,28 +14403,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "fissars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "fisso",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "fissos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "fissal",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "fissals",
               "pronunciation": ""
             }
           ],
@@ -15629,7 +15398,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -15661,18 +15431,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "fräsiges",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "fräsigen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "fräsigens",
               "pronunciation": ""
             },
             {
@@ -15681,28 +15441,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "fräsigers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "fräsigu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "fräsigus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "fräsigel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "fräsigels",
               "pronunciation": ""
             }
           ],
@@ -17190,7 +16935,8 @@
         "名詞",
         "女性",
         "Ⅱ型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -17222,18 +16968,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "gitas",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "gitan",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "gitans",
               "pronunciation": ""
             },
             {
@@ -17242,28 +16978,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "gitars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "gito",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "gitos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "gital",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "gitals",
               "pronunciation": ""
             }
           ],
@@ -18355,7 +18076,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -18387,18 +18109,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "gohles",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "gohlen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "gohlens",
               "pronunciation": ""
             },
             {
@@ -18407,28 +18119,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "göhlers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "gohlu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "gohlus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "gohlel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "gohlels",
               "pronunciation": ""
             }
           ],
@@ -21681,7 +21378,15 @@
               "pronunciation": ""
             }
           ],
-          "relations": []
+          "relations": [
+            {
+              "titles": [
+                "集合名詞"
+              ],
+              "number": 2283936159514,
+              "spelling": "höri"
+            }
+          ]
         }
       ]
     },
@@ -21771,6 +21476,79 @@
             }
           ],
           "relations": []
+        }
+      ]
+    },
+    {
+      "number": 2283936159514,
+      "spelling": "höri",
+      "pronunciation": "",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "-i幹",
+        "複数のみ"
+      ],
+      "sections": [
+        {
+          "equivalents": [
+            {
+              "titles": [
+                "名詞"
+              ],
+              "terms": [
+                "王たち（文語）"
+              ],
+              "termString": "王たち（文語）",
+              "ignoredPattern": "",
+              "hidden": false
+            }
+          ],
+          "informations": [
+            {
+              "title": "祖語型",
+              "text": "*xor-ī",
+              "hidden": false
+            }
+          ],
+          "phrases": [],
+          "variations": [
+            {
+              "title": "複数主格",
+              "spelling": "höri",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "hörins",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "hörirs",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "hörus",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "hörils",
+              "pronunciation": ""
+            }
+          ],
+          "relations": [
+            {
+              "titles": [
+                "対応する単数"
+              ],
+              "number": 138684629938352,
+              "spelling": "hor"
+            }
+          ]
         }
       ]
     },
@@ -22087,7 +21865,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -22119,18 +21898,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "hrumes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "hrumen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "hrumens",
               "pronunciation": ""
             },
             {
@@ -22139,28 +21908,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "hrümers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "hrumu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "hrumus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "hrumel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "hrumels",
               "pronunciation": ""
             }
           ],
@@ -24514,7 +24268,8 @@
         "名詞",
         "女性",
         "固定型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -24540,18 +24295,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "jottas",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "jottan",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "jottans",
               "pronunciation": ""
             },
             {
@@ -24560,28 +24305,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "jottars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "jotto",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "jottos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "jottal",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "jottals",
               "pronunciation": ""
             }
           ],
@@ -24738,7 +24468,8 @@
         "名詞",
         "男性",
         "Ⅱ型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -24770,18 +24501,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "lečes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "lečen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "lečens",
               "pronunciation": ""
             },
             {
@@ -24790,28 +24511,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "lečers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "leču",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "lečus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "lečel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "lečels",
               "pronunciation": ""
             }
           ],
@@ -24827,7 +24533,8 @@
         "名詞",
         "女性",
         "固定型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -24853,18 +24560,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "Lafcas",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "Lafcan",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "Lafcans",
               "pronunciation": ""
             },
             {
@@ -24873,28 +24570,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "Lafcars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "Lafco",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "Lafcos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "Lafcal",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "Lafcals",
               "pronunciation": ""
             }
           ],
@@ -25806,7 +25488,8 @@
         "名詞",
         "女性",
         "Ⅱ型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -25838,18 +25521,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "lučas",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "lučan",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "lučans",
               "pronunciation": ""
             },
             {
@@ -25858,28 +25531,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "lučars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "lučo",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "lučos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "lučal",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "lučals",
               "pronunciation": ""
             }
           ],
@@ -27194,6 +26852,79 @@
       ]
     },
     {
+      "number": 241857209278867,
+      "spelling": "manča",
+      "pronunciation": "",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "-a幹",
+        "複数のみ"
+      ],
+      "sections": [
+        {
+          "equivalents": [
+            {
+              "titles": [
+                "名詞"
+              ],
+              "terms": [
+                "人々"
+              ],
+              "termString": "人々",
+              "ignoredPattern": "",
+              "hidden": false
+            }
+          ],
+          "informations": [
+            {
+              "title": "祖語型",
+              "text": "*mants-tʃā",
+              "hidden": false
+            }
+          ],
+          "phrases": [],
+          "variations": [
+            {
+              "title": "複数主格",
+              "spelling": "manča",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "mančan",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "mančar",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "mančo",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "mančal",
+              "pronunciation": ""
+            }
+          ],
+          "relations": [
+            {
+              "titles": [
+                "対応する単数"
+              ],
+              "number": 56604091911851,
+              "spelling": "manž"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "number": 56604091911851,
       "spelling": "manž",
       "pronunciation": "",
@@ -27234,7 +26965,7 @@
             },
             {
               "title": "複数主格",
-              "spelling": "manča",
+              "spelling": "manžes",
               "pronunciation": ""
             },
             {
@@ -27244,7 +26975,7 @@
             },
             {
               "title": "複数属格",
-              "spelling": "mančan",
+              "spelling": "manžens",
               "pronunciation": ""
             },
             {
@@ -27254,7 +26985,7 @@
             },
             {
               "title": "複数与格",
-              "spelling": "mančar",
+              "spelling": "mänžers",
               "pronunciation": ""
             },
             {
@@ -27264,7 +26995,7 @@
             },
             {
               "title": "複数奪格",
-              "spelling": "mančo",
+              "spelling": "manžus",
               "pronunciation": ""
             },
             {
@@ -27274,31 +27005,6 @@
             },
             {
               "title": "複数再帰格",
-              "spelling": "mančal",
-              "pronunciation": ""
-            },
-            {
-              "title": "規則複数主格",
-              "spelling": "manžes",
-              "pronunciation": ""
-            },
-            {
-              "title": "規則複数属格",
-              "spelling": "manžens",
-              "pronunciation": ""
-            },
-            {
-              "title": "規則複数与格",
-              "spelling": "mänžers",
-              "pronunciation": ""
-            },
-            {
-              "title": "規則複数奪格",
-              "spelling": "manžus",
-              "pronunciation": ""
-            },
-            {
-              "title": "規則複数再帰格",
               "spelling": "manžels",
               "pronunciation": ""
             }
@@ -27310,6 +27016,13 @@
               ],
               "number": 209601120481259,
               "spelling": "manžaq"
+            },
+            {
+              "titles": [
+                "集合名詞"
+              ],
+              "number": 241857209278867,
+              "spelling": "manča"
             }
           ]
         }
@@ -28919,7 +28632,8 @@
         "名詞",
         "女性",
         "Ⅱ型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -28951,18 +28665,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "nehas",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "nehan",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "nehans",
               "pronunciation": ""
             },
             {
@@ -28971,28 +28675,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "nehars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "neho",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "nehos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "nehal",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "nehals",
               "pronunciation": ""
             }
           ],
@@ -30782,7 +30471,8 @@
         "名詞",
         "女性",
         "固定型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -30814,18 +30504,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "päras",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "päran",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "pärans",
               "pronunciation": ""
             },
             {
@@ -30834,28 +30514,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "pärars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "päro",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "päros",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "päral",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "pärals",
               "pronunciation": ""
             }
           ],
@@ -32765,7 +32430,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -32797,18 +32463,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "ploges",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "plogen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "plogens",
               "pronunciation": ""
             },
             {
@@ -32817,28 +32473,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "plögers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "plogu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "plogus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "plogel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "plogels",
               "pronunciation": ""
             }
           ],
@@ -33880,7 +33521,8 @@
         "名詞",
         "男性",
         "Ⅱ型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -33912,18 +33554,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "pöžimes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "pöžimen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "pöžimens",
               "pronunciation": ""
             },
             {
@@ -33932,28 +33564,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "pöžimers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "pöžimu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "pöžimus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "pöžimel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "pöžimels",
               "pronunciation": ""
             }
           ],
@@ -33969,7 +33586,8 @@
         "名詞",
         "女性",
         "固定型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -34001,18 +33619,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "pras",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "pran",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "prans",
               "pronunciation": ""
             },
             {
@@ -34021,28 +33629,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "prars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "pro",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "pros",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "pral",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "prals",
               "pronunciation": ""
             }
           ],
@@ -35572,7 +35165,8 @@
         "名詞",
         "女性",
         "固定型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -35604,18 +35198,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "ridas",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "ridan",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "ridans",
               "pronunciation": ""
             },
             {
@@ -35624,28 +35208,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "ridars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "rido",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "ridos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "ridal",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "ridals",
               "pronunciation": ""
             }
           ],
@@ -36215,7 +35784,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -36247,18 +35817,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "ruhes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "ruhen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "ruhens",
               "pronunciation": ""
             },
             {
@@ -36267,28 +35827,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "rühers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "ruhu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "ruhus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "ruhel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "ruhels",
               "pronunciation": ""
             }
           ],
@@ -41424,7 +40969,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -41450,18 +40996,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "sprogädes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "sprogäden",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "sprogädens",
               "pronunciation": ""
             },
             {
@@ -41470,28 +41006,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "sprogäders",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "sprogädu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "sprogädus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "sprogädel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "sprogädels",
               "pronunciation": ""
             }
           ],
@@ -41507,7 +41028,8 @@
         "名詞",
         "男性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -41539,18 +41061,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "šrazes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "šrazen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "šrazens",
               "pronunciation": ""
             },
             {
@@ -41559,28 +41071,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "šräzers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "šrazu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "šrazus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "šrazel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "šrazels",
               "pronunciation": ""
             }
           ],
@@ -41708,7 +41205,8 @@
         "名詞",
         "男性",
         "Ⅱ型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -41740,18 +41238,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "stripes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "stripen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "stripens",
               "pronunciation": ""
             },
             {
@@ -41760,28 +41248,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "stripers",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "stripu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "stripus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "stripel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "stripels",
               "pronunciation": ""
             }
           ],
@@ -42975,7 +42448,8 @@
         "名詞",
         "女性",
         "固定型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -43007,18 +42481,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "swücas",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "swücan",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "swücans",
               "pronunciation": ""
             },
             {
@@ -43027,28 +42491,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "swücars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "swüco",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "swücos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "swücal",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "swücals",
               "pronunciation": ""
             }
           ],
@@ -47787,7 +47236,8 @@
         "名詞",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -47819,18 +47269,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "versi",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "versen",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "versins",
               "pronunciation": ""
             },
             {
@@ -47839,28 +47279,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "versirs",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "versu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "versus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "versel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "versils",
               "pronunciation": ""
             }
           ],
@@ -51562,7 +50987,8 @@
         "名詞",
         "男性",
         "Ⅱ型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -51594,18 +51020,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "zepides",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "zepiden",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "zepidens",
               "pronunciation": ""
             },
             {
@@ -51614,28 +51030,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "zepiders",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "zepidu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "zepidus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "zepidel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "zepidels",
               "pronunciation": ""
             }
           ],
@@ -52339,7 +51740,8 @@
         "名詞",
         "女性",
         "固定型",
-        "-a幹"
+        "-a幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -52371,18 +51773,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "ziglas",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "ziglan",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "ziglans",
               "pronunciation": ""
             },
             {
@@ -52391,28 +51783,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "ziglars",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "ziglo",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "ziglos",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "ziglal",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "ziglals",
               "pronunciation": ""
             }
           ],
@@ -53342,7 +52719,8 @@
         "名詞",
         "男性",
         "Ⅱ型",
-        "子音幹"
+        "子音幹",
+        "複数形なし"
       ],
       "sections": [
         {
@@ -53374,18 +52752,8 @@
               "pronunciation": ""
             },
             {
-              "title": "複数主格",
-              "spelling": "žuhtes",
-              "pronunciation": ""
-            },
-            {
               "title": "単数属格",
               "spelling": "žuhten",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数属格",
-              "spelling": "žuhtens",
               "pronunciation": ""
             },
             {
@@ -53394,28 +52762,13 @@
               "pronunciation": ""
             },
             {
-              "title": "複数与格",
-              "spelling": "žühters",
-              "pronunciation": ""
-            },
-            {
               "title": "単数奪格",
               "spelling": "žuhtu",
               "pronunciation": ""
             },
             {
-              "title": "複数奪格",
-              "spelling": "žuhtus",
-              "pronunciation": ""
-            },
-            {
               "title": "単数再帰格",
               "spelling": "žuhtel",
-              "pronunciation": ""
-            },
-            {
-              "title": "複数再帰格",
-              "spelling": "žuhtels",
               "pronunciation": ""
             }
           ],
@@ -53532,7 +52885,8 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "母音幹",
+        "複数形なし"
       ],
       "sections": [
         {
