@@ -1,4 +1,211 @@
 {
   "version": 1,
-  "entries": []
+  "entries": [
+    {
+      "id": "75ef390c42e535d0",
+      "head": "amalbuh",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "",
+      "meaning": "稲妻",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*amalbux"
+      ],
+      "relations": [
+        {
+          "title": "類義",
+          "id": "c30d9cc890d927f4",
+          "head": "sänan"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数",
+            "複数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "amalbuh"
+                },
+                {
+                  "label": "複数主格",
+                  "value": "amalbuhes"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "amalbuhen"
+                },
+                {
+                  "label": "複数属格",
+                  "value": "amalbuhens"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "amalbüher"
+                },
+                {
+                  "label": "複数与格",
+                  "value": "amalbühers"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "amalbuhu"
+                },
+                {
+                  "label": "複数奪格",
+                  "value": "amalbuhus"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "amalbuhel"
+                },
+                {
+                  "label": "複数再帰格",
+                  "value": "amalbuhels"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c30d9cc890d927f4",
+      "head": "sänan",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "",
+      "meaning": "雷",
+      "tags": [
+        "名詞",
+        "男性",
+        "Ⅱ型",
+        "子音幹"
+      ],
+      "gender": "M",
+      "class": "Ⅱ型",
+      "protoForms": [
+        "*sēnan"
+      ],
+      "relations": [
+        {
+          "title": "類義",
+          "id": "75ef390c42e535d0",
+          "head": "amalbuh"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数",
+            "複数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "sänan"
+                },
+                {
+                  "label": "複数主格",
+                  "value": "sänenes"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "sänenen"
+                },
+                {
+                  "label": "複数属格",
+                  "value": "sänenens"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "sänener"
+                },
+                {
+                  "label": "複数与格",
+                  "value": "säneners"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "sänenu"
+                },
+                {
+                  "label": "複数奪格",
+                  "value": "sänenus"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "sänenel"
+                },
+                {
+                  "label": "複数再帰格",
+                  "value": "sänenels"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
