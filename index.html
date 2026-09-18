@@ -104,7 +104,8 @@ textarea { font: inherit; }
 .editor-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .editor-grid .wide { grid-column: 1 / -1; }
 .editor-dialog textarea { display: block; resize: vertical; }
-.editor-actions { display: flex; gap: 10px; position: sticky; bottom: -20px; padding: 16px 0; background: white; border-top: 1px solid var(--line); margin-top: 20px; }
+.editor-actions { display: flex; flex-wrap: wrap; gap: 10px; position: sticky; bottom: -20px; padding: 16px 0; background: white; border-top: 1px solid var(--line); margin-top: 20px; }
+.editor-actions .danger { color: #a72020; margin-left: auto; }
 .editor-dialog button.primary { background: var(--accent); color: white; border-color: var(--accent); }
 .editor-dialog button:disabled, .editor-toolbar button:disabled { opacity: .45; cursor: default; }
 .edit-error { color: #a22b2b; font-size: 13px; margin: 0 0 10px; }
@@ -694,6 +695,7 @@ render();
     return v && !Array.isArray(v) && typeof v === 'object' ? Object.fromEntries(Object.keys(v).sort().map(k => [k, v[k]])) : v;
   });
   const equal = (a,b) => canonical(a) === canonical(b);
+  const changeId = c => (c.after || c.before).id;
   const forms = e => e.tables.flatMap(t => t.rows.flatMap(r => r.cells));
   function validate(e) {
     const fail = m => { throw new Error((e?.head || '語彙') + '：' + m); };
@@ -741,8 +743,12 @@ render();
     for (const e of entries) for (const r of e.relations) if (!ids.has(r.id)) throw new Error('関連語が見つかりません：' + r.head);
     return entries;
   }
-  function apply(entries, replacements) {
+  function apply(entries, replacements, deletedIds = []) {
+    if (!Array.isArray(deletedIds) || deletedIds.some(id => !/^[a-f0-9]{16}$/.test(id))) throw new Error('削除対象のIDが不正です。');
+    const deleted = new Set(deletedIds);
     const byId = new Map(entries.map(e => [e.id, normalizeRelations(e)]));
+    for (const id of deleted) byId.delete(id);
+    for (const e of byId.values()) e.relations = e.relations.filter(r => !deleted.has(r.id));
     const symmetric = r => RELATION_TYPES.includes(r.title);
     const same = (a,b) => a.title === b.title && a.id === b.id;
     function complete() {
@@ -758,7 +764,11 @@ render();
     complete();
     const before = new Map([...byId].map(([id,e]) => [id,clone(e)]));
     replacements = replacements.map(normalizeRelations);
-    for (const e of replacements) byId.set(e.id,e);
+    for (const e of replacements) {
+      if (deleted.has(e.id)) throw new Error('同じ語を編集と削除の両方には指定できません。');
+      e.relations = e.relations.filter(r => !deleted.has(r.id));
+      byId.set(e.id,e);
+    }
     // Remove both ends before completing additions, so a stale reverse link
     // cannot recreate a relation the user just removed or changed.
     for (const e of replacements) for (const r of (before.get(e.id)?.relations || []).filter(symmetric)) {
@@ -782,58 +792,75 @@ render();
     // its relation), while the draft also contains inflection settings. Accept
     // only fields matching before or after; unrelated remote updates still conflict.
     const compatible = c => {
-      const remote = byId.get(c.after.id) || null;
+      const remote = byId.get(changeId(c)) || null;
       if (equal(remote,c.before) || equal(remote,c.after)) return true;
-      return remote && c.before && [...new Set([...Object.keys(remote),...Object.keys(c.before),...Object.keys(c.after)])]
+      return remote && c.before && c.after && [...new Set([...Object.keys(remote),...Object.keys(c.before),...Object.keys(c.after)])]
         .every(k => equal(remote[k],c.before[k]) || equal(remote[k],c.after[k]));
     };
     const conflicts = changes.filter(c => !compatible(c));
-    if (conflicts.length) throw new Error('別の場所で更新されています：' + conflicts.map(c => c.after.head).join('、') + '。変更をバックアップし、公開版を読み直してから編集してください。');
-    return apply(remoteEntries, changes.map(c => c.after));
+    if (conflicts.length) throw new Error('別の場所で更新されています：' + conflicts.map(c => (c.after || c.before).head).join('、') + '。変更をバックアップし、公開版を読み直してから編集してください。');
+    return applyDraft(remoteEntries,{version:1,changes});
   }
   function validateDraft(draft) {
     if (!draft || draft.version !== 1 || !Array.isArray(draft.changes)) throw new Error('この辞書の編集バックアップではありません。');
     draft = clone(draft);
     const ids = new Set();
     for (const c of draft.changes) {
-      validate(c.after);
-      if (c.before !== null) { validate(c.before); if (c.before.id !== c.after.id) throw new Error('変更前後のIDが一致しません。'); }
-      if (ids.has(c.after.id)) throw new Error('編集対象が重複しています。');
-      ids.add(c.after.id);
+      if (!c || (c.before === null && c.after === null)) throw new Error('変更対象がありません。');
+      if (c.after !== null) validate(c.after);
+      if (c.before !== null) { validate(c.before); if (c.after && c.before.id !== c.after.id) throw new Error('変更前後のIDが一致しません。'); }
+      const id = changeId(c);
+      if (ids.has(id)) throw new Error('編集対象が重複しています。');
+      ids.add(id);
       c.before = normalizeRelations(c.before); c.after = normalizeRelations(c.after);
     }
     return draft;
   }
+  function applyDraft(entries, draft) {
+    return apply(entries,draft.changes.filter(c => c.after).map(c => c.after),draft.changes.filter(c => c.after === null).map(changeId));
+  }
   function draftFromEntries(published, entries, draft) {
     const originals = new Map(published.map(e => [e.id,e]));
-    const previous = new Map(draft.changes.map(c => [c.after.id,c]));
+    const previous = new Map(draft.changes.map(c => [changeId(c),c]));
     const changes = [];
     for (const after of entries) {
       const before = previous.has(after.id) ? previous.get(after.id).before : originals.get(after.id) || null;
       if (!equal(before,after)) changes.push({before:clone(before),after:clone(after)});
     }
+    const remaining = new Set(entries.map(e => e.id));
+    for (const id of new Set([...originals.keys(),...previous.keys()])) if (!remaining.has(id)) {
+      const before = previous.has(id) ? previous.get(id).before : originals.get(id);
+      if (before) changes.push({before:clone(before),after:null});
+    }
     return validateDraft({version:1,changes});
   }
   function materializeDraft(published, draft) {
     draft = validateDraft(draft);
-    return draftFromEntries(published,apply(published,draft.changes.map(c => c.after)),draft);
+    return draftFromEntries(published,applyDraft(published,draft),draft);
   }
   function updateDraft(published, draft, entry) {
     draft = validateDraft(draft);
-    const current = apply(published,draft.changes.map(c => c.after));
+    const current = applyDraft(published,draft);
     return draftFromEntries(published,apply(current,[entry]),draft);
+  }
+  function deleteDraft(published, draft, id) {
+    draft = validateDraft(draft);
+    return draftFromEntries(published,apply(applyDraft(published,draft),[],[id]),draft);
   }
   function revertDraft(published, draft, id) {
     draft = validateDraft(draft);
-    let entries = apply(published,draft.changes.map(c => c.after));
+    let entries = applyDraft(published,draft);
     const original = published.find(e => e.id === id);
-    if (original) entries = apply(entries,[original]);
-    else {
-      entries = entries.filter(e => e.id !== id);
-      for (const e of entries) e.relations = e.relations.filter(r => r.id !== id);
-      validateEntries(entries);
+    if (original) {
+      if (!entries.some(e => e.id === id)) for (const e of entries) {
+        for (const r of published.find(x => x.id === e.id)?.relations || []) if (r.id === id && !e.relations.some(x => x.id === id && x.title === r.title)) e.relations.push(clone(r));
+      }
+      const restored = clone(original), available = new Set([...entries.map(e => e.id),id]);
+      restored.relations = restored.relations.filter(r => available.has(r.id));
+      entries = apply(entries,[restored]);
     }
-    draft.changes = draft.changes.filter(c => c.after.id !== id);
+    else entries = apply(entries,[],[id]);
+    draft.changes = draft.changes.filter(c => changeId(c) !== id);
     return draftFromEntries(published,entries,draft);
   }
   function tags(e, extra) {
@@ -841,7 +868,7 @@ render();
     return [...new Set([e.pos, e.kind === '単語' ? '' : e.kind, e.numeralType, GENDERS[e.gender] || '', e.class,
       {singular:'複数形なし',plural:'複数のみ'}[e.numberRestriction] || '', ...extra.filter(t => !structural.has(t))].filter(Boolean))];
   }
-  const api = {POS,CLASSES,GENDERS,RELATION_TYPES,normalizeRelations,clone,equal,forms,validate,validateEntries,validateDraft,apply,merge,materializeDraft,updateDraft,revertDraft,tags};
+  const api = {POS,CLASSES,GENDERS,RELATION_TYPES,normalizeRelations,clone,equal,changeId,forms,validate,validateEntries,validateDraft,apply,applyDraft,merge,materializeDraft,updateDraft,deleteDraft,revertDraft,tags};
   if (typeof module !== 'undefined') module.exports = api; else root.LafcaEditor = api;
 })(globalThis);
 
@@ -913,12 +940,18 @@ render();
     if (manifest.htmlSha256 !== await sha256(html) || (manifest.editsSha256 && manifest.editsSha256 !== await sha256(editsText)) || edits.version !== 1 || !Array.isArray(edits.entries)) throw new Error('公開ファイルの整合性を確認できません。変更は端末に残っています。');
     const entries = E.merge(data.entries, changes);
     const replacements = new Map(edits.entries.map(e => [e.id,e]));
-    for (const c of changes) replacements.set(c.after.id,c.after);
+    if (edits.deletedIds !== undefined && (!Array.isArray(edits.deletedIds) || edits.deletedIds.some(id => !/^[a-f0-9]{16}$/.test(id)))) throw new Error('公開版の削除データが不正です。');
+    const deleted = new Set(edits.deletedIds || []);
+    for (const c of changes) {
+      const id = E.changeId(c);
+      if (c.after) { replacements.set(id,c.after); deleted.delete(id); }
+      else { replacements.delete(id); deleted.add(id); }
+    }
     const previous = new Map(data.entries.map(e => [e.id,e]));
     for (const e of entries) if (!E.equal(previous.get(e.id),e)) replacements.set(e.id,e);
     // Keep relation spellings current, including relations in previously edited entries.
     const current = new Map(entries.map(e => [e.id,e]));
-    const savedEdits = {version:1,entries:[...replacements.keys()].sort().map(id => current.get(id))};
+    const savedEdits = {version:1,entries:[...replacements.keys()].filter(id => current.has(id)).sort().map(id => current.get(id)),...(deleted.size ? {deletedIds:[...deleted].sort()} : {})};
     const newData = {...data,entries};
     const newHtml = html.replace(DATA_PATTERN, (_,before,_old,after) => before + 'const DATA = ' + JSON.stringify(newData).replace(/</g,'\\u003c') + ';' + after);
     const editsJson = json(savedEdits);
@@ -926,7 +959,7 @@ render();
     progress('辞書を保存しています…');
     const files = {'index.html':newHtml,'edits.json':editsJson,'version.json':json(version)};
     const nextTree = await api('/git/trees','POST',{base_tree:commit.tree.sha,tree:Object.entries(files).map(([path,content]) => ({path,mode:'100644',type:'blob',content}))});
-    const nextCommit = await api('/git/commits','POST',{message:'Update dictionary entries: ' + changes.map(c => c.after.head).join(', '),tree:nextTree.sha,parents:[head]});
+    const nextCommit = await api('/git/commits','POST',{message:'Update dictionary entries: ' + changes.map(c => c.after ? c.after.head : 'Delete '+c.before.head).join(', '),tree:nextTree.sha,parents:[head]});
     await api('/git/refs/heads/main','PATCH',{sha:nextCommit.sha,force:false});
     return {entries,commit:nextCommit.sha,url:'https://github.com/' + REPO + '/commit/' + nextCommit.sha};
   }
@@ -1024,7 +1057,8 @@ render();
   const save=node('button','保存して公開…','primary');save.type='submit';save.id='save-entry';
   const saveDraft=node('button','下書きに保存');saveDraft.type='submit';saveDraft.id='save-draft';
   const cancel=button('キャンセル',closeEditor); cancel.id='cancel-entry';
-  actions.append(save,saveDraft,cancel);
+  const remove=button('単語を削除',deleteEntry,'danger');remove.id='delete-entry';remove.hidden=true;
+  actions.append(save,saveDraft,cancel,remove);
   form.append(errors,grid,formsTitle,tables,addTable,relationsTitle,relations,addRelation,actions);
   editor.append(form);
   let initialForm = '';
@@ -1172,7 +1206,8 @@ render();
     model=existing&&!duplicate?M.infer(working):{version:1,settings:{nounPattern:'auto',gerundDeclension:working.pos==='動詞'},overrides:{},omitted:[]};
     try{previousGenerated=M.generate(working,model.settings,model.overrides);}catch{previousGenerated=[];}
     if(duplicate){working.id=randomId();working.head='';working.relations=[];working.tables=[];delete working.inflection;previousGenerated=[];}
-    openingChange=E.clone(draft.changes.find(c=>c.after.id===working.id)||null);
+    openingChange=E.clone(draft.changes.find(c=>E.changeId(c)===working.id)||null);
+    remove.hidden=!existing||duplicate;
     head.value=working.head;kind.value=working.kind;pos.value=working.pos;gender.value=working.gender;
     number.value=working.numberRestriction;numeral.value=working.numeralType;meaning.value=working.meaning;proto.value=working.protoForms.join('\n');extra.value=extraTags(working).join('、');
     syncEditor();cls.value=working.class;
@@ -1186,8 +1221,20 @@ render();
   editor.addEventListener('cancel',e=>{e.preventDefault();closeEditor();});
   function readDraft(){const text=localStorage.getItem(KEY);return text?E.validateDraft(JSON.parse(text)):{version:1,changes:[]};}
   function persist(next){requireOwner();next=E.materializeDraft(published,next);localStorage.setItem(KEY,JSON.stringify(next));draft=next;refresh();}
-  function refresh(){DATA.entries=ownerToken?E.apply(published,draft.changes.map(c=>c.after)):E.clone(published);refreshIndex();notice.textContent=draft.changes.length?draft.changes.length+' 件の未公開の変更（この端末に保存済み）':'';manage.disabled=!draft.changes.length;backup.disabled=!draft.changes.length;}
+  function refresh(){DATA.entries=ownerToken?E.applyDraft(published,draft):E.clone(published);refreshIndex();notice.textContent=draft.changes.length?draft.changes.length+' 件の未公開の変更（この端末に保存済み）':'';manage.disabled=!draft.changes.length;backup.disabled=!draft.changes.length;}
   function fail(error){if(!ownerToken)return;notice.textContent=error.message;render();}
+  function deleteEntry(){
+    try{
+      requireOwner();
+      const target=DATA.entries.find(e=>e.id===working.id);
+      if(!target)throw new Error('この語は既に削除されています。');
+      if(!confirm('「'+target.head+'」を削除しますか？ この語への関連リンクも削除します。'))return;
+      const latest=readDraft(),current=latest.changes.find(c=>E.changeId(c)===working.id)||null;
+      if(!E.equal(current,openingChange))throw new Error('別のタブでこの語を編集しています。開き直してください。');
+      persist(E.deleteDraft(published,latest,working.id));editor.close();reset();render();
+      if(draft.changes.length)showChanges();
+    }catch(error){errors.textContent=error.message;}
+  }
   form.addEventListener('submit',event=>{
     event.preventDefault();errors.textContent='';
     try{
@@ -1211,7 +1258,7 @@ render();
       if(['名詞','動詞','形容詞','代名詞'].includes(e.pos))e.inflection=E.clone(model);else delete e.inflection;
       if(E.equal([...e.tags].sort(),[...working.tags].sort()))e.tags=E.clone(working.tags);
       E.validate(e);E.apply(DATA.entries,[e]);
-      const latest=readDraft(), current=latest.changes.find(c=>c.after.id===e.id)||null;
+      const latest=readDraft(), current=latest.changes.find(c=>E.changeId(c)===e.id)||null;
       if(!E.equal(current,openingChange))throw new Error('別のタブでこの語を編集しています。入力を控え、開き直してください。');
       persist(E.updateDraft(published,latest,e));editor.close();showEntry(e.id);
       if(event.submitter!==saveDraft)showChanges();
@@ -1226,10 +1273,12 @@ render();
   function showChanges(){
     if(!ownerToken)return;
     changesList.replaceChildren();publishStatus.replaceChildren();
-    for(const c of draft.changes){const row=node('div',undefined,'change-row');row.append(node('span',c.after.head+'（'+(c.before?'編集':'追加')+'）'),button('編集',()=>{changesDialog.close();openEditor(c.after.id);}),button('変更を取り消す',()=>{
-      if(!confirm(c.after.head+' の未公開の変更を取り消しますか？'))return;
-      try{persist(E.revertDraft(published,readDraft(),c.after.id));showChanges();}catch(e){publishStatus.textContent=e.message;}
-    }));changesList.append(row);}
+    for(const c of draft.changes){const row=node('div',undefined,'change-row'),entry=c.after||c.before;row.append(node('span',entry.head+'（'+(!c.after?'削除':c.before?'編集':'追加')+'）'));
+      if(c.after)row.append(button('編集',()=>{changesDialog.close();openEditor(entry.id);}));
+      row.append(button('変更を取り消す',()=>{
+        if(!confirm(entry.head+' の未公開の変更を取り消しますか？'))return;
+        try{persist(E.revertDraft(published,readDraft(),entry.id));showChanges();}catch(e){publishStatus.textContent=e.message;}
+      }));changesList.append(row);}
     publish.disabled=!draft.changes.length;
     if(!changesDialog.open)changesDialog.showModal();
   }
@@ -1255,8 +1304,8 @@ render();
       requireOwner();
       const file=importInput.files[0];if(!file)return;if(file.size>10_000_000)throw new Error('ファイルが大きすぎます。');
       const imported=E.validateDraft(JSON.parse(await file.text())),latest=readDraft();
-      for(const c of imported.changes){const old=latest.changes.find(x=>x.after.id===c.after.id);if(old&&!E.equal(old,c))throw new Error('この端末の変更と重複しています：'+c.after.head);if(!old)latest.changes.push(c);}
-      E.apply(published,latest.changes.map(c=>c.after));persist(latest);
+      for(const c of imported.changes){const old=latest.changes.find(x=>E.changeId(x)===E.changeId(c));if(old&&!E.equal(old,c))throw new Error('この端末の変更と重複しています：'+(c.after||c.before).head);if(!old)latest.changes.push(c);}
+      E.applyDraft(published,latest);persist(latest);
     }catch(e){fail(e);}finally{importInput.value='';}
   });
   window.addEventListener('storage',event=>{if(ownerToken&&event.key===KEY){try{draft=readDraft();refresh();}catch(e){fail(e);}}});
