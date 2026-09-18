@@ -724,6 +724,7 @@
       "pronunciation": "",
       "tags": [
         "名詞",
+        "男性",
         "固定型",
         "子音幹"
       ],
@@ -1508,7 +1509,8 @@
       "pronunciation": "",
       "tags": [
         "動詞",
-        "母音幹"
+        "母音幹",
+        "不規則"
       ],
       "sections": [
         {
@@ -1534,6 +1536,11 @@
           ],
           "phrases": [],
           "variations": [
+            {
+              "title": "現在1単数",
+              "spelling": "bas",
+              "pronunciation": ""
+            },
             {
               "title": "現在1複数",
               "spelling": "bav",
@@ -1577,6 +1584,26 @@
             {
               "title": "命令複数",
               "spelling": "bag",
+              "pronunciation": ""
+            },
+            {
+              "title": "接続法",
+              "spelling": "bas",
+              "pronunciation": ""
+            },
+            {
+              "title": "条件法",
+              "spelling": "ban",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞",
+              "spelling": "bad",
+              "pronunciation": ""
+            },
+            {
+              "title": "過去分詞",
+              "spelling": "dibat",
               "pronunciation": ""
             }
           ],
@@ -3266,6 +3293,11 @@
               "pronunciation": ""
             },
             {
+              "title": "現在3複数",
+              "spelling": "bisčelsi",
+              "pronunciation": ""
+            },
+            {
               "title": "不定形",
               "spelling": "bisčlen",
               "pronunciation": ""
@@ -3298,6 +3330,11 @@
             {
               "title": "動名詞",
               "spelling": "bisčlad",
+              "pronunciation": ""
+            },
+            {
+              "title": "過去分詞",
+              "spelling": "dibisčelt",
               "pronunciation": ""
             }
           ],
@@ -5618,7 +5655,7 @@
         "名詞",
         "女性",
         "固定型",
-        "母音幹",
+        "-ä幹",
         "複数形なし"
       ],
       "sections": [
@@ -5642,6 +5679,26 @@
             {
               "title": "単数主格",
               "spelling": "časčrä",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "časčrän",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "časčrär",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "časčro",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "časčräl",
               "pronunciation": ""
             }
           ],
@@ -8291,7 +8348,7 @@
         "名詞",
         "中性",
         "固定型",
-        "母音幹"
+        "-i幹"
       ],
       "sections": [
         {
@@ -8345,6 +8402,26 @@
             {
               "title": "複数与格",
               "spelling": "corirs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "coru",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "corus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "coril",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "corils",
               "pronunciation": ""
             }
           ],
@@ -10276,7 +10353,8 @@
       "pronunciation": "",
       "tags": [
         "動詞",
-        "e/i交替"
+        "e/i交替",
+        "無主語"
       ],
       "sections": [
         {
@@ -10309,16 +10387,6 @@
             {
               "title": "アオリスト",
               "spelling": "deq",
-              "pronunciation": ""
-            },
-            {
-              "title": "命令単数",
-              "spelling": "deq",
-              "pronunciation": ""
-            },
-            {
-              "title": "命令複数",
-              "spelling": "deqeg",
               "pronunciation": ""
             },
             {
@@ -11674,7 +11742,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "-u幹"
       ],
       "sections": [
         {
@@ -11703,6 +11771,51 @@
             {
               "title": "単数主格",
               "spelling": "dru",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "drus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "drun",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "druns",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "drur",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "drurs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "dru",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "drus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "drul",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "druls",
               "pronunciation": ""
             }
           ],
@@ -12589,6 +12702,11 @@
           "phrases": [],
           "variations": [
             {
+              "title": "現在1単数",
+              "spelling": "fafas",
+              "pronunciation": ""
+            },
+            {
               "title": "現在1複数",
               "spelling": "fafav",
               "pronunciation": ""
@@ -12631,6 +12749,26 @@
             {
               "title": "命令複数",
               "spelling": "fafag",
+              "pronunciation": ""
+            },
+            {
+              "title": "接続法",
+              "spelling": "fafas",
+              "pronunciation": ""
+            },
+            {
+              "title": "条件法",
+              "spelling": "fafan",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞",
+              "spelling": "fafad",
+              "pronunciation": ""
+            },
+            {
+              "title": "過去分詞",
+              "spelling": "difafat",
               "pronunciation": ""
             }
           ],
@@ -13183,6 +13321,11 @@
           "phrases": [],
           "variations": [
             {
+              "title": "現在1単数",
+              "spelling": "fas",
+              "pronunciation": ""
+            },
+            {
               "title": "現在1複数",
               "spelling": "fev",
               "pronunciation": ""
@@ -13225,6 +13368,16 @@
             {
               "title": "命令複数",
               "spelling": "feg",
+              "pronunciation": ""
+            },
+            {
+              "title": "接続法",
+              "spelling": "fes",
+              "pronunciation": ""
+            },
+            {
+              "title": "条件法",
+              "spelling": "fan",
               "pronunciation": ""
             },
             {
@@ -15670,7 +15823,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "-e幹"
       ],
       "sections": [
         {
@@ -15700,6 +15853,51 @@
               "title": "単数主格",
               "spelling": "fube",
               "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "fubes",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "fuben",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "fubens",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "fuber",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "fubers",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "fubu",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "fubus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "fubel",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "fubels",
+              "pronunciation": ""
             }
           ],
           "relations": []
@@ -15714,7 +15912,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "-i幹"
       ],
       "sections": [
         {
@@ -15743,6 +15941,51 @@
             {
               "title": "単数主格",
               "spelling": "füsžli",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "füsžlis",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "füsžlin",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "füsžlins",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "füsžlir",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "füsžlirs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "füsžlu",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "füsžlus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "füsžlil",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "füsžlils",
               "pronunciation": ""
             }
           ],
@@ -17618,7 +17861,7 @@
         "名詞",
         "中性",
         "固定型",
-        "母音幹"
+        "-i幹"
       ],
       "sections": [
         {
@@ -17647,6 +17890,51 @@
             {
               "title": "単数主格",
               "spelling": "gisi",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "gisi",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "gisin",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "gisins",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "gisir",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "gisirs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "gisu",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "gisus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "gisil",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "gisils",
               "pronunciation": ""
             }
           ],
@@ -22793,6 +23081,7 @@
       "pronunciation": "",
       "tags": [
         "名詞",
+        "男性",
         "固定型",
         "子音幹"
       ],
@@ -23505,6 +23794,11 @@
             {
               "title": "動名詞",
               "spelling": "jibbad",
+              "pronunciation": ""
+            },
+            {
+              "title": "過去分詞",
+              "spelling": "dijipt",
               "pronunciation": ""
             }
           ],
@@ -24424,7 +24718,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "-e幹"
       ],
       "sections": [
         {
@@ -24453,6 +24747,51 @@
             {
               "title": "単数主格",
               "spelling": "jure",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "jures",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "juren",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "jurens",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "jurer",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "jurers",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "juru",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "jurus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "jurel",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "jurels",
               "pronunciation": ""
             }
           ],
@@ -27436,7 +27775,7 @@
         "名詞",
         "女性",
         "固定型",
-        "母音幹"
+        "-ä幹"
       ],
       "sections": [
         {
@@ -27465,6 +27804,51 @@
             {
               "title": "単数主格",
               "spelling": "mešä",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "mešäs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "mešän",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "mešäns",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "mešär",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "mešärs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "mešo",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "mešos",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "mešäl",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "mešäls",
               "pronunciation": ""
             }
           ],
@@ -28716,6 +29100,11 @@
           "phrases": [],
           "variations": [
             {
+              "title": "現在1単数",
+              "spelling": "napas",
+              "pronunciation": ""
+            },
+            {
               "title": "現在1複数",
               "spelling": "napav",
               "pronunciation": ""
@@ -28758,6 +29147,26 @@
             {
               "title": "命令複数",
               "spelling": "napag",
+              "pronunciation": ""
+            },
+            {
+              "title": "接続法",
+              "spelling": "napas",
+              "pronunciation": ""
+            },
+            {
+              "title": "条件法",
+              "spelling": "napan",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞",
+              "spelling": "napad",
+              "pronunciation": ""
+            },
+            {
+              "title": "過去分詞",
+              "spelling": "dinapat",
               "pronunciation": ""
             }
           ],
@@ -31668,6 +32077,11 @@
               "pronunciation": ""
             },
             {
+              "title": "現在3複数",
+              "spelling": "pipersi",
+              "pronunciation": ""
+            },
+            {
               "title": "不定形",
               "spelling": "pipren",
               "pronunciation": ""
@@ -31700,6 +32114,11 @@
             {
               "title": "動名詞",
               "spelling": "piprad",
+              "pronunciation": ""
+            },
+            {
+              "title": "過去分詞",
+              "spelling": "dipipert",
               "pronunciation": ""
             }
           ],
@@ -32386,7 +32805,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "-e幹"
       ],
       "sections": [
         {
@@ -32415,6 +32834,51 @@
             {
               "title": "単数主格",
               "spelling": "plofe",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "plofes",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "plofen",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "plofens",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "plofer",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "plofers",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "plofu",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "plofus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "plofel",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "plofels",
               "pronunciation": ""
             }
           ],
@@ -38160,6 +38624,7 @@
       "pronunciation": "",
       "tags": [
         "名詞",
+        "男性",
         "固定型",
         "子音幹"
       ],
@@ -41750,7 +42215,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "-e幹"
       ],
       "sections": [
         {
@@ -41779,6 +42244,51 @@
             {
               "title": "単数主格",
               "spelling": "šütle",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "šütles",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "šütlen",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "šütlens",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "šütler",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "šütlers",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "šütlu",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "šütlus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "šütlel",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "šütlels",
               "pronunciation": ""
             }
           ],
@@ -42399,7 +42909,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "-ü幹"
       ],
       "sections": [
         {
@@ -42433,6 +42943,46 @@
             {
               "title": "複数主格",
               "spelling": "šwüs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "šwün",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "šwüns",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "šwür",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "šwürs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "šwu",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "šwus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "šwül",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "šwüls",
               "pronunciation": ""
             }
           ],
@@ -42602,7 +43152,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "-i幹"
       ],
       "sections": [
         {
@@ -42631,6 +43181,51 @@
             {
               "title": "単数主格",
               "spelling": "sžli",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "sžlis",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "sžlin",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "sžlins",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "sžlir",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "sžlirs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "sžlu",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "sžlus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "sžlil",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "sžlils",
               "pronunciation": ""
             }
           ],
@@ -43183,6 +43778,11 @@
           "phrases": [],
           "variations": [
             {
+              "title": "現在1単数",
+              "spelling": "tahas",
+              "pronunciation": ""
+            },
+            {
               "title": "現在1複数",
               "spelling": "tahav",
               "pronunciation": ""
@@ -43225,6 +43825,26 @@
             {
               "title": "命令複数",
               "spelling": "tahag",
+              "pronunciation": ""
+            },
+            {
+              "title": "接続法",
+              "spelling": "tahas",
+              "pronunciation": ""
+            },
+            {
+              "title": "条件法",
+              "spelling": "tahan",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞",
+              "spelling": "tahad",
+              "pronunciation": ""
+            },
+            {
+              "title": "過去分詞",
+              "spelling": "ditahat",
               "pronunciation": ""
             }
           ],
@@ -44306,6 +44926,11 @@
               "pronunciation": ""
             },
             {
+              "title": "現在3複数",
+              "spelling": "tipži",
+              "pronunciation": ""
+            },
+            {
               "title": "不定形",
               "spelling": "tepžen",
               "pronunciation": ""
@@ -44886,7 +45511,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "-e幹"
       ],
       "sections": [
         {
@@ -44918,8 +45543,48 @@
               "pronunciation": ""
             },
             {
+              "title": "複数主格",
+              "spelling": "tles",
+              "pronunciation": ""
+            },
+            {
               "title": "単数属格",
               "spelling": "tlen",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "tlens",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "tler",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "tlers",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "tlu",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "tlus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "tlel",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "tlels",
               "pronunciation": ""
             }
           ],
@@ -45717,7 +46382,7 @@
         "名詞",
         "女性",
         "固定型",
-        "母音幹"
+        "-ä幹"
       ],
       "sections": [
         {
@@ -45746,6 +46411,51 @@
             {
               "title": "単数主格",
               "spelling": "trä",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "träs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "trän",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "träns",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "trär",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "trärs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "tro",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "tros",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "träl",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "träls",
               "pronunciation": ""
             }
           ],
@@ -45984,7 +46694,8 @@
       "pronunciation": "",
       "tags": [
         "動詞",
-        "母音幹"
+        "母音幹",
+        "不規則"
       ],
       "sections": [
         {
@@ -46010,6 +46721,11 @@
           ],
           "phrases": [],
           "variations": [
+            {
+              "title": "現在1単数",
+              "spelling": "tus",
+              "pronunciation": ""
+            },
             {
               "title": "現在1複数",
               "spelling": "tuv",
@@ -46053,6 +46769,26 @@
             {
               "title": "命令複数",
               "spelling": "tug",
+              "pronunciation": ""
+            },
+            {
+              "title": "接続法",
+              "spelling": "tus",
+              "pronunciation": ""
+            },
+            {
+              "title": "条件法",
+              "spelling": "tun",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞",
+              "spelling": "tud",
+              "pronunciation": ""
+            },
+            {
+              "title": "過去分詞",
+              "spelling": "ditut",
               "pronunciation": ""
             }
           ],
@@ -46186,6 +46922,51 @@
             {
               "title": "単数主格",
               "spelling": "tupü",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "tupüjes",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "tupüjen",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "tupüjens",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "tupüjer",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "tupüjers",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "tupüju",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "tupüjus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "tupüjel",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "tupüjels",
               "pronunciation": ""
             }
           ],
@@ -48168,7 +48949,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹"
+        "-e幹"
       ],
       "sections": [
         {
@@ -48197,6 +48978,51 @@
             {
               "title": "単数主格",
               "spelling": "wape",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "wapes",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "wapen",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "wapens",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "waper",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "wapers",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "wapu",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "wapus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "wapel",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "wapels",
               "pronunciation": ""
             }
           ],
@@ -49822,6 +50648,11 @@
           "phrases": [],
           "variations": [
             {
+              "title": "現在1単数",
+              "spelling": "žahas",
+              "pronunciation": ""
+            },
+            {
               "title": "現在1複数",
               "spelling": "žahav",
               "pronunciation": ""
@@ -49864,6 +50695,26 @@
             {
               "title": "命令複数",
               "spelling": "žahag",
+              "pronunciation": ""
+            },
+            {
+              "title": "接続法",
+              "spelling": "žahas",
+              "pronunciation": ""
+            },
+            {
+              "title": "条件法",
+              "spelling": "žahan",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞",
+              "spelling": "žahad",
+              "pronunciation": ""
+            },
+            {
+              "title": "過去分詞",
+              "spelling": "dižahat",
               "pronunciation": ""
             }
           ],
@@ -50760,6 +51611,11 @@
           "phrases": [],
           "variations": [
             {
+              "title": "現在1単数",
+              "spelling": "zas",
+              "pronunciation": ""
+            },
+            {
               "title": "現在1複数",
               "spelling": "zev",
               "pronunciation": ""
@@ -50805,6 +51661,21 @@
               "pronunciation": ""
             },
             {
+              "title": "接続法",
+              "spelling": "zes",
+              "pronunciation": ""
+            },
+            {
+              "title": "条件法",
+              "spelling": "zan",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞",
+              "spelling": "zed",
+              "pronunciation": ""
+            },
+            {
               "title": "過去分詞",
               "spelling": "dizit",
               "pronunciation": ""
@@ -50840,6 +51711,11 @@
           "informations": [],
           "phrases": [],
           "variations": [
+            {
+              "title": "現在1単数",
+              "spelling": "zas pfor",
+              "pronunciation": ""
+            },
             {
               "title": "現在1複数",
               "spelling": "zev pfor",
@@ -50883,6 +51759,16 @@
             {
               "title": "命令複数",
               "spelling": "zeg pfor",
+              "pronunciation": ""
+            },
+            {
+              "title": "接続法",
+              "spelling": "zes pfor",
+              "pronunciation": ""
+            },
+            {
+              "title": "条件法",
+              "spelling": "zan pfor",
               "pronunciation": ""
             }
           ],
@@ -51683,6 +52569,11 @@
           "phrases": [],
           "variations": [
             {
+              "title": "現在1単数",
+              "spelling": "žigas",
+              "pronunciation": ""
+            },
+            {
               "title": "現在1複数",
               "spelling": "žigav",
               "pronunciation": ""
@@ -51725,6 +52616,26 @@
             {
               "title": "命令複数",
               "spelling": "žigag",
+              "pronunciation": ""
+            },
+            {
+              "title": "接続法",
+              "spelling": "žigas",
+              "pronunciation": ""
+            },
+            {
+              "title": "条件法",
+              "spelling": "žigan",
+              "pronunciation": ""
+            },
+            {
+              "title": "動名詞",
+              "spelling": "žigad",
+              "pronunciation": ""
+            },
+            {
+              "title": "過去分詞",
+              "spelling": "dižigat",
               "pronunciation": ""
             }
           ],
@@ -52220,7 +53131,7 @@
         "名詞",
         "中性",
         "固定型",
-        "母音幹"
+        "-i幹"
       ],
       "sections": [
         {
@@ -52243,6 +53154,51 @@
             {
               "title": "単数主格",
               "spelling": "zlihi",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数主格",
+              "spelling": "zlihi",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "zlihin",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数属格",
+              "spelling": "zlihins",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "zlihir",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数与格",
+              "spelling": "zlihirs",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "zlihu",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数奪格",
+              "spelling": "zlihus",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "zlihil",
+              "pronunciation": ""
+            },
+            {
+              "title": "複数再帰格",
+              "spelling": "zlihils",
               "pronunciation": ""
             }
           ],
@@ -52885,7 +53841,7 @@
         "名詞",
         "男性",
         "固定型",
-        "母音幹",
+        "-u幹",
         "複数形なし"
       ],
       "sections": [
@@ -52915,6 +53871,26 @@
             {
               "title": "単数主格",
               "spelling": "žru",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数属格",
+              "spelling": "žrun",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数与格",
+              "spelling": "žrur",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数奪格",
+              "spelling": "žru",
+              "pronunciation": ""
+            },
+            {
+              "title": "単数再帰格",
+              "spelling": "žrul",
               "pronunciation": ""
             }
           ],

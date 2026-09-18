@@ -3,14 +3,14 @@
   "sources": [
     {
       "file": "ラフカ語辞書.md",
-      "sha256": "b64d9c174f654e0bd85a722aeb7abdc284a35503628b2dc3bde64bd0a506c5f7"
+      "sha256": "c874eee70c24c82e5e11c73530576673e53c048c46d14d1285fedfc0a2080a8d"
     },
     {
       "file": "ラフカ語文法.md",
-      "sha256": "1487ec0847591ba309976a470725df40ae432aea90a1cb603bf2ec0652f1b618"
+      "sha256": "0fe469a6cd9af50474fc249d3484a1c398a5f3ca664d44b1c25ea991016be75b"
     }
   ],
-  "htmlSha256": "e927dd270930ea07e3b60502a31cc0809514e355d17925cd98b6f10daecc65db",
-  "zpdicSha256": "419a7e3c9febe7a822b0d7876c94476083121d3d14f560012d2a77f26db9f7dd",
-  "grammarPdfSha256": "d1c4c99c599b20ac527d217b108e04a16ba410a0e92152f0c1ad16bdefbafff2"
+  "htmlSha256": "fd211b24a792a6606a9ed5a4cd04c385c356c160a08144902899f92b400b6986",
+  "zpdicSha256": "3f9a56ad961dbe536feffdb76170dc2d41c2279f62ab655b9c0f653b7000662e",
+  "grammarPdfSha256": "cbaf45ba926c4c79146ea6b00addcc79a61bfad4c363f71d6d2d727ffe8c17c0"
 }
