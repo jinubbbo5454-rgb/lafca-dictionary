@@ -127,6 +127,13 @@ textarea { font: inherit; }
   .form-edit-row input:nth-child(2), .form-edit-row select { grid-column: 1; grid-row: 2; }
   .form-edit-row button { grid-column: 2; grid-row: 1 / 3; }
 }
+
+.form-edit-row:has(button:nth-child(4)) { grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr) auto auto; }
+@media (max-width: 560px) {
+  .form-edit-row:has(button:nth-child(4)) { grid-template-columns: minmax(0, 1fr) auto; }
+  .form-edit-row button:nth-child(3) { grid-row: 1; }
+  .form-edit-row button:nth-child(4) { grid-row: 2; }
+}
 </style>
 </head>
 <body>
@@ -454,6 +461,203 @@ window.addEventListener('hashchange', () => { page = 0; render(); });
 syncFilters();
 render();
 
+/* Lafca grammar §§1.4, 2.2.4–2.2.7, 2.4.2–2.4.9. */
+(function(root) {
+  'use strict';
+  const V='aeiouäöü', CASES=['主格','属格','与格','奪格','再帰格'];
+  const PATTERNS=['auto','consonant','a','o','short','glide','plural-a','plural-i','aq'];
+  const STRINGS=['nounPattern','obliqueStem','strongStem','presentStem','adjectiveStem','femaleStem','neuterStem','neuterForm','conjugation','pronounPattern'];
+  const BOOLEANS=['impersonal','gerundDeclension'];
+  const clone=x=>JSON.parse(JSON.stringify(x));
+  const forms=e=>e.tables.flatMap(t=>t.rows.flatMap(r=>r.cells));
+  const map=e=>Object.fromEntries(forms(e).map(f=>[f.label,f.value]));
+  const stem=s=>(s||'').trim().normalize('NFC').replace(/-$/,'');
+  const vowel=s=>Boolean(s)&&V.includes(s.slice(-1));
+  function umlaut(s){for(let i=s.length-1;i>=0;i--)if(V.includes(s[i]))return s.slice(0,i)+({a:'ä',o:'ö',u:'ü'}[s[i]]||s[i])+s.slice(i+1);return s;}
+  function join(s,ending){return s+(vowel(s)&&vowel(ending[0])?('ieäüö'.includes(s.slice(-1))?'j':'w'):'')+ending;}
+  function bare(s){return s.endsWith('g')?s.slice(0,-1)+('nrl'.includes(s.slice(-2,-1))&&s.length>1?'k':'q'):s.endsWith('c')?s.slice(0,-1)+'k':s;}
+  function change(s,a,b){const i=s.lastIndexOf(a);if(i<0)throw Error(a+'/'+b+'交替の語幹を入力してください。');return s.slice(0,i)+b+s.slice(i+1);}
+  function participle(s){let body;if(s.endsWith('bb'))body=s.slice(0,-2)+'pt';else if(s.endsWith('nd'))body=s.slice(0,-2)+'nt';else if(s.endsWith('ld'))body=s.slice(0,-2)+'lt';else if(s.endsWith('d'))body=s.slice(0,-1)+'tt';else if(/[sšžt]$/.test(s))body=s+'et';else if(/[^aeiouäöürlmnwj][rl]$/.test(s))body=s.slice(0,-1)+'e'+s.slice(-1)+'t';else body=s.slice(0,-1)+({g:'ct',v:'ft',b:'pt',q:'ht'}[s.slice(-1)]||s.slice(-1)+'t');return join('di',body);}
+  function table(title,columns,labels,values){return {title,columns,rows:labels.map(([label,keys])=>({label,cells:keys.map(k=>({label:k,value:values[k]}))}))};}
+  function single(title,keys,values){return table(title,['語形'],keys.map(k=>[k,[k]]),values);}
+  function nounPattern(e,o){
+    if(o.nounPattern&&o.nounPattern!=='auto')return o.nounPattern;
+    if(e.numberRestriction==='plural'&&e.head.endsWith('a'))return 'plural-a';
+    if(e.numberRestriction==='plural'&&e.head.endsWith('i'))return 'plural-i';
+    if(e.gender==='F'&&e.head.endsWith('a'))return 'a';
+    if(e.gender==='M'&&e.head.endsWith('o'))return 'o';
+    if(vowel(e.head))return (e.gender==='F'&&e.head.endsWith('ü'))||e.head.endsWith('ö')?'glide':'short';
+    return 'consonant';
+  }
+  function nounStem(e,o,p){
+    if(stem(o.obliqueStem))return stem(o.obliqueStem);
+    if(['Ⅰ型','Ⅱ型','不規則型'].includes(e.class))throw Error('斜格語幹を入力してください。');
+    if(['a','o','short','plural-a','plural-i'].includes(p))return e.head.slice(0,-1);
+    if(p==='aq')return e.head;
+    if(e.head.endsWith('q'))throw Error('語末 q を保つか g に戻すか、斜格語幹で指定してください。');
+    if(e.head.endsWith('k'))return e.head.slice(0,-1)+(/n[k]$/.test(e.head)?'g':'c');
+    return e.head;
+  }
+  function noun(e,o){
+    const p=nounPattern(e,o),s=nounStem(e,o,p),values={},numbers=e.numberRestriction==='singular'?['単数']:e.numberRestriction==='plural'?['複数']:['単数','複数'];
+    if(!s)throw Error('斜格語幹を入力してください。');
+    if(['plural-a','plural-i'].includes(p)&&e.numberRestriction!=='plural')throw Error('集合名詞の語尾には「複数のみ」を指定してください。');
+    for(let i=0;i<CASES.length;i++){
+      let sg,pl;
+      if(p==='plural-a'||p==='plural-i'){
+        pl=i===0?e.head:join(s,(p==='plural-a'?['a','an','ar','o','al']:['i','ins','irs','us','ils'])[i]);
+      }else if(p==='short'){
+        const v=e.head.slice(-1);if(!V.includes(v))throw Error('短語尾母音幹の見出しは母音で終わります。');
+        sg=s+[v,v+'n',v+'r',e.gender==='F'&&v==='ä'?'o':'u',v+'l'][i];
+        pl=sg+(e.gender==='N'&&i===0?'':'s');
+      }else if(p==='a'||p==='o'){
+        const ending=(p==='a'?['a','an','ar','o','al']:['o','on','or','u','ol'])[i];
+        sg=i===0?e.head:join(s,ending);pl=join(s,ending)+'s';
+      }else if(p==='aq'){
+        sg=e.head+['','en','er','u','el'][i];pl=e.head+['es','ens','ers','us','els'][i];
+      }else{
+        sg=i===0?e.head:join(i===2?umlaut(s):s,['','en','er','u','el'][i]);
+        const ending=(e.gender==='N'?['i','ins','irs','us','ils']:['es','ens','ers','us','els'])[i];
+        pl=join(e.gender!=='N'&&i===2?umlaut(s):s,ending);
+      }
+      values['単数'+CASES[i]]=sg;values['複数'+CASES[i]]=pl;
+    }
+    return [table('曲用',numbers,CASES.map(c=>[c,numbers.map(n=>n+c)]),values)];
+  }
+  function verb(e,o,overrides){
+    const [lemma,...rest]=e.head.split(' '),tail=rest.length?' '+rest.join(' '):'';
+    const type=e.class||o.conjugation||'非交替',isVowel=type==='母音幹',pair=type.match(/^([aeo])\/([eiu])交替$/),values={'不定形':lemma};
+    let strong=stem(o.strongStem),weak=stem(o.presentStem);
+    if(isVowel){
+      weak=weak||({jen:'ji',bajen:'ba'}[lemma])||(lemma.endsWith('n')?lemma.slice(0,-1):vowel(lemma)?lemma:'');
+      if(!weak||!vowel(weak))throw Error('母音で終わる現在語幹を入力してください。');
+      const a=weak.endsWith('e')?weak.slice(0,-1)+'a':weak;
+      Object.assign(values,{'現在1単数':a+'s','現在2単数':weak+'č','現在3単数':weak,'現在1複数':weak+'v','現在2複数':weak+'g','現在3複数':weak+'si','アオリスト':weak+'t','命令単数':weak,'命令複数':weak+'g','接続法':weak+'s','条件法':a+'n','動名詞':weak+'d','過去分詞':join('di',weak+'t')});
+    }else{
+      strong=strong||(lemma.endsWith('en')?lemma.slice(0,-2):'');if(!strong)throw Error('強語幹を入力してください。');
+      weak=weak||(pair?change(strong,pair[1],pair[2]):strong);
+      const verbBare=s=>/[^aeiouäöürlmnwj][rl]$/.test(s)?s.slice(0,-1)+'e'+s.slice(-1):bare(s);
+      const thirdPlural=/[dt]$/.test(weak)?weak.slice(0,-1)+'ži':/[sž]$/.test(weak)?weak+'i':/[^aeiouäöürlmnwj][rl]$/.test(weak)?weak.slice(0,-1)+'e'+weak.slice(-1)+'si':weak+'si';
+      Object.assign(values,{'現在1単数':join(weak,'as'),'現在2単数':join(weak,'eč'),'現在3単数':verbBare(weak),'現在1複数':join(weak,'ev'),'現在2複数':join(weak,'eg'),'現在3複数':thirdPlural,'アオリスト':pair?verbBare(strong):join(strong,'it'),'命令単数':verbBare(strong),'命令複数':join(strong,'eg'),'接続法':join(weak,'es'),'条件法':join(strong,'an'),'動名詞':join(weak,'ad'),'過去分詞':participle(weak)});
+    }
+    if(isVowel){
+      // Lexical irregularities specified in grammar §2.4.8.
+      const special={len:{'アオリスト':'lit','動名詞':'lad','過去分詞':'dilt'},zen:{'アオリスト':'zit','過去分詞':'dizit'},jen:{'現在1単数':'jas','アオリスト':'je','命令単数':'ja','命令複数':'jag','接続法':'jes','条件法':'jan','動名詞':'jad','過去分詞':'dijet'}};
+      Object.assign(values,special[lemma]||{});
+    }
+    for(const k of Object.keys(values))values[k]+=tail;
+    Object.assign(values,overrides);
+    const current=o.impersonal?single('現在',['現在3単数'],values):table('現在の人称活用',['単数','複数'],[1,2,3].map(p=>[p+'人称',['現在'+p+'単数','現在'+p+'複数']]),values);
+    const labels=['不定形','アオリスト',...(!o.impersonal?['命令単数','命令複数']:[]),'接続法','条件法',...(!tail?['動名詞','過去分詞']:[])];
+    const tables=[current,single('時制・法・非定形',labels,values)];
+    if(o.gerundDeclension&&!tail){
+      const gerund=values['動名詞'];
+      if(gerund&&/^[A-Za-zäöüšžč]+$/.test(gerund)){
+        const t=noun({head:gerund,gender:'N',class:'固定型',numberRestriction:''},{nounPattern:'consonant',obliqueStem:gerund})[0];
+        t.title='動名詞の曲用';
+        for(let i=0;i<t.rows.length;i++)for(const f of t.rows[i].cells){
+          if(f.label.startsWith('複数')&&i!==3)f.value=join(umlaut(gerund),['i','ins','irs','us','ils'][i]);
+          f.label='動名詞'+f.label;
+        }
+        tables.push(t);
+      }
+    }
+    return tables;
+  }
+  function adjective(e,o){
+    const s=stem(o.adjectiveStem)||(e.head.endsWith('q')||e.head.endsWith('nk')?e.head.slice(0,-1)+'g':e.head.endsWith('k')?e.head.slice(0,-1)+'c':e.head);
+    const female=stem(o.femaleStem)||s,neuter=stem(o.neuterStem)||umlaut(s),values={};
+    values['男性単数主格']=e.head;values['女性単数主格']=join(female,'a');values['中性単数主格']=stem(o.neuterForm)||bare(neuter);
+    for(let i=0;i<CASES.length;i++){
+      const c=CASES[i];
+      if(i){values['男性単数'+c]=join(i===2?umlaut(s):s,['','en','er','u','el'][i]);values['女性単数'+c]=join(female,['','an','ar','o','al'][i]);values['中性単数'+c]=join(neuter,['','en','er','u','el'][i]);}
+      values['男性複数'+c]=join(i===2?umlaut(s):s,['es','ens','ers','us','els'][i]);values['中性複数'+c]=values['男性複数'+c];values['女性複数'+c]=join(female,['as','ans','ars','os','als'][i]);
+    }
+    const tables=['単数','複数'].map(n=>table('性・格の一致（'+n+'）',['男性','女性','中性'],CASES.map(c=>[c,['男性','女性','中性'].map(g=>g+n+c)]),values));
+    if(!e.numeralType){Object.assign(values,{'比較級':join(s,'ar'),'最上級':'uc'+e.head,'文語最上級':join(umlaut(s),'ist'),'副詞形':join(s,'u')});tables.push(single('比較・派生',['比較級','最上級','文語最上級','副詞形'],values));}
+    return tables;
+  }
+  function pronoun(e,o){
+    if(o.pronounPattern==='none'||(o.pronounPattern!=='caq'&&e.head!=='čaq'))return [];
+    const values={},cases=['主格','属格','対格','与格','奪格','再帰格'];
+    cases.forEach((c,i)=>values['単数'+c]=e.head+['','en','et','er','ü','el'][i]);
+    return [table('曲用',['単数'],cases.map(c=>[c,['単数'+c]]),values)];
+  }
+  function generate(e,o={},overrides={}){
+    if(!e.head)return [];
+    if(!/^-?[A-Za-zäöüšžč]+(?: [A-Za-zäöüšžč]+)*-?$/.test(e.head))throw Error('見出し語を入力してください。');
+    if(e.kind==='接辞')return [];
+    const tables=e.pos==='名詞'?noun(e,o):e.pos==='動詞'?verb(e,o,overrides):e.pos==='形容詞'?adjective(e,o):e.pos==='代名詞'?pronoun(e,o):[];
+    for(const t of tables)for(const r of t.rows)for(const f of r.cells)if(Object.hasOwn(overrides,f.label))f.value=overrides[f.label];
+    return tables;
+  }
+  function infer(e){
+    if(e.inflection)return clone(e.inflection);
+    const f=map(e),o={},head=e.head,first=v=>(v||'').split(' ')[0],cut=(v,ending)=>v&&v.endsWith(ending)?v.slice(0,-ending.length):'';
+    if(e.pos==='名詞'){
+      let p=nounPattern(e,{});
+      if(e.numberRestriction==='plural')p=head.endsWith('a')?'plural-a':head.endsWith('i')?'plural-i':'consonant';
+      else if(f['単数属格']===head+'n'&&vowel(head))p=head.endsWith('a')?'a':head.endsWith('o')?'o':'short';
+      else if(vowel(head)&&f['単数属格']?.endsWith('en'))p='glide';
+      if(head.length>3&&head.endsWith('aq')&&f['単数与格']===head+'er'&&f['複数主格']===head+'es')p='aq';
+      o.nounPattern=p===nounPattern(e,{})?'auto':p;
+      const gen=f[(e.numberRestriction==='plural'?'複数':'単数')+'属格'];
+      let s=cut(gen,p==='plural-i'?'ins':p==='plural-a'||p==='a'?'an':p==='o'?'on':p==='short'?head.slice(-1)+'n':'en');
+      // Preserve lexical stem alternations, while allowing regular stems to follow a renamed lemma.
+      let defaultStem;try{defaultStem=nounStem(e,{nounPattern:p},p);}catch{}
+      if(s&&s!==defaultStem)o.obliqueStem=s;
+    }else if(e.pos==='動詞'){
+      const lemma=head.split(' ')[0],p3=first(f['現在3単数']);
+      const type=e.class||(vowel(p3)?'母音幹':'非交替');o.conjugation=type;
+      if(type==='母音幹'){
+        const regular=lemma.endsWith('n')?lemma.slice(0,-1):lemma;
+        if(p3&&p3!==regular)o.presentStem=p3;
+      }else{
+        const strong=lemma.endsWith('en')?lemma.slice(0,-2):'',pair=type.match(/^([aeo])\/([eiu])交替$/);
+        let regular;try{regular=pair?change(strong,pair[1],pair[2]):strong;}catch{}
+        const weak=cut(first(f['現在1単数']),'as');if(weak&&weak!==regular)o.presentStem=weak;
+      }
+      o.impersonal=e.tags.includes('無主語');o.gerundDeclension=Object.keys(f).some(l=>l.startsWith('動名詞単数'));
+    }else if(e.pos==='形容詞'){
+      const s=head.endsWith('q')||head.endsWith('nk')?head.slice(0,-1)+'g':head.endsWith('k')?head.slice(0,-1)+'c':head;
+      const female=cut(f['女性単数属格'],'an'),neuter=cut(f['中性単数属格'],'en');
+      if(female&&female!==s)o.femaleStem=female;
+      if(neuter&&neuter!==umlaut(s))o.neuterStem=neuter;
+      if(f['中性単数主格']&&f['中性単数主格']!==bare(neuter||umlaut(s)))o.neuterForm=f['中性単数主格'];
+    }
+    if(e.pos==='代名詞'&&e.head==='čaq')o.pronounPattern='caq';
+    let generated={};try{generated=map({tables:generate(e,o)});}catch{}
+    const overrides={};for(const [label,value]of Object.entries(f))if(Object.hasOwn(generated,label)&&generated[label]!==value)overrides[label]=value;
+    const omitted=Object.keys(generated).filter(k=>!Object.hasOwn(f,k));
+    return {version:1,settings:o,overrides,omitted};
+  }
+  function update(e,model,oldGenerated=[]){
+    const generated=generate(e,model.settings,model.overrides),oldKeys=new Set(forms({tables:oldGenerated}).map(f=>f.label)),newKeys=new Set(forms({tables:generated}).map(f=>f.label));
+    const excluded={singular:'複数',plural:'単数'}[e.numberRestriction];
+    const allowed=f=>!model.omitted.includes(f.label)&&(!excluded||!f.label.includes(excluded));
+    // Keep original grid layouts and custom tables, updating only generated cells.
+    const values=map({tables:generated}),seen=new Set(),tables=[];
+    for(const t of e.tables){
+      const rows=[];for(const r of t.rows){const cells=r.cells.filter(f=>allowed(f)&&(newKeys.has(f.label)||!oldKeys.has(f.label))).map(f=>{seen.add(f.label);return {label:f.label,value:Object.hasOwn(values,f.label)?values[f.label]:f.value};});if(cells.length)rows.push({...r,cells});}
+      if(rows.length){if(rows.some(r=>r.cells.length!==t.columns.length))tables.push(single(t.title,rows.flatMap(r=>r.cells).map(f=>f.label),Object.fromEntries(rows.flatMap(r=>r.cells).map(f=>[f.label,f.value]))));else tables.push({...t,rows});}
+    }
+    for(const t of generated){const remaining=forms({tables:[t]}).filter(f=>allowed(f)&&!seen.has(f.label));if(!remaining.length)continue;if(remaining.length===forms({tables:[t]}).length)tables.push(t);else tables.push(single(t.title,remaining.map(f=>f.label),Object.fromEntries(remaining.map(f=>[f.label,f.value]))));}
+    return {tables,generated};
+  }
+  function validate(model){
+    if(!model||model.version!==1||!model.settings||typeof model.settings!=='object'||Array.isArray(model.settings)||!model.overrides||typeof model.overrides!=='object'||Array.isArray(model.overrides)||!Array.isArray(model.omitted))throw Error('自動補完の設定が不正です。');
+    if(Object.keys(model).some(k=>!['version','settings','overrides','omitted'].includes(k)))throw Error('自動補完の設定が不正です。');
+    for(const [k,v] of Object.entries(model.settings)){
+      if(STRINGS.includes(k)){if(typeof v!=='string'||(k==='nounPattern'&&!PATTERNS.includes(v)))throw Error('語幹の設定が不正です。');if(k==='conjugation'&&!['','a/e交替','e/i交替','o/u交替','非交替','母音幹'].includes(v))throw Error('活用分類が不正です。');if(k==='pronounPattern'&&!['none','caq'].includes(v))throw Error('代名詞の曲用規則が不正です。');if(!['nounPattern','conjugation','pronounPattern'].includes(k)&&v&&!/^[A-Za-zäöüšžč]+-?$/.test(v))throw Error('語幹はラフカ語で入力してください。');}
+      else if(!BOOLEANS.includes(k)||typeof v!=='boolean')throw Error('自動補完の設定が不正です。');
+    }
+    if(Object.entries(model.overrides).some(([k,v])=>!k.trim()||typeof v!=='string'||!v.trim())||model.omitted.some(v=>typeof v!=='string'||!v.trim()))throw Error('語形の補完設定が不正です。');
+    return model;
+  }
+  const api={generate,infer,update,validate,forms,map,umlaut,join,bare,nounPattern};
+  if(typeof module!=='undefined')module.exports=api;else root.LafcaMorphology=api;
+})(globalThis);
+
 /* Browser and Node share the same editing and validation rules. */
 (function (root) {
   'use strict';
@@ -470,7 +674,8 @@ render();
     const fail = m => { throw new Error((e?.head || '語彙') + '：' + m); };
     if (!e || !/^[a-f0-9]{16}$/.test(e.id)) fail('項目IDが不正です。');
     const keys=['id','head','pos','kind','numeralType','numberRestriction','meaning','tags','gender','class','protoForms','relations','tables'];
-    if (Object.keys(e).length !== keys.length || keys.some(k => !Object.hasOwn(e,k))) fail('語彙データの形式が不正です。');
+    if (Object.keys(e).some(k => !keys.includes(k) && k !== 'inflection') || keys.some(k => !Object.hasOwn(e,k))) fail('語彙データの形式が不正です。');
+    if (Object.hasOwn(e,'inflection')) (root.LafcaMorphology || require('./morphology.js')).validate(e.inflection);
     if (typeof e.head !== 'string' || !/^-?[A-Za-zäöüšžč]+(?: [A-Za-zäöüšžč]+)*-?$/.test(e.head)) fail('見出しには個別の語・接辞・慣用句を入力してください。');
     if (!['単語','接辞','慣用句'].includes(e.kind) || !(POS.includes(e.pos) || (e.kind === '接辞' && e.pos === ''))) fail('品詞を選んでください。');
     if (typeof e.meaning !== 'string' || !e.meaning.trim()) fail('意味を入力してください。');
@@ -617,7 +822,8 @@ render();
 
 'use strict';
 (() => {
-  const E = LafcaEditor, KEY = 'lafca-dictionary:edits:v1';
+  const E = LafcaEditor, M = LafcaMorphology, KEY = 'lafca-dictionary:edits:v1';
+  let model=null, previousGenerated=[], automaticError='';
   let published = E.clone(DATA.entries), draft = {version:1,changes:[]}, editing = false, working = null, openingChange;
   const toolbar = node('div', undefined, 'editor-toolbar'); toolbar.hidden = true;
   const notice = node('p', '', 'edit-status'); notice.setAttribute('role','status');
@@ -652,6 +858,18 @@ render();
   const cls=field('分類','edit-class','select');
   const number=field('数','edit-number','select',[['','単数・複数'],['singular','複数形なし'],['plural','複数のみ']]);
   const numeral=field('数詞','edit-numeral','select',[['','—'],['基数','基数'],['序数','序数']]);
+  const pattern=field('曲用語尾','edit-pattern','select',[['auto','自動'],['consonant','子音幹'],['a','-a 幹'],['o','-o 幹'],['short','短語尾母音幹'],['glide','緩衝子音を使う母音幹'],['plural-a','複数のみの -a 幹'],['plural-i','複数のみの -i 幹'],['aq','-aq 派生語']]);
+  const oblique=field('斜格語幹','edit-oblique'); oblique.placeholder='通常は自動。Ⅰ・Ⅱ型などは指定';
+  const strong=field('強語幹','edit-strong'); strong.placeholder='不定形から自動';
+  const present=field('現在語幹','edit-present'); present.placeholder='分類・不定形から自動';
+  const impersonal=field('人称','edit-impersonal','select',[['','人称あり'],['yes','無主語']]);
+  const gerund=field('動名詞の曲用','edit-gerund','select',[['yes','表示する'],['','表示しない']]);
+  const adjStem=field('形容詞語幹','edit-adjective-stem');adjStem.placeholder='見出しから自動';
+  const femaleStem=field('女性語幹','edit-female-stem');femaleStem.placeholder='自動';
+  const neuterStem=field('中性語幹','edit-neuter-stem');neuterStem.placeholder='ウムラウトで自動';
+  const neuterForm=field('中性単数主格の例外','edit-neuter-form');neuterForm.placeholder='中性語幹から自動';
+  const pronounPattern=field('曲用の規則','edit-pronoun-pattern','select',[['none','不変化'],['caq','čaq と同じ']]);
+  const settingInputs={pronounPattern,nounPattern:pattern,obliqueStem:oblique,strongStem:strong,presentStem:present,adjectiveStem:adjStem,femaleStem,neuterStem,neuterForm};
   const meaning=field('意味','edit-meaning','textarea'); meaning.required=true; meaning.rows=3; meaning.parentElement.className='wide';
   const proto=field('祖語型（1行に1つ）','edit-proto','textarea'); proto.rows=2;
   const extra=field('タグ（読点区切り）','edit-tags');
@@ -676,44 +894,68 @@ render();
     if (E.CLASSES[p]?.includes(selected) && !posChanged) cls.value=selected;
     showField(cls,Boolean(E.CLASSES[p]));
     formsTitle.textContent=p==='動詞'?'活用':'曲用';
+    for(const input of [pattern,oblique])showField(input,noun);
+    showField(pronounPattern,p==='代名詞');
+    for(const input of [present,impersonal,gerund])showField(input,p==='動詞');
+    showField(strong,p==='動詞'&&cls.value!=='母音幹');
+    for(const input of [adjStem,femaleStem,neuterStem,neuterForm])showField(input,p==='形容詞');
+    for(const option of pattern.options)option.disabled=option.value.startsWith('plural-')&&number.value!=='plural';
+    if(pattern.selectedOptions[0]?.disabled)pattern.value='auto';
     if (!noun) {gender.value='';number.value='';}
     else if (!gender.value) gender.value='M';
     if (numeral.disabled) numeral.value='';
   }
-  function template(p) {
-    const cases=['主格','属格','与格','奪格','再帰格'];
-    const matrix=(title,prefix='')=>({title,columns:['単数','複数'],rows:cases.map(c=>({label:c,cells:['単数','複数'].map(n=>({label:prefix+n+c,value:''}))}))});
-    if (p==='名詞') return [matrix('曲用')];
-    if (p==='形容詞') return ['男性','女性','中性'].map(g=>matrix(g,g));
-    if (p==='動詞') return [{title:'活用',columns:['語形'],rows:['不定形','現在1単数','現在2単数','現在3単数','現在1複数','現在2複数','現在3複数','アオリスト','命令単数','命令複数','接続法','条件法','動名詞','過去分詞'].map(l=>({label:l,cells:[{label:l,value:l==='不定形'?head.value:''}]}))}];
-    return [];
+  function controlsEntry() {
+    return {...working,head:head.value.trim().normalize('NFC'),kind:kind.value,pos:pos.value,gender:gender.disabled?'':gender.value,class:cls.disabled?'':cls.value,numberRestriction:number.disabled?'':number.value,numeralType:numeral.disabled?'':numeral.value};
   }
-  function changePos() {
-    syncEditor(true); extra.value=''; working.tables=template(pos.value);drawTables();
+  function writeSettings(){
+    for(const [key,input] of Object.entries(settingInputs))input.value=model.settings[key]||(key==='nounPattern'?'auto':key==='pronounPattern'?'none':'');
+    impersonal.value=model.settings.impersonal?'yes':'';gerund.value=model.settings.gerundDeclension?'yes':'';
+  }
+  function readSettings(){
+    for(const [key,input] of Object.entries(settingInputs))if(!input.disabled){const v=input.value.trim().normalize('NFC').replace(/-$/,'');if(v)model.settings[key]=v;else delete model.settings[key];}
+    if(pos.value==='動詞'){model.settings.impersonal=impersonal.value==='yes';model.settings.gerundDeclension=gerund.value==='yes';}
+  }
+  function autocomplete(redraw=true){
+    if(!model)return;
+    automaticError='';
+    try{
+      readSettings();M.validate(model);
+      const e=controlsEntry();
+      if(e.head){const result=M.update(e,model,previousGenerated);working.tables=result.tables;previousGenerated=result.generated;}
+    }catch(error){automaticError=error.message;}
+    errors.textContent=automaticError;
+    if(redraw)drawTables();
+  }
+  function changePos(){
+    syncEditor(true);extra.value='';working.tables=[];delete working.inflection;
+    model={version:1,settings:{nounPattern:'auto',gerundDeclension:pos.value==='動詞'},overrides:{},omitted:[]};
+    previousGenerated=[];writeSettings();autocomplete();
   }
   pos.addEventListener('change',changePos);
   kind.addEventListener('change',()=>{if(kind.value==='接辞')pos.value='';else if(!pos.value)pos.value='名詞';changePos();});
-  number.addEventListener('change',()=>{
-    const excluded={singular:'複数',plural:'単数'}[number.value];
-    const cells=E.forms(working).filter(f=>!excluded||!f.label.includes(excluded));
-    const byLabel=new Map(cells.map(f=>[f.label,f]));
-    const numbers=number.value==='singular'?['単数']:number.value==='plural'?['複数']:['単数','複数'];
-    const required=['主格','属格','与格','奪格','再帰格'].flatMap(c=>numbers.map(n=>n+c));
-    working.tables=[{title:'曲用',columns:['語形'],rows:[...required,...cells.map(f=>f.label).filter(l=>!required.includes(l))].map(label=>({label,cells:[byLabel.get(label)||{label,value:''}]}))}];
-    drawTables();
-  });
+  cls.addEventListener('change',()=>{for(const key of ['obliqueStem','strongStem','presentStem'])delete model.settings[key];writeSettings();syncEditor();autocomplete();});
+  for(const input of [gender,number,numeral])input.addEventListener('change',()=>{syncEditor();autocomplete();});
+  head.addEventListener('input',()=>{if(pos.value==='形容詞'&&head.value.trim())cls.value=/[aeiouäöü]$/.test(head.value.trim())?'母音幹':'子音幹';autocomplete();});
+  for(const input of Object.values(settingInputs))input.addEventListener(input.tagName==='SELECT'?'change':'input',()=>autocomplete());
+  for(const input of [impersonal,gerund])input.addEventListener('change',()=>autocomplete());
+  function omit(label){if(!label.trim())return;if(!model.omitted.includes(label))model.omitted.push(label);delete model.overrides[label];}
   function flattenTable(t, filter=()=>true) {const values=E.forms({tables:[t]}).filter(filter);t.columns=['語形'];t.rows=values.map(f=>({label:f.label,cells:[f]}));}
   function textInput(value,label,onInput) {const input=node('input');input.type='text';input.value=value;input.required=true;input.setAttribute('aria-label',label);input.addEventListener('input',()=>onInput(input.value));return input;}
   function drawTables() {
     tables.replaceChildren();
     working.tables.forEach((t,ti)=>{
       const group=node('fieldset',undefined,'edit-table'); const legend=node('legend','表 '+(ti+1));
-      const top=node('div',undefined,'edit-table-heading');top.append(textInput(t.title,'表の名前',v=>t.title=v),button('表を削除',()=>{working.tables.splice(ti,1);drawTables();}));
+      const top=node('div',undefined,'edit-table-heading');top.append(textInput(t.title,'表の名前',v=>t.title=v),button('表を削除',()=>{M.forms({tables:[t]}).forEach(f=>omit(f.label));working.tables.splice(ti,1);drawTables();}));
       group.append(legend,top);
       // Keep the original table's shape; values and their grammatical labels are editable.
       t.rows.forEach(r=>r.cells.forEach(f=>{
         const row=node('div',undefined,'form-edit-row');
-        row.append(textInput(f.label,'語形名',v=>{f.label=v;flattenTable(t);}),textInput(f.value,f.label || '語形',v=>f.value=v),button('削除',()=>{flattenTable(t,x=>x!==f);if(!t.rows.length)working.tables.splice(ti,1);drawTables();}));
+        row.append(textInput(f.label,'語形名',v=>{omit(f.label);f.label=v;flattenTable(t);}),textInput(f.value,f.label || '語形',v=>{f.value=v;if(f.label.trim()&&M.forms({tables:previousGenerated}).some(x=>x.label===f.label)){if(v.trim())model.overrides[f.label]=v;else delete model.overrides[f.label];}}),button('削除',()=>{omit(f.label);flattenTable(t,x=>x!==f);if(!t.rows.length)working.tables.splice(ti,1);drawTables();}));
+        row.children[1].addEventListener('change',()=>autocomplete());
+        if(Object.hasOwn(model.overrides,f.label)){
+          const reset=button('自動',()=>{delete model.overrides[f.label];autocomplete();});reset.setAttribute('aria-label',f.label+'を自動補完に戻す');row.append(reset);
+        }
         group.append(row);
       }));
       group.append(button('語形を追加',()=>{flattenTable(t);t.rows.push({label:'',cells:[{label:'',value:''}]});drawTables();}));
@@ -734,17 +976,19 @@ render();
   function openEditor(id, duplicate=false) {
     const existing=DATA.entries.find(e=>e.id===id);
     working=existing?E.clone(existing):{id:randomId(),head:'',pos:'名詞',kind:'単語',numeralType:'',numberRestriction:'',gender:'M',class:'固定型',meaning:'',tags:[],protoForms:[],relations:[],tables:[]};
-    if(duplicate){working.id=randomId();working.head='';working.relations=[];}
+    model=existing&&!duplicate?M.infer(working):{version:1,settings:{nounPattern:'auto',gerundDeclension:working.pos==='動詞'},overrides:{},omitted:[]};
+    try{previousGenerated=M.generate(working,model.settings,model.overrides);}catch{previousGenerated=[];}
+    if(duplicate){working.id=randomId();working.head='';working.relations=[];working.tables=[];delete working.inflection;previousGenerated=[];}
     openingChange=E.clone(draft.changes.find(c=>c.after.id===working.id)||null);
     head.value=working.head;kind.value=working.kind;pos.value=working.pos;gender.value=working.gender;
     number.value=working.numberRestriction;numeral.value=working.numeralType;meaning.value=working.meaning;proto.value=working.protoForms.join('\n');extra.value=extraTags(working).join('、');
     syncEditor();cls.value=working.class;
-    if(!existing)working.tables=template(working.pos);
-    errors.textContent='';drawTables();drawRelations();$('entry-editor-title').textContent=existing&&!duplicate?'語彙を編集':'語彙を追加';
+    writeSettings();syncEditor();autocomplete(false);
+    errors.textContent=automaticError;drawTables();drawRelations();$('entry-editor-title').textContent=existing&&!duplicate?'語彙を編集':'語彙を追加';
     editor.showModal();head.focus();initialForm=formSnapshot();
   }
   function randomId(){return [...crypto.getRandomValues(new Uint8Array(8))].map(b=>b.toString(16).padStart(2,'0')).join('');}
-  function formSnapshot(){return JSON.stringify([working,[...form.querySelectorAll('input,textarea,select')].map(i=>i.value)]);}
+  function formSnapshot(){return JSON.stringify([working,model,[...form.querySelectorAll('input,textarea,select')].map(i=>i.value)]);}
   function closeEditor(){if(formSnapshot()!==initialForm&&!confirm('入力中の変更を破棄しますか？'))return;editor.close();}
   editor.addEventListener('cancel',e=>{e.preventDefault();closeEditor();});
   function readDraft(){const text=localStorage.getItem(KEY);return text?E.validateDraft(JSON.parse(text)):{version:1,changes:[]};}
@@ -754,8 +998,23 @@ render();
   form.addEventListener('submit',event=>{
     event.preventDefault();errors.textContent='';
     try{
+      autocomplete(false);if(automaticError)throw new Error(automaticError);
       const e={...working,head:head.value.trim().normalize('NFC'),kind:kind.value,pos:pos.value,gender:gender.disabled?'':gender.value,class:cls.disabled?'':cls.value,numberRestriction:number.disabled?'':number.value,numeralType:numeral.disabled?'':numeral.value,meaning:meaning.value.trim(),protoForms:proto.value.split('\n').map(s=>s.trim()).filter(Boolean).map(s=>s.startsWith('*')?s:'*'+s)};
-      e.tags=E.tags(e,extra.value.split(/[、,]/).map(t=>t.trim()).filter(Boolean));
+      let extraValues=extra.value.split(/[、,]/).map(t=>t.trim()).filter(Boolean);
+      if(e.pos==='名詞'){
+        extraValues=extraValues.filter(t=>!['子音幹','母音幹'].includes(t)&&!/^-[aeiouäöü]幹$/.test(t));
+        const p=M.nounPattern(e,model.settings);extraValues.push(p==='glide'?'母音幹':['consonant','aq'].includes(p)?'子音幹':'-'+({a:'a',o:'o','plural-a':'a','plural-i':'i'}[p]||e.head.slice(-1))+'幹');
+      }
+      if(e.pos==='形容詞'){
+        extraValues=extraValues.filter(t=>!['中性ウムラウト型','男性・中性同形型','語幹短縮型','語末子音交替'].includes(t));
+        const f=M.map(e),s=model.settings.adjectiveStem||(e.head.endsWith('q')||e.head.endsWith('nk')?e.head.slice(0,-1)+'g':e.head.endsWith('k')?e.head.slice(0,-1)+'c':e.head);
+        extraValues.push(f['中性単数主格']===e.head?'男性・中性同形型':'中性ウムラウト型');
+        if(model.settings.femaleStem&&model.settings.femaleStem!==s&&!/[aeiouäöü]$/.test(e.head))extraValues.push('語幹短縮型');
+        if(/[qk]$/.test(e.head))extraValues.push('語末子音交替');
+      }
+      if(e.pos==='動詞'){extraValues=extraValues.filter(t=>t!=='無主語');if(model.settings.impersonal)extraValues.push('無主語');}
+      e.tags=E.tags(e,extraValues);
+      if(['名詞','動詞','形容詞','代名詞'].includes(e.pos))e.inflection=E.clone(model);else delete e.inflection;
       if(E.equal([...e.tags].sort(),[...working.tags].sort()))e.tags=E.clone(working.tags);
       E.validate(e);E.apply(DATA.entries,[e]);
       const latest=readDraft(), current=latest.changes.find(c=>c.after.id===e.id)||null;
