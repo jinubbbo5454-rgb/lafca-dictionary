@@ -2,12 +2,8 @@
   "entries": 669,
   "sources": [
     {
-      "file": "ラフカ語辞書.md",
-      "sha256": "4d22bcb92f4402a862ec8bdd5a001717ff1708dcc47d6f07321504e887000684"
-    },
-    {
       "file": "ラフカ語文法.md",
-      "sha256": "0fe469a6cd9af50474fc249d3484a1c398a5f3ca664d44b1c25ea991016be75b"
+      "sha256": "af1f170e8d1edb91254e93d44e15aa64d9474960bb17c08593a4065fe13b49d2"
     }
   ],
   "htmlSha256": "5acb09686b73825191d14be47e61129636f4a5e72ee29fd9f2f136389e30d332",
