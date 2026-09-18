@@ -1,16 +1,16 @@
 {
-  "entries": 643,
+  "entries": 669,
   "sources": [
     {
       "file": "ラフカ語辞書.md",
-      "sha256": "ec0cef43d902b1013cf037a05dff19fdc08021a85e17e0665a6974309f23a835"
+      "sha256": "17d66d63fcc6b104cc2b0a0cee1fc56f64112cc7e97fa373881af629890eefd0"
     },
     {
       "file": "ラフカ語文法.md",
       "sha256": "0fe469a6cd9af50474fc249d3484a1c398a5f3ca664d44b1c25ea991016be75b"
     }
   ],
-  "htmlSha256": "eb489087ecfb15294495686f197696d02e10a65334df0f7e5761f73cf73b087e",
+  "htmlSha256": "207e6599d985760162b66852bb13c375d9e6b036573024aeb0f8452c4689d3c4",
   "grammarPdfSha256": "cbaf45ba926c4c79146ea6b00addcc79a61bfad4c363f71d6d2d727ffe8c17c0",
   "editsSha256": "7c1051f6e2bc3943b7c1dbe4da229694455681b8875a346c99279e555edb733f"
 }
