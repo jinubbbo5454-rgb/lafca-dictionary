@@ -116,7 +116,10 @@ textarea { font: inherit; }
 .form-edit-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr) auto; gap: 7px; margin-bottom: 7px; align-items: start; }
 .form-edit-row input:first-child { font-family: inherit; font-size: 13px; }
 .change-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
-#changes-dialog details { font-size: 13px; margin: 16px 0; }
+#owner-login { width: min(460px, calc(100% - 24px)); }
+#owner-login p { font-size: 13px; }
+#owner-login label { margin-top: 16px; }
+#owner-login button { margin-right: 8px; }
 #changes-dialog > button { margin: 8px 8px 0 0; }
 @media (max-width: 560px) {
   .editor-dialog { padding: 14px; }
@@ -754,7 +757,8 @@ render();
 (function(root) {
   'use strict';
   const REPO = 'jinubbbo5454-rgb/lafca-dictionary';
-  const API = 'https://api.github.com/repos/' + REPO;
+  const OWNER_ID = 238146622;
+  const REPO_PATH = '/repos/' + REPO;
   const DATA_PATTERN = /(<script id="dictionary-data">)const DATA = ([\s\S]*?);(<\/script>)/;
   const json = value => JSON.stringify(value, null, 2) + '\n';
   const decode = content => new TextDecoder('utf-8',{fatal:true}).decode(Uint8Array.from(atob(content.replace(/\s/g,'')), c => c.charCodeAt(0)));
@@ -762,27 +766,44 @@ render();
     const bytes = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(content));
     return [...new Uint8Array(bytes)].map(b => b.toString(16).padStart(2,'0')).join('');
   }
-  async function publish(changes, token, progress = () => {}, request = fetch) {
-    const E = root.LafcaEditor || require('./editor-core.js');
-    E.validateDraft({version:1,changes});
-    if (!changes.length) throw new Error('保存する変更がありません。');
-    if (!token.trim()) throw new Error('GitHubのトークンを入力してください。');
-    async function api(path, method = 'GET', body) {
+  function authError(message) { return Object.assign(new Error(message), {code:'AUTH'}); }
+  function client(token, request) {
+    if (typeof token !== 'string' || !token.trim()) throw authError('GitHubのトークンを入力してください。');
+    return async function api(path, method = 'GET', body) {
       let response;
       try {
-        response = await request(API + path, {method,cache:'no-store',redirect:'error',headers:{
+        response = await request('https://api.github.com' + path, {method,cache:'no-store',redirect:'error',credentials:'omit',referrerPolicy:'no-referrer',headers:{
           Accept:'application/vnd.github+json',Authorization:'Bearer ' + token.trim(),
           'X-GitHub-Api-Version':'2022-11-28', ...(body ? {'Content-Type':'application/json'} : {})
         }, ...(body ? {body:JSON.stringify(body)} : {})});
       } catch { throw new Error('GitHubに接続できません。変更は端末に残っています。通信状態を確認して再度保存してください。'); }
       if (!response.ok) {
-        if (response.status === 401) throw new Error('GitHubのトークンが無効、または期限切れです。');
-        if ([403,404].includes(response.status)) throw new Error('このリポジトリに保存できません。トークンの対象リポジトリとContentsの書き込み権限を確認してください。');
+        if (response.status === 401) throw authError('GitHubのトークンが無効、または期限切れです。');
+        if ([403,404].includes(response.status)) throw authError('このリポジトリにアクセスできません。トークンの対象を lafca-dictionary、Contents を Read and write にしてください。');
         if ([409,422].includes(response.status)) throw new Error('GitHubが更新されているか、書き込みが制限されています。変更は端末に残っています。再度保存して確認してください。');
         throw new Error('GitHubへの保存に失敗しました（' + response.status + '）。変更は端末に残っています。');
       }
       return response.json();
-    }
+    };
+  }
+  async function verifyOwner(api) {
+    // Authenticate the token itself; a public profile lookup cannot prove ownership.
+    const user = await api('/user');
+    if (user.id !== OWNER_ID || user.type !== 'User') throw authError('この辞書を編集できるのは所有者だけです。所有者のGitHubトークンを使ってください。');
+    const repo = await api(REPO_PATH);
+    if (repo.owner?.id !== OWNER_ID || repo.permissions?.push !== true || repo.archived || repo.disabled) throw authError('所有者の編集権限を確認できません。');
+    return {id:user.id,login:user.login};
+  }
+  async function authenticate(token, request = fetch) { return verifyOwner(client(token, request)); }
+  async function publish(changes, token, progress = () => {}, request = fetch) {
+    const E = root.LafcaEditor || require('./editor-core.js');
+    E.validateDraft({version:1,changes});
+    if (!changes.length) throw new Error('保存する変更がありません。');
+    const github = client(token, request);
+    progress('所有者を確認しています…');
+    // Recheck on every publish, even if the editor was previously unlocked.
+    await verifyOwner(github);
+    const api = (path, method, body) => github(REPO_PATH + path, method, body);
     progress('GitHubの最新版を確認しています…');
     const ref = await api('/git/ref/heads/main'), head = ref.object.sha;
     const commit = await api('/git/commits/' + head);
@@ -816,7 +837,7 @@ render();
     await api('/git/refs/heads/main','PATCH',{sha:nextCommit.sha,force:false});
     return {entries,commit:nextCommit.sha,url:'https://github.com/' + REPO + '/commit/' + nextCommit.sha};
   }
-  const api = {publish,sha256};
+  const api = {authenticate,publish,sha256};
   if (typeof module !== 'undefined') module.exports = api; else root.LafcaGitHub = api;
 })(globalThis);
 
@@ -824,17 +845,18 @@ render();
 (() => {
   const E = LafcaEditor, M = LafcaMorphology, KEY = 'lafca-dictionary:edits:v1';
   let model=null, previousGenerated=[], automaticError='';
+  let ownerToken='', loginAttempt=0;
   let published = E.clone(DATA.entries), draft = {version:1,changes:[]}, editing = false, working = null, openingChange;
   const toolbar = node('div', undefined, 'editor-toolbar'); toolbar.hidden = true;
   const notice = node('p', '', 'edit-status'); notice.setAttribute('role','status');
   function button(text, action, cls = '') { const b = node('button',text,cls); b.type='button'; b.addEventListener('click',action); return b; }
-  const mode = button('編集', () => { editing = !editing; toolbar.hidden = !editing; mode.textContent = editing ? '編集を終了' : '編集'; render(); });
+  const mode = button('所有者ログイン', () => { if(ownerToken)logout();else showLogin(); });
   mode.id = 'edit-mode'; $('stat').after(mode);
   const add = button('語彙を追加', () => openEditor()); add.id = 'add-entry';
   const manage = button('変更を保存…', showChanges); manage.id = 'manage-edits';
-  const backup = button('変更をバックアップ', () => download('lafca-edits.json', JSON.stringify(draft,null,2)+'\n','application/json'));
+  const backup = button('変更をバックアップ', () => {if(ownerToken)download('lafca-edits.json', JSON.stringify(draft,null,2)+'\n','application/json');});
   const importInput = node('input'); importInput.type='file'; importInput.accept='.json,application/json'; importInput.hidden=true; importInput.id='import-edits';
-  const importButton = button('変更を読み込む', () => importInput.click());
+  const importButton = button('変更を読み込む', () => {if(ownerToken)importInput.click();});
   toolbar.append(add,manage,backup,importButton,importInput,notice);
   document.querySelector('header').after(toolbar);
   function dialog(id, title) {
@@ -842,6 +864,34 @@ render();
     const h = node('h2',title); h.id=id+'-title'; d.setAttribute('aria-labelledby',h.id);
     d.append(h); document.body.append(d); return d;
   }
+  const loginDialog=dialog('owner-login','所有者ログイン'),loginForm=node('form');
+  const loginStatus=node('p','','edit-error');loginStatus.id='login-status';loginStatus.setAttribute('role','alert');
+  const authInfo=node('p','所有者のGitHubトークンで認証します。対象を lafca-dictionary、権限を Contents: Read and write にしてください。');
+  const link=node('a','トークンを作成');link.href='https://github.com/settings/personal-access-tokens/new?name=Lafca%20dictionary&description=Lafca%20dictionary%20editor&target_name=jinubbbo5454-rgb&contents=write';link.target='_blank';link.rel='noopener noreferrer';
+  const tokenLabel=node('label','GitHubトークン'),token=node('input');token.type='password';token.id='github-token';token.autocomplete='off';token.spellcheck=false;token.required=true;tokenLabel.append(token);
+  const loginButton=node('button','ログイン','primary');loginButton.type='submit';loginButton.id='owner-login-submit';
+  loginForm.append(authInfo,link,tokenLabel,node('p','トークンは保存せず、編集を終了すると破棄します。'),loginStatus,loginButton,button('キャンセル',()=>loginDialog.close()));loginDialog.append(loginForm);
+  function showLogin(message=''){loginStatus.textContent=message;loginDialog.showModal();token.focus();}
+  function requireOwner(){if(!ownerToken)throw new Error('編集には所有者ログインが必要です。');}
+  loginDialog.addEventListener('close',()=>{token.value='';loginAttempt++;loginButton.disabled=false;});
+  loginForm.addEventListener('submit',async event=>{
+    event.preventDefault();const attempt=++loginAttempt;let credential=token.value.trim();token.value='';loginButton.disabled=true;loginStatus.textContent='所有者を確認しています…';
+    try{
+      await LafcaGitHub.authenticate(credential);
+      if(attempt!==loginAttempt||!loginDialog.open)return;
+      ownerToken=credential;editing=true;toolbar.hidden=false;mode.textContent='編集を終了';loginDialog.close();
+      try{draft=readDraft();refresh();}catch{fail(new Error('保存済みの変更を読み込めません。元の保存内容は保持しています。'));}
+    }catch(error){if(attempt===loginAttempt)loginStatus.textContent=error.message;}
+    finally{credential='';if(attempt===loginAttempt)loginButton.disabled=false;}
+  });
+  function logout(){
+    ownerToken='';loginAttempt++;editing=false;draft={version:1,changes:[]};toolbar.hidden=true;mode.textContent='所有者ログイン';
+    for(const d of [editor,changesDialog,loginDialog])if(d.open)d.close();
+    token.value='';form.reset();working=null;model=null;previousGenerated=[];tables.replaceChildren();relations.replaceChildren();changesList.replaceChildren();
+    refresh();
+  }
+  // Clear the credential on navigation, including a page kept in the back/forward cache.
+  window.addEventListener('pagehide',logout);
   const editor = dialog('entry-editor','語彙を編集'), form = node('form');
   const errors = node('p','','edit-error'); errors.setAttribute('role','alert'); errors.id='editor-error';
   const grid = node('div',undefined,'editor-grid');
@@ -974,6 +1024,7 @@ render();
   }
   function extraTags(e) {const standard=E.tags({...e,tags:[]},[]);return e.tags.filter(t=>!standard.includes(t));}
   function openEditor(id, duplicate=false) {
+    if(!ownerToken)return;
     const existing=DATA.entries.find(e=>e.id===id);
     working=existing?E.clone(existing):{id:randomId(),head:'',pos:'名詞',kind:'単語',numeralType:'',numberRestriction:'',gender:'M',class:'固定型',meaning:'',tags:[],protoForms:[],relations:[],tables:[]};
     model=existing&&!duplicate?M.infer(working):{version:1,settings:{nounPattern:'auto',gerundDeclension:working.pos==='動詞'},overrides:{},omitted:[]};
@@ -992,12 +1043,13 @@ render();
   function closeEditor(){if(formSnapshot()!==initialForm&&!confirm('入力中の変更を破棄しますか？'))return;editor.close();}
   editor.addEventListener('cancel',e=>{e.preventDefault();closeEditor();});
   function readDraft(){const text=localStorage.getItem(KEY);return text?E.validateDraft(JSON.parse(text)):{version:1,changes:[]};}
-  function persist(next){E.validateDraft(next);E.apply(published,next.changes.map(c=>c.after));localStorage.setItem(KEY,JSON.stringify(next));draft=next;refresh();}
-  function refresh(){DATA.entries=E.apply(published,draft.changes.map(c=>c.after));refreshIndex();notice.textContent=draft.changes.length?draft.changes.length+' 件の未公開の変更（この端末に保存済み）':'';manage.disabled=!draft.changes.length;backup.disabled=!draft.changes.length;}
-  function fail(error){notice.textContent=error.message;toolbar.hidden=false;editing=true;mode.textContent='編集を終了';render();}
+  function persist(next){requireOwner();E.validateDraft(next);E.apply(published,next.changes.map(c=>c.after));localStorage.setItem(KEY,JSON.stringify(next));draft=next;refresh();}
+  function refresh(){DATA.entries=ownerToken?E.apply(published,draft.changes.map(c=>c.after)):E.clone(published);refreshIndex();notice.textContent=draft.changes.length?draft.changes.length+' 件の未公開の変更（この端末に保存済み）':'';manage.disabled=!draft.changes.length;backup.disabled=!draft.changes.length;}
+  function fail(error){if(!ownerToken)return;notice.textContent=error.message;render();}
   form.addEventListener('submit',event=>{
     event.preventDefault();errors.textContent='';
     try{
+      requireOwner();
       autocomplete(false);if(automaticError)throw new Error(automaticError);
       const e={...working,head:head.value.trim().normalize('NFC'),kind:kind.value,pos:pos.value,gender:gender.disabled?'':gender.value,class:cls.disabled?'':cls.value,numberRestriction:number.disabled?'':number.value,numeralType:numeral.disabled?'':numeral.value,meaning:meaning.value.trim(),protoForms:proto.value.split('\n').map(s=>s.trim()).filter(Boolean).map(s=>s.startsWith('*')?s:'*'+s)};
       let extraValues=extra.value.split(/[、,]/).map(t=>t.trim()).filter(Boolean);
@@ -1026,18 +1078,13 @@ render();
     }catch(error){errors.textContent=error.name==='QuotaExceededError'?'端末に保存する空き容量がありません。入力内容を控えてください。':error.message;}
   });
   const changesDialog=dialog('changes-dialog','変更を保存'), changesList=node('div'), publishStatus=node('p','','edit-status');publishStatus.setAttribute('role','status');publishStatus.id='publish-status';
-  const authDetails=node('details');authDetails.append(node('summary','GitHubへの保存設定'));
-  const authInfo=node('p','トークンの対象を lafca-dictionary、権限を Contents: Read and write にしてください。トークンは保存しません。');
-  const link=node('a','トークンを作成');link.href='https://github.com/settings/personal-access-tokens/new?name=Lafca%20dictionary&description=Lafca%20dictionary%20editor&target_name=jinubbbo5454-rgb&contents=write';link.target='_blank';link.rel='noopener noreferrer';
-  authDetails.append(authInfo,link);
-  const tokenLabel=node('label','GitHubトークン'),token=node('input');token.type='password';token.id='github-token';token.autocomplete='off';token.spellcheck=false;tokenLabel.append(token);
   const publish=button('GitHubに保存',publishDraft,'primary');publish.id='publish-edits';
   const close=button('閉じる',()=>changesDialog.close());
-  changesDialog.append(changesList,authDetails,tokenLabel,publishStatus,publish,close);
-  changesDialog.addEventListener('close',()=>{token.value='';});
+  changesDialog.append(changesList,publishStatus,publish,close);
   let publishing=false;
   changesDialog.addEventListener('cancel',e=>{if(publishing)e.preventDefault();});
   function showChanges(){
+    if(!ownerToken)return;
     changesList.replaceChildren();publishStatus.replaceChildren();
     for(const c of draft.changes){const row=node('div',undefined,'change-row');row.append(node('span',c.after.head+'（'+(c.before?'編集':'追加')+'）'),button('編集',()=>{changesDialog.close();openEditor(c.after.id);}),button('変更を取り消す',()=>{
       if(!confirm(c.after.head+' の未公開の変更を取り消しますか？'))return;
@@ -1047,31 +1094,34 @@ render();
     if(!changesDialog.open)changesDialog.showModal();
   }
   async function publishDraft(){
+    if(!ownerToken)return;
     const changes=E.clone(draft.changes);publishing=true;
     [...changesDialog.querySelectorAll('button')].forEach(b=>b.disabled=true);
     try{
-      const result=await LafcaGitHub.publish(changes,token.value,m=>publishStatus.textContent=m);
+      const result=await LafcaGitHub.publish(changes,ownerToken,m=>publishStatus.textContent=m);
+      if(!ownerToken)return;
       // Retain any edits made in other tabs while the request was in flight.
       const latest=readDraft();latest.changes=latest.changes.filter(c=>!changes.some(sent=>E.equal(sent,c)));
       published=E.clone(result.entries);persist(latest);
       publishStatus.replaceChildren(node('span','GitHubに保存しました。公開ページへの反映には少し時間がかかります。 '));
       const a=node('a','保存した変更');a.href=result.url;a.target='_blank';a.rel='noopener noreferrer';publishStatus.append(a);
       changesList.replaceChildren();
-    }catch(error){publishStatus.textContent=error.message;}
-    finally{token.value='';publishing=false;[...changesDialog.querySelectorAll('button')].forEach(b=>b.disabled=false);publish.disabled=!draft.changes.length;}
+    }catch(error){if(error.code==='AUTH'){logout();showLogin(error.message);}else publishStatus.textContent=error.message;}
+    finally{publishing=false;[...changesDialog.querySelectorAll('button')].forEach(b=>b.disabled=false);publish.disabled=!draft.changes.length;}
   }
   function download(name,text,type){const url=URL.createObjectURL(new Blob([text],{type})),a=node('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
   importInput.addEventListener('change',async()=>{
     try{
+      requireOwner();
       const file=importInput.files[0];if(!file)return;if(file.size>10_000_000)throw new Error('ファイルが大きすぎます。');
       const imported=E.validateDraft(JSON.parse(await file.text())),latest=readDraft();
       for(const c of imported.changes){const old=latest.changes.find(x=>x.after.id===c.after.id);if(old&&!E.equal(old,c))throw new Error('この端末の変更と重複しています：'+c.after.head);if(!old)latest.changes.push(c);}
       E.apply(published,latest.changes.map(c=>c.after));persist(latest);
     }catch(e){fail(e);}finally{importInput.value='';}
   });
-  window.addEventListener('storage',event=>{if(event.key===KEY){try{draft=readDraft();refresh();}catch(e){fail(e);}}});
-  window.lafcaEditControls=e=>{const controls=node('div',undefined,'entry-edit-controls');if(editing)controls.append(button('編集',()=>openEditor(e.id)),button('複製して追加',()=>openEditor(e.id,true)));return controls;};
-  try{draft=readDraft();refresh();if(draft.changes.length){editing=true;toolbar.hidden=false;mode.textContent='編集を終了';render();}}catch(e){fail(new Error('保存済みの変更を読み込めません。ブラウザーの保存領域が使えるか確認してください。元の保存内容は保持しています。'));}
+  window.addEventListener('storage',event=>{if(ownerToken&&event.key===KEY){try{draft=readDraft();refresh();}catch(e){fail(e);}}});
+  window.lafcaEditControls=e=>{const controls=node('div',undefined,'entry-edit-controls');if(ownerToken&&editing)controls.append(button('編集',()=>openEditor(e.id)),button('複製して追加',()=>openEditor(e.id,true)));return controls;};
+  refresh();
 })();
 </script>
 </body>
