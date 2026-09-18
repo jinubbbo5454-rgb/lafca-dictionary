@@ -3,13 +3,14 @@
   "sources": [
     {
       "file": "ラフカ語辞書.md",
-      "sha256": "f03d10c9695f2dacabb9dac830db6d72aa75fc47e4c18e9d978aa32a3f674843"
+      "sha256": "aba3e960a719cd6dce86bd9618af72d2510b581257fb0e21091aec0810639049"
     },
     {
       "file": "ラフカ語文法.md",
-      "sha256": "5b6677848c55acbdd912ea7d7efa8de550475ba3d3b075c5ca29365d462e824c"
+      "sha256": "ef52c0f340705c80e7ee6e5944b8b326657bca600b8404e4d055803e6c0905b0"
     }
   ],
-  "htmlSha256": "888fb26729c19a4a72c383fecf02bde4f285b48b93ca4115585df970e52b4770",
-  "zpdicSha256": "e18ae2793004570f3291a88a4799b7fe7e94afbbf6ebe8cfc513e741ff687904"
+  "htmlSha256": "e07f2835399bbb5f1a9714fe7e38727f0896f85b6dd9429c4b9966f6b4ef7e7b",
+  "zpdicSha256": "ce8edac4e2c705558d0a5798873c9935b20e0fd0f77d8da33e19b226f36ca960",
+  "grammarPdfSha256": "2e78934642a850b058145198f8f3291d46b86ff599b2e4cf7ba0e166efd401de"
 }
