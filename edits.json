@@ -2,13 +2,119 @@
   "version": 1,
   "entries": [
     {
+      "id": "3d057fda858f9b07",
+      "head": "amla",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "",
+      "meaning": "荒野, 曠野, 空虚, 虚無, 空っぽ",
+      "tags": [
+        "名詞",
+        "女性",
+        "Ⅱ型",
+        "-a幹"
+      ],
+      "gender": "F",
+      "class": "Ⅱ型",
+      "protoForms": [
+        "*amlā"
+      ],
+      "relations": [],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数",
+            "複数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "amla"
+                },
+                {
+                  "label": "複数主格",
+                  "value": "emlas"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "emlan"
+                },
+                {
+                  "label": "複数属格",
+                  "value": "emlans"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "emlar"
+                },
+                {
+                  "label": "複数与格",
+                  "value": "emlars"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "emlo"
+                },
+                {
+                  "label": "複数奪格",
+                  "value": "emlos"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "emlal"
+                },
+                {
+                  "label": "複数再帰格",
+                  "value": "emlals"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "eml"
+        },
+        "overrides": {},
+        "omitted": []
+      }
+    },
+    {
       "id": "75ef390c42e535d0",
       "head": "amalbuh",
       "pos": "名詞",
       "kind": "単語",
       "numeralType": "",
       "numberRestriction": "",
-      "meaning": "稲妻",
+      "meaning": "稲妻, 稲光, 稲魂",
       "tags": [
         "名詞",
         "男性",
