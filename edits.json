@@ -853,24 +853,17 @@
       "meaning": "ホルツェルド（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*xór-tsold-i"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -925,7 +918,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "0332faea5486ea13",
@@ -1045,18 +1046,7 @@
       "protoForms": [
         "*láwn-rīdā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "lun",
-          "id": "dc7a77aaf2bb4e1b"
-        },
-        {
-          "title": "派生",
-          "head": "rida",
-          "id": "1855e4c47b185a47"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -1111,7 +1101,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "0375ba4be6f90d27",
@@ -1490,13 +1488,7 @@
       "protoForms": [
         "*kiwā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Hörciva",
-          "id": "cb271849c0e828f0"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -1785,18 +1777,7 @@
       "protoForms": [
         "*šárnā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Jočarna",
-          "id": "6d0562704f81003c"
-        },
-        {
-          "title": "派生",
-          "head": "Očarna",
-          "id": "52549c6f7dcfa371"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -2237,23 +2218,7 @@
       "gender": "",
       "class": "子音幹",
       "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Hortar",
-          "id": "8d35c3611a8860e1"
-        },
-        {
-          "title": "派生",
-          "head": "Lontar",
-          "id": "c3a68eb831628c7d"
-        },
-        {
-          "title": "派生",
-          "head": "Täršin",
-          "id": "e0d32b245b38d730"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "性・格の一致（単数）",
@@ -6179,23 +6144,7 @@
       "protoForms": [
         "*rīdā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Hörrida",
-          "id": "865d303b88b87f73"
-        },
-        {
-          "title": "派生",
-          "head": "Lönrida",
-          "id": "036cfbe941df1dc2"
-        },
-        {
-          "title": "派生",
-          "head": "Völrida",
-          "id": "7183045362c11ce1"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -6548,29 +6497,17 @@
       "meaning": "レフトルム（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*réft-lum"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "reft",
-          "id": "a0635e68f0d85ab7"
-        },
-        {
-          "title": "派生",
-          "head": "lum",
-          "id": "9eaaa246de4224f2"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -6625,7 +6562,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "1a246dff711aa033",
@@ -9723,16 +9668,6 @@
           "title": "派生",
           "head": "jod",
           "id": "3b321a73bd431844"
-        },
-        {
-          "title": "派生",
-          "head": "Jočarna",
-          "id": "6d0562704f81003c"
-        },
-        {
-          "title": "派生",
-          "head": "Jožeb",
-          "id": "3c1814ed792ce080"
         }
       ],
       "tables": [
@@ -14033,24 +13968,17 @@
       "meaning": "ヨツェブ（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*jód-seb-i"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "jod",
-          "id": "2633e2708f3c35eb"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -14105,7 +14033,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "3c5458d1706eed8b",
@@ -15065,18 +15001,7 @@
       "protoForms": [
         "*xór-lawm-ā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        },
-        {
-          "title": "派生",
-          "head": "luma",
-          "id": "ea45d2ca1452543a"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -15131,7 +15056,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "3e8030f5e325ed2c",
@@ -19140,13 +19073,7 @@
       "protoForms": [
         "*juraj"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Jurehor",
-          "id": "e01aa1f671985338"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -21089,18 +21016,7 @@
       "protoForms": [
         "*ód-šarnā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "od",
-          "id": "605c97b545f48852"
-        },
-        {
-          "title": "派生",
-          "head": "šarna",
-          "id": "06145a9666735b19"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -21155,7 +21071,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "529e26f53e65c07c",
@@ -24174,13 +24098,7 @@
       "protoForms": [
         "*od"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Očarna",
-          "id": "52549c6f7dcfa371"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "性・格の一致（単数）",
@@ -25601,13 +25519,7 @@
       "protoForms": [
         "*tsibr"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Völžiber",
-          "id": "73ff05a29c91e31f"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -27509,18 +27421,7 @@
       "protoForms": [
         "*jód-šarnā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "jod",
-          "id": "2633e2708f3c35eb"
-        },
-        {
-          "title": "派生",
-          "head": "šarna",
-          "id": "06145a9666735b19"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -27575,7 +27476,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "6d6b9b46d4715693",
@@ -28046,18 +27955,7 @@
       "protoForms": [
         "*wáwl-rīdā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "wul",
-          "id": "ac296d123788e372"
-        },
-        {
-          "title": "派生",
-          "head": "rida",
-          "id": "1855e4c47b185a47"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -28112,7 +28010,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "7183588399684bfe",
@@ -29173,29 +29079,17 @@
       "meaning": "ヴェルツィベル（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*wáwl-tsibr"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "wul",
-          "id": "ac296d123788e372"
-        },
-        {
-          "title": "派生",
-          "head": "žiber",
-          "id": "65546c71a907be71"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -29250,7 +29144,16 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "Völžibr"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "7409653b6361e3cb",
@@ -31407,61 +31310,6 @@
           "title": "派生",
           "head": "horča",
           "id": "f1f77995bc38b951"
-        },
-        {
-          "title": "派生",
-          "head": "Ämhor",
-          "id": "c1a2fcb1b36bff71"
-        },
-        {
-          "title": "派生",
-          "head": "Dronhor",
-          "id": "b8380e6e83ff1e7d"
-        },
-        {
-          "title": "派生",
-          "head": "Hörciva",
-          "id": "cb271849c0e828f0"
-        },
-        {
-          "title": "派生",
-          "head": "Horerta",
-          "id": "c26cca203c1c498c"
-        },
-        {
-          "title": "派生",
-          "head": "Horloma",
-          "id": "3e429bb88509776a"
-        },
-        {
-          "title": "派生",
-          "head": "Hörrida",
-          "id": "865d303b88b87f73"
-        },
-        {
-          "title": "派生",
-          "head": "Hortar",
-          "id": "8d35c3611a8860e1"
-        },
-        {
-          "title": "派生",
-          "head": "Horžöld",
-          "id": "0328b767157fdba9"
-        },
-        {
-          "title": "派生",
-          "head": "Jurehor",
-          "id": "e01aa1f671985338"
-        },
-        {
-          "title": "派生",
-          "head": "Nardhor",
-          "id": "e48c387a20640889"
-        },
-        {
-          "title": "派生",
-          "head": "Wolhor",
-          "id": "9bf8ab06013a0712"
         }
       ],
       "tables": [
@@ -33594,18 +33442,7 @@
       "protoForms": [
         "*xór-rīdā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        },
-        {
-          "title": "派生",
-          "head": "rida",
-          "id": "1855e4c47b185a47"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -33660,7 +33497,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "872cb91ed9525a38",
@@ -33672,29 +33517,17 @@
       "meaning": "ガデルヴェルス（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*gádl-wers-i"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "gidal",
-          "id": "8aeaabdd34a72395"
-        },
-        {
-          "title": "派生",
-          "head": "vers",
-          "id": "b32bbf75c06a0e76"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -33749,7 +33582,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "8734d0c6dac861cf",
@@ -34621,18 +34462,7 @@
         "*gidal",
         "*gadl-ā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Gädelfiha",
-          "id": "a80b13730046d506"
-        },
-        {
-          "title": "派生",
-          "head": "Gadelvers",
-          "id": "872cb91ed9525a38"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -35295,29 +35125,17 @@
       "meaning": "ホルタル（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*xór-tar"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        },
-        {
-          "title": "派生",
-          "head": "tar",
-          "id": "0867262b1bd9efcb"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -35372,7 +35190,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "8d64df68e1a519e1",
@@ -39112,34 +38938,17 @@
       "meaning": "ウォルホル（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*wáwl-xore"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "wul",
-          "id": "ac296d123788e372"
-        },
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        },
-        {
-          "title": "派生",
-          "head": "Wolhorča",
-          "id": "aca9af28780cd95f"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -39194,7 +39003,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "9d2f058e47c4eb59",
@@ -39953,13 +39770,7 @@
       "protoForms": [
         "*lum"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Reftlum",
-          "id": "19b81298e2d98cd5"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -40780,13 +40591,7 @@
       "protoForms": [
         "*reft"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Reftlum",
-          "id": "19b81298e2d98cd5"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -42155,13 +41960,7 @@
       "protoForms": [
         "*láwn-tar-ā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Lontar",
-          "id": "c3a68eb831628c7d"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -42216,7 +42015,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "a7a1b3ab6c0a256f",
@@ -42340,18 +42147,7 @@
       "protoForms": [
         "*gádl-fīxā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "gidal",
-          "id": "8aeaabdd34a72395"
-        },
-        {
-          "title": "派生",
-          "head": "fiha",
-          "id": "b11d904a73fbacab"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -42406,7 +42202,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "a935e76c8b384d7a",
@@ -43259,26 +43063,6 @@
           "title": "派生",
           "head": "wulžaf",
           "id": "e2abaa3506715372"
-        },
-        {
-          "title": "派生",
-          "head": "Völrida",
-          "id": "7183045362c11ce1"
-        },
-        {
-          "title": "派生",
-          "head": "Völžiber",
-          "id": "73ff05a29c91e31f"
-        },
-        {
-          "title": "派生",
-          "head": "Wolhor",
-          "id": "9bf8ab06013a0712"
-        },
-        {
-          "title": "派生",
-          "head": "Wolhorča",
-          "id": "aca9af28780cd95f"
         }
       ],
       "tables": [
@@ -43601,23 +43385,7 @@
       "protoForms": [
         "*wáwl-xor-tʃā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "wul",
-          "id": "ac296d123788e372"
-        },
-        {
-          "title": "派生",
-          "head": "horča",
-          "id": "f1f77995bc38b951"
-        },
-        {
-          "title": "派生",
-          "head": "Wolhor",
-          "id": "9bf8ab06013a0712"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -43672,7 +43440,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "acbef1d2d2b0f7b7",
@@ -45295,13 +45071,7 @@
       "protoForms": [
         "*fīxā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Gädelfiha",
-          "id": "a80b13730046d506"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -46158,13 +45928,7 @@
       "protoForms": [
         "*wers-i"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Gadelvers",
-          "id": "872cb91ed9525a38"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -46342,11 +46106,6 @@
           "title": "派生",
           "head": "ert",
           "id": "cd7d12423c6344ea"
-        },
-        {
-          "title": "派生",
-          "head": "Horerta",
-          "id": "c26cca203c1c498c"
         }
       ],
       "tables": [
@@ -47606,24 +47365,17 @@
       "meaning": "ドロンホル（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*dráwn-xore"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -47678,7 +47430,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "b88f2ce5d21621e1",
@@ -48656,13 +48416,7 @@
       "protoForms": [
         "*tónn"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Tonnarda",
-          "id": "d519ab71b5f22747"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -50132,29 +49886,17 @@
       "meaning": "エムホル（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*ḗm-xore"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "äm",
-          "id": "fe0e6ddb5424190e"
-        },
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -50209,7 +49951,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "c1cafe987f64fd02",
@@ -50495,18 +50245,7 @@
       "protoForms": [
         "*xór-értā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        },
-        {
-          "title": "派生",
-          "head": "erta",
-          "id": "b47233f375789358"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -50561,7 +50300,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "c274dc7c163df22f",
@@ -51028,34 +50775,17 @@
       "meaning": "ロンタル（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*láwn-tar"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "lun",
-          "id": "dc7a77aaf2bb4e1b"
-        },
-        {
-          "title": "派生",
-          "head": "tar",
-          "id": "0867262b1bd9efcb"
-        },
-        {
-          "title": "派生",
-          "head": "Lontara",
-          "id": "a7737447dac6e92d"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -51110,7 +50840,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "c4a1d811b164bf05",
@@ -52740,18 +52478,7 @@
       "protoForms": [
         "*xór-kiwā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        },
-        {
-          "title": "派生",
-          "head": "civa",
-          "id": "0479ae98eccd3332"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -52806,7 +52533,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "cbd85d1758dd5329",
@@ -54732,18 +54467,7 @@
       "protoForms": [
         "*tónn-nard-ā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "tonn",
-          "id": "bbcb8433142977d3"
-        },
-        {
-          "title": "派生",
-          "head": "nerda",
-          "id": "e4ea79afe6dc8b43"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -54798,7 +54522,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "d531819f64b7ef4a",
@@ -56347,16 +56079,6 @@
           "title": "派生",
           "head": "lona",
           "id": "14972890d454d124"
-        },
-        {
-          "title": "派生",
-          "head": "Lönrida",
-          "id": "036cfbe941df1dc2"
-        },
-        {
-          "title": "派生",
-          "head": "Lontar",
-          "id": "c3a68eb831628c7d"
         }
       ],
       "tables": [
@@ -57853,29 +57575,17 @@
       "meaning": "ユレホル（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*júraj-xore"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "jure",
-          "id": "4979fe204fbb1d25"
-        },
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -57930,7 +57640,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "e0d32b245b38d730",
@@ -57942,29 +57660,17 @@
       "meaning": "テルシン（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*tár-šīn-i"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "tar",
-          "id": "0867262b1bd9efcb"
-        },
-        {
-          "title": "派生",
-          "head": "šin",
-          "id": "faec6fc92535b52a"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -58019,7 +57725,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "e1536af87923cf2b",
@@ -58136,23 +57850,7 @@
       "protoForms": [
         "*nárd-xor-tʃā"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "nerda",
-          "id": "e4ea79afe6dc8b43"
-        },
-        {
-          "title": "派生",
-          "head": "horča",
-          "id": "f1f77995bc38b951"
-        },
-        {
-          "title": "派生",
-          "head": "Nardhor",
-          "id": "e48c387a20640889"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -58207,7 +57905,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "e1eec3cbbe3a7dfb",
@@ -58446,34 +58152,17 @@
       "meaning": "ナルドホル（男性人名）",
       "tags": [
         "名詞",
-        "人名",
         "男性",
         "固定型",
-        "子音幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "M",
       "class": "固定型",
       "protoForms": [
         "*nárd-xore"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "nerda",
-          "id": "e4ea79afe6dc8b43"
-        },
-        {
-          "title": "派生",
-          "head": "hor",
-          "id": "7e22081a70b04203"
-        },
-        {
-          "title": "派生",
-          "head": "Nardhorča",
-          "id": "e1dc0ee381c9f0ff"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -58528,7 +58217,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "e4c5ef610bced356",
@@ -58838,23 +58535,7 @@
         "*nərd-ā́",
         "*nárd-"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Nardhor",
-          "id": "e48c387a20640889"
-        },
-        {
-          "title": "派生",
-          "head": "Nardhorča",
-          "id": "e1dc0ee381c9f0ff"
-        },
-        {
-          "title": "派生",
-          "head": "Tonnarda",
-          "id": "d519ab71b5f22747"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -60209,13 +59890,7 @@
         "*lum-ā́",
         "*láwm-"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Horloma",
-          "id": "3e429bb88509776a"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -63391,16 +63066,6 @@
           "title": "派生",
           "head": "hor",
           "id": "7e22081a70b04203"
-        },
-        {
-          "title": "派生",
-          "head": "Nardhorča",
-          "id": "e1dc0ee381c9f0ff"
-        },
-        {
-          "title": "派生",
-          "head": "Wolhorča",
-          "id": "aca9af28780cd95f"
         }
       ],
       "tables": [
@@ -65058,13 +64723,7 @@
       "protoForms": [
         "*šī́n-i"
       ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "Täršin",
-          "id": "e0d32b245b38d730"
-        }
-      ],
+      "relations": [],
       "tables": [
         {
           "title": "曲用",
@@ -65924,11 +65583,6 @@
           "title": "派生",
           "head": "fettäm",
           "id": "94c718b2df03a305"
-        },
-        {
-          "title": "派生",
-          "head": "Ämhor",
-          "id": "c1a2fcb1b36bff71"
         }
       ],
       "tables": [
