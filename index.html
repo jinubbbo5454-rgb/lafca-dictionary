@@ -203,12 +203,14 @@ const $ = id => document.getElementById(id);
 const PAGE_SIZE = 24;
 let page = 0, tag = '';
 const normalize = s => s.normalize('NFC').toLowerCase();
+const meaningTerms = value => value.split(/[,、]/).map(s => s.trim()).filter(Boolean);
+const formatMeaning = value => meaningTerms(value).join(', ');
 const flattened = e => e.tables.flatMap(t => t.rows.flatMap(r => r.cells));
 const fields = values => values.filter(Boolean).flatMap(v => [v, ...v.split(/[、,;；\n／/]+/).map(s => s.trim())]);
 const makeIndex = () => DATA.entries.map(entry => {
   const values = {
     head: [entry.head],
-    trans: fields([entry.meaning]),
+    trans: fields([formatMeaning(entry.meaning)]),
     forms: fields(flattened(entry).map(f => f.value)),
     full: fields([...entry.protoForms, ...entry.tags])
   };
@@ -352,7 +354,7 @@ function entryView(e, open = false) {
     b.addEventListener('click', () => chooseTag(t, e.pos));
     tags.append(b);
   });
-  const meaning = node('p', e.meaning, 'meaning');
+  const meaning = node('p', formatMeaning(e.meaning), 'meaning');
   heading.after(tags, meaning);
   if (e.protoForms.length) meaning.after(node('p', '祖語型：' + e.protoForms.join(' / '), 'etym'));
   if (e.relations.length) {
@@ -1160,14 +1162,14 @@ render();
       const query=normalize((r.id?r.head:input.value).trim());list.replaceChildren();active=-1;input.removeAttribute('aria-activedescendant');
       if(!query){matches=[];status.textContent='';hide();return;}
       const terms=query.split(/\s+/);
-      const found=DATA.entries.filter(e=>e.id!==working.id).map(e=>({e,head:normalize(e.head),text:normalize(e.head+' '+e.meaning)}))
+      const found=DATA.entries.filter(e=>e.id!==working.id).map(e=>({e,head:normalize(e.head),text:normalize(e.head+' '+formatMeaning(e.meaning))}))
         .filter(x=>terms.every(t=>x.text.includes(t)));
       const rank=x=>x.head===query?0:x.head.startsWith(query)?1:x.head.includes(query)?2:3;
       found.sort((a,b)=>rank(a)-rank(b));matches=found.slice(0,20).map(x=>x.e);
       matches.forEach((e,i)=>{
         const option=button('',()=>choose(e),'relation-option');option.tabIndex=-1;option.id=id+'-'+i;option.setAttribute('role','option');option.setAttribute('aria-selected','false');
         const title=node('span',undefined,'relation-option-title');title.append(node('strong',e.head),node('span',e.pos||e.kind,'relation-pos'));
-        option.append(title,node('span',e.meaning,'relation-meaning'));list.append(option);
+        option.append(title,node('span',formatMeaning(e.meaning),'relation-meaning'));list.append(option);
       });
       status.textContent=found.length>20?found.length+' 件中20件を表示。続けて入力すると絞り込めます。':found.length?found.length+' 件':'候補がありません。';
       popup.hidden=false;input.setAttribute('aria-expanded','true');
@@ -1209,7 +1211,7 @@ render();
     openingChange=E.clone(draft.changes.find(c=>E.changeId(c)===working.id)||null);
     remove.hidden=!existing||duplicate;
     head.value=working.head;kind.value=working.kind;pos.value=working.pos;gender.value=working.gender;
-    number.value=working.numberRestriction;numeral.value=working.numeralType;meaning.value=working.meaning;proto.value=working.protoForms.join('\n');extra.value=extraTags(working).join('、');
+    number.value=working.numberRestriction;numeral.value=working.numeralType;meaning.value=formatMeaning(working.meaning);proto.value=working.protoForms.join('\n');extra.value=extraTags(working).join('、');
     syncEditor();cls.value=working.class;
     writeSettings();syncEditor();autocomplete(false);
     errors.textContent=automaticError;drawTables();drawRelations();$('entry-editor-title').textContent=existing&&!duplicate?'語彙を編集':'語彙を追加';
@@ -1240,7 +1242,7 @@ render();
     try{
       requireOwner();
       autocomplete(false);if(automaticError)throw new Error(automaticError);
-      const e={...working,head:head.value.trim().normalize('NFC'),kind:kind.value,pos:pos.value,gender:gender.disabled?'':gender.value,class:cls.disabled?'':cls.value,numberRestriction:number.disabled?'':number.value,numeralType:numeral.disabled?'':numeral.value,meaning:meaning.value.trim(),protoForms:proto.value.split('\n').map(s=>s.trim()).filter(Boolean).map(s=>s.startsWith('*')?s:'*'+s)};
+      const e={...working,head:head.value.trim().normalize('NFC'),kind:kind.value,pos:pos.value,gender:gender.disabled?'':gender.value,class:cls.disabled?'':cls.value,numberRestriction:number.disabled?'':number.value,numeralType:numeral.disabled?'':numeral.value,meaning:formatMeaning(meaning.value),protoForms:proto.value.split('\n').map(s=>s.trim()).filter(Boolean).map(s=>s.startsWith('*')?s:'*'+s)};
       let extraValues=extra.value.split(/[、,]/).map(t=>t.trim()).filter(Boolean);
       if(e.pos==='名詞'){
         extraValues=extraValues.filter(t=>!['子音幹','母音幹'].includes(t)&&!/^-[aeiouäöü]幹$/.test(t));
