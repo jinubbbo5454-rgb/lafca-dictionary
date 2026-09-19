@@ -217,6 +217,16 @@
           "title": "派生",
           "head": "-el",
           "id": "3f10bbf80aafb26c"
+        },
+        {
+          "title": "派生",
+          "head": "ihen",
+          "id": "695293ccbe150ca3"
+        },
+        {
+          "title": "派生",
+          "head": "ihela",
+          "id": "12c9228c8b983745"
         }
       ],
       "tables": [
@@ -495,7 +505,23 @@
       "protoForms": [
         "*tsīx"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "giltžih",
+          "id": "60e4755ddc62a477"
+        },
+        {
+          "title": "派生",
+          "head": "distžih",
+          "id": "a4c5ba18c6856b49"
+        },
+        {
+          "title": "派生",
+          "head": "žihi",
+          "id": "75437bba38d36e28"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -818,6 +844,90 @@
       ]
     },
     {
+      "id": "0328b767157fdba9",
+      "head": "Horžöld",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ホルツェルド（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*xór-tsold-i"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Horžöld"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Horžölden"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Horžölder"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Horžöldu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Horžöldel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "0332faea5486ea13",
       "head": "hučra",
       "pos": "名詞",
@@ -907,6 +1017,95 @@
                 {
                   "label": "複数再帰格",
                   "value": "hučrals"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "036cfbe941df1dc2",
+      "head": "Lönrida",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "レンリダ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*láwn-rīdā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "lun",
+          "id": "dc7a77aaf2bb4e1b"
+        },
+        {
+          "title": "派生",
+          "head": "rida",
+          "id": "1855e4c47b185a47"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Lönrida"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Lönridan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Lönridar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Lönrido"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Lönridal"
                 }
               ]
             }
@@ -1291,7 +1490,13 @@
       "protoForms": [
         "*kiwā"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Hörciva",
+          "id": "cb271849c0e828f0"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -1580,7 +1785,18 @@
       "protoForms": [
         "*šárnā"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Jočarna",
+          "id": "6d0562704f81003c"
+        },
+        {
+          "title": "派生",
+          "head": "Očarna",
+          "id": "52549c6f7dcfa371"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -2021,7 +2237,23 @@
       "gender": "",
       "class": "子音幹",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Hortar",
+          "id": "8d35c3611a8860e1"
+        },
+        {
+          "title": "派生",
+          "head": "Lontar",
+          "id": "c3a68eb831628c7d"
+        },
+        {
+          "title": "派生",
+          "head": "Täršin",
+          "id": "e0d32b245b38d730"
+        }
+      ],
       "tables": [
         {
           "title": "性・格の一致（単数）",
@@ -2273,7 +2505,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hlen",
+          "id": "6185694a82a9014b"
+        }
+      ],
       "tables": []
     },
     {
@@ -2564,7 +2802,23 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "slosot",
+          "id": "88cf4a073b190abd"
+        },
+        {
+          "title": "派生",
+          "head": "slo",
+          "id": "5015cf54c7db896f"
+        },
+        {
+          "title": "派生",
+          "head": "so",
+          "id": "2edd2275c60968e6"
+        }
+      ],
       "tables": []
     },
     {
@@ -2586,7 +2840,18 @@
         "*gəss-é",
         "*gáss"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "gäss",
+          "id": "ac86f6ec3868a221"
+        },
+        {
+          "title": "派生",
+          "head": "gässel",
+          "id": "c159fe727e2372b6"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -2807,7 +3072,23 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "pencsot",
+          "id": "1541cae5be49dca4"
+        },
+        {
+          "title": "派生",
+          "head": "penk",
+          "id": "3a95e1e25b6b4e51"
+        },
+        {
+          "title": "派生",
+          "head": "so",
+          "id": "2edd2275c60968e6"
+        }
+      ],
       "tables": []
     },
     {
@@ -3153,7 +3434,28 @@
       "protoForms": [
         "*géw-i"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "gevet",
+          "id": "56632da485a4b56a"
+        },
+        {
+          "title": "派生",
+          "head": "sogev",
+          "id": "57f76b1a2f724da5"
+        },
+        {
+          "title": "派生",
+          "head": "hogev",
+          "id": "36e7baf3515a6321"
+        },
+        {
+          "title": "派生",
+          "head": "togev",
+          "id": "933232cb386540a7"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -3248,7 +3550,13 @@
       "protoForms": [
         "*páwl-en"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "polten",
+          "id": "d736e50cb18df9dd"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -4161,7 +4469,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "taqso",
+          "id": "f04db10cb2fdd72c"
+        }
+      ],
       "tables": []
     },
     {
@@ -4279,7 +4593,18 @@
       "gender": "M",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "žoden",
+          "id": "829c14a3e885116f"
+        },
+        {
+          "title": "派生",
+          "head": "-el",
+          "id": "3f10bbf80aafb26c"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -5035,6 +5360,16 @@
           "title": "派生",
           "head": "-ela",
           "id": "26ae1ba4c255015d"
+        },
+        {
+          "title": "派生",
+          "head": "ihen",
+          "id": "695293ccbe150ca3"
+        },
+        {
+          "title": "派生",
+          "head": "ihel",
+          "id": "01973c72e1f0da30"
         }
       ],
       "tables": [
@@ -5191,6 +5526,11 @@
           "title": "派生",
           "head": "-a",
           "id": "15f28641a962375b"
+        },
+        {
+          "title": "派生",
+          "head": "lun",
+          "id": "dc7a77aaf2bb4e1b"
         }
       ],
       "tables": [
@@ -5432,7 +5772,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "pencso",
+          "id": "0a48663b4634041e"
+        }
+      ],
       "tables": []
     },
     {
@@ -5551,7 +5897,13 @@
       "protoForms": [
         "*ɣorn"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hlenqorn",
+          "id": "b88f2ce5d21621e1"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -5678,7 +6030,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "slo",
+          "id": "5015cf54c7db896f"
+        }
+      ],
       "tables": []
     },
     {
@@ -5695,7 +6053,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "vipu",
+          "id": "b7e7a37599123453"
+        }
+      ],
       "tables": []
     },
     {
@@ -5815,7 +6179,23 @@
       "protoForms": [
         "*rīdā"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Hörrida",
+          "id": "865d303b88b87f73"
+        },
+        {
+          "title": "派生",
+          "head": "Lönrida",
+          "id": "036cfbe941df1dc2"
+        },
+        {
+          "title": "派生",
+          "head": "Völrida",
+          "id": "7183045362c11ce1"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -6064,7 +6444,23 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "honivet",
+          "id": "e398aeb97f150c70"
+        },
+        {
+          "title": "派生",
+          "head": "ho",
+          "id": "ad6de320a2c7263b"
+        },
+        {
+          "title": "派生",
+          "head": "niv",
+          "id": "6b621f2dd9f35181"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -6143,6 +6539,95 @@
       ]
     },
     {
+      "id": "19b81298e2d98cd5",
+      "head": "Reftlum",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "レフトルム（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*réft-lum"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "reft",
+          "id": "a0635e68f0d85ab7"
+        },
+        {
+          "title": "派生",
+          "head": "lum",
+          "id": "9eaaa246de4224f2"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Reftlum"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Reftlumen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Reftlümer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Reftlumu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Reftlumel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "1a246dff711aa033",
       "head": "togevet",
       "pos": "連体詞",
@@ -6157,7 +6642,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "togev",
+          "id": "933232cb386540a7"
+        }
+      ],
       "tables": []
     },
     {
@@ -6371,7 +6862,28 @@
       "protoForms": [
         "*to"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "tot",
+          "id": "7b876bea768a24a4"
+        },
+        {
+          "title": "派生",
+          "head": "todiv",
+          "id": "3cce234b63b35e53"
+        },
+        {
+          "title": "派生",
+          "head": "togev",
+          "id": "933232cb386540a7"
+        },
+        {
+          "title": "派生",
+          "head": "toniv",
+          "id": "422ed1bcb244c08d"
+        }
+      ],
       "tables": []
     },
     {
@@ -6392,7 +6904,23 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "sodivet",
+          "id": "d5ec1eb2177da92f"
+        },
+        {
+          "title": "派生",
+          "head": "so",
+          "id": "2edd2275c60968e6"
+        },
+        {
+          "title": "派生",
+          "head": "div",
+          "id": "f74f7f451858a348"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -8324,7 +8852,13 @@
       "protoForms": [
         "*lág"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "läq",
+          "id": "d549f634f7bea7e3"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -9006,7 +9540,13 @@
       "gender": "",
       "class": "e/i交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "žafem",
+          "id": "3908b0801fe0972b"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -9173,7 +9713,28 @@
       "gender": "",
       "class": "子音幹",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "jotta",
+          "id": "6af8245c60ae0785"
+        },
+        {
+          "title": "派生",
+          "head": "jod",
+          "id": "3b321a73bd431844"
+        },
+        {
+          "title": "派生",
+          "head": "Jočarna",
+          "id": "6d0562704f81003c"
+        },
+        {
+          "title": "派生",
+          "head": "Jožeb",
+          "id": "3c1814ed792ce080"
+        }
+      ],
       "tables": [
         {
           "title": "性・格の一致（単数）",
@@ -9580,6 +10141,16 @@
           "title": "派生",
           "head": "ihela",
           "id": "12c9228c8b983745"
+        },
+        {
+          "title": "派生",
+          "head": "cwisprägela",
+          "id": "d6ecd25d1b32edbb"
+        },
+        {
+          "title": "派生",
+          "head": "mössela",
+          "id": "77eafa7f79fbac4a"
         }
       ],
       "tables": []
@@ -9696,7 +10267,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "taq",
+          "id": "3600ff4fbaa0a057"
+        }
+      ],
       "tables": []
     },
     {
@@ -9714,7 +10291,18 @@
       "gender": "",
       "class": "a/e交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "taq",
+          "id": "eba18208cff7c5b4"
+        },
+        {
+          "title": "派生",
+          "head": "-en",
+          "id": "b64df55cb77c185e"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -10157,7 +10745,23 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "pfesot",
+          "id": "87f2fa15f4b09fde"
+        },
+        {
+          "title": "派生",
+          "head": "pfe",
+          "id": "e4c5ef610bced356"
+        },
+        {
+          "title": "派生",
+          "head": "so",
+          "id": "2edd2275c60968e6"
+        }
+      ],
       "tables": []
     },
     {
@@ -10835,7 +11439,53 @@
       "protoForms": [
         "*so"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "sot",
+          "id": "b9a9584ce3abf1c5"
+        },
+        {
+          "title": "派生",
+          "head": "pencso",
+          "id": "0a48663b4634041e"
+        },
+        {
+          "title": "派生",
+          "head": "pfeso",
+          "id": "2b3177df692814ea"
+        },
+        {
+          "title": "派生",
+          "head": "sloso",
+          "id": "09cf9cde30e4ea01"
+        },
+        {
+          "title": "派生",
+          "head": "swoso",
+          "id": "4b3dd19fc941755a"
+        },
+        {
+          "title": "派生",
+          "head": "taqso",
+          "id": "f04db10cb2fdd72c"
+        },
+        {
+          "title": "派生",
+          "head": "sodiv",
+          "id": "1bb163c8de6d36c6"
+        },
+        {
+          "title": "派生",
+          "head": "sogev",
+          "id": "57f76b1a2f724da5"
+        },
+        {
+          "title": "派生",
+          "head": "soniv",
+          "id": "62bcd095bddc2b0e"
+        }
+      ],
       "tables": []
     },
     {
@@ -11428,7 +12078,13 @@
         "*snətt-ú",
         "*snátt-"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "snätti",
+          "id": "6cc959289e51d675"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -11521,7 +12177,13 @@
       "gender": "",
       "class": "非交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "tešen",
+          "id": "9e6dc1bd430d1cba"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -12276,7 +12938,18 @@
       "protoForms": [
         "*swo"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "swot",
+          "id": "aca0598ac1138b96"
+        },
+        {
+          "title": "派生",
+          "head": "swoso",
+          "id": "4b3dd19fc941755a"
+        }
+      ],
       "tables": []
     },
     {
@@ -12313,7 +12986,18 @@
       "protoForms": [
         "*taɣ"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "taqet",
+          "id": "281e7e8602fb901d"
+        },
+        {
+          "title": "派生",
+          "head": "taqso",
+          "id": "f04db10cb2fdd72c"
+        }
+      ],
       "tables": []
     },
     {
@@ -12431,7 +13115,23 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hogevet",
+          "id": "a04dd66a33263e8e"
+        },
+        {
+          "title": "派生",
+          "head": "ho",
+          "id": "ad6de320a2c7263b"
+        },
+        {
+          "title": "派生",
+          "head": "gev",
+          "id": "0b121b99e5a03185"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -12923,7 +13623,13 @@
       "protoForms": [
         "*tsafem"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "žafemen",
+          "id": "25a843de1753b41d"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -13018,7 +13724,18 @@
       "protoForms": [
         "*penk"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "pencet",
+          "id": "a76ca38918a83f44"
+        },
+        {
+          "title": "派生",
+          "head": "pencso",
+          "id": "0a48663b4634041e"
+        }
+      ],
       "tables": []
     },
     {
@@ -13040,7 +13757,13 @@
       "protoForms": [
         "*skóɣ"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "scöq",
+          "id": "7183588399684bfe"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -13133,7 +13856,18 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "zen",
+          "id": "dd88d71ea5b7a43a"
+        },
+        {
+          "title": "派生",
+          "head": "pfor",
+          "id": "b58dc719b9eebef4"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -13261,7 +13995,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "jod",
+          "id": "2633e2708f3c35eb"
+        }
+      ],
       "tables": []
     },
     {
@@ -13282,6 +14022,90 @@
       ],
       "relations": [],
       "tables": []
+    },
+    {
+      "id": "3c1814ed792ce080",
+      "head": "Jožeb",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヨツェブ（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*jód-seb-i"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "jod",
+          "id": "2633e2708f3c35eb"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Jožeb"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Jožeben"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Jožeber"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Jožebu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Jožebel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "3c5458d1706eed8b",
@@ -13398,7 +14222,23 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "todivet",
+          "id": "b0872bfb2eaf1c9e"
+        },
+        {
+          "title": "派生",
+          "head": "to",
+          "id": "1b8570e6572339ac"
+        },
+        {
+          "title": "派生",
+          "head": "div",
+          "id": "f74f7f451858a348"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -13895,7 +14735,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "swoso",
+          "id": "4b3dd19fc941755a"
+        }
+      ],
       "tables": []
     },
     {
@@ -14191,6 +15037,95 @@
                 {
                   "label": "複数再帰格",
                   "value": "dlezels"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3e429bb88509776a",
+      "head": "Horloma",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ホルロマ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*xór-lawm-ā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        },
+        {
+          "title": "派生",
+          "head": "luma",
+          "id": "ea45d2ca1452543a"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Horloma"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Horloman"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Horlomar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Horlomo"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Horlomal"
                 }
               ]
             }
@@ -14569,6 +15504,31 @@
           "title": "派生",
           "head": "ihel",
           "id": "01973c72e1f0da30"
+        },
+        {
+          "title": "派生",
+          "head": "žödel",
+          "id": "0f4985c0d0f4e429"
+        },
+        {
+          "title": "派生",
+          "head": "gässel",
+          "id": "c159fe727e2372b6"
+        },
+        {
+          "title": "派生",
+          "head": "cifipel",
+          "id": "75339c68048df859"
+        },
+        {
+          "title": "派生",
+          "head": "cwisprägel",
+          "id": "e9687dd46f8fd589"
+        },
+        {
+          "title": "派生",
+          "head": "mössel",
+          "id": "4f2d0b80cc97f2c5"
         }
       ],
       "tables": []
@@ -14587,7 +15547,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "ša",
+          "id": "ca842fea1f1db545"
+        }
+      ],
       "tables": []
     },
     {
@@ -15270,7 +16236,13 @@
       "gender": "",
       "class": "母音幹",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "elfoscle",
+          "id": "ec1bebce95942342"
+        }
+      ],
       "tables": [
         {
           "title": "性・格の一致（単数）",
@@ -15735,7 +16707,23 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "tonivet",
+          "id": "f6c18d8ddca32cfc"
+        },
+        {
+          "title": "派生",
+          "head": "to",
+          "id": "1b8570e6572339ac"
+        },
+        {
+          "title": "派生",
+          "head": "niv",
+          "id": "6b621f2dd9f35181"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -15925,7 +16913,18 @@
       "gender": "M",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "ben",
+          "id": "8c7587e60ec2aebf"
+        },
+        {
+          "title": "派生",
+          "head": "galt",
+          "id": "a166c3d53dd2c808"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -16452,6 +17451,30 @@
           ]
         }
       ]
+    },
+    {
+      "id": "455fbf287f42d310",
+      "head": "ganet",
+      "pos": "連体詞",
+      "kind": "単語",
+      "numeralType": "序数",
+      "numberRestriction": "",
+      "meaning": "複合数末尾の1に対応する序数形",
+      "tags": [
+        "連体詞",
+        "序数"
+      ],
+      "gender": "",
+      "class": "",
+      "protoForms": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "gan",
+          "id": "73e070610efb3a8f"
+        }
+      ],
+      "tables": []
     },
     {
       "id": "4572c006c31a6687",
@@ -17747,7 +18770,13 @@
       "protoForms": [
         "*hlénd-en"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hlend",
+          "id": "56b07b869d92a2e6"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -18111,7 +19140,13 @@
       "protoForms": [
         "*juraj"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Jurehor",
+          "id": "e01aa1f671985338"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -18458,7 +19493,23 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "swosot",
+          "id": "3d7e529343fd16c0"
+        },
+        {
+          "title": "派生",
+          "head": "swo",
+          "id": "34f5369230c8c685"
+        },
+        {
+          "title": "派生",
+          "head": "so",
+          "id": "2edd2275c60968e6"
+        }
+      ],
       "tables": []
     },
     {
@@ -19557,7 +20608,18 @@
       "protoForms": [
         "*maws-jəhl"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "mössela",
+          "id": "77eafa7f79fbac4a"
+        },
+        {
+          "title": "派生",
+          "head": "-el",
+          "id": "3f10bbf80aafb26c"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -19652,7 +20714,18 @@
       "protoForms": [
         "*slo"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "slot",
+          "id": "1680fa8e4506635c"
+        },
+        {
+          "title": "派生",
+          "head": "sloso",
+          "id": "09cf9cde30e4ea01"
+        }
+      ],
       "tables": []
     },
     {
@@ -19988,6 +21061,95 @@
                 {
                   "label": "過去分詞",
                   "value": "dižäct"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "52549c6f7dcfa371",
+      "head": "Očarna",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "オチャルナ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*ód-šarnā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "od",
+          "id": "605c97b545f48852"
+        },
+        {
+          "title": "派生",
+          "head": "šarna",
+          "id": "06145a9666735b19"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Očarna"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Očarnan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Očarnar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Očarno"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Očarnal"
                 }
               ]
             }
@@ -20745,7 +21907,13 @@
       "gender": "",
       "class": "o/u交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "ort",
+          "id": "93ed7514d4ac222f"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -21147,7 +22315,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "gev",
+          "id": "0b121b99e5a03185"
+        }
+      ],
       "tables": []
     },
     {
@@ -21172,6 +22346,11 @@
           "title": "派生",
           "head": "-ta",
           "id": "879826555bd03286"
+        },
+        {
+          "title": "派生",
+          "head": "ross",
+          "id": "7a5bf08fbb620406"
         }
       ],
       "tables": [
@@ -21363,7 +22542,13 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hlenden",
+          "id": "47b41b58e5f87c42"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -21556,7 +22741,23 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "sogevet",
+          "id": "def63ff571d97873"
+        },
+        {
+          "title": "派生",
+          "head": "so",
+          "id": "2edd2275c60968e6"
+        },
+        {
+          "title": "派生",
+          "head": "gev",
+          "id": "0b121b99e5a03185"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -22314,7 +23515,13 @@
       "protoForms": [
         "*tsáff"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "wulžaf",
+          "id": "e2abaa3506715372"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -22967,7 +24174,13 @@
       "protoForms": [
         "*od"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Očarna",
+          "id": "52549c6f7dcfa371"
+        }
+      ],
       "tables": [
         {
           "title": "性・格の一致（単数）",
@@ -23316,7 +24529,18 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "gilt",
+          "id": "8dffe5d7fb81d4d6"
+        },
+        {
+          "title": "派生",
+          "head": "žih",
+          "id": "02ac2156361ec56b"
+        }
+      ],
       "tables": []
     },
     {
@@ -23335,7 +24559,18 @@
       "gender": "",
       "class": "子音幹",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hlenqorn",
+          "id": "b88f2ce5d21621e1"
+        },
+        {
+          "title": "派生",
+          "head": "hlenu",
+          "id": "08a82e34dc8cc2cb"
+        }
+      ],
       "tables": [
         {
           "title": "性・格の一致（単数）",
@@ -23591,7 +24826,23 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "sonivet",
+          "id": "f1a67651cd1056f2"
+        },
+        {
+          "title": "派生",
+          "head": "so",
+          "id": "2edd2275c60968e6"
+        },
+        {
+          "title": "派生",
+          "head": "niv",
+          "id": "6b621f2dd9f35181"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -24128,7 +25379,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hit",
+          "id": "a2edfc47352f3819"
+        }
+      ],
       "tables": []
     },
     {
@@ -24344,7 +25601,13 @@
       "protoForms": [
         "*tsibr"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Völžiber",
+          "id": "73ff05a29c91e31f"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -25280,7 +26543,18 @@
       "gender": "",
       "class": "非交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "ihel",
+          "id": "01973c72e1f0da30"
+        },
+        {
+          "title": "派生",
+          "head": "ihela",
+          "id": "12c9228c8b983745"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -25527,7 +26801,18 @@
       "gender": "F",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "clohaž",
+          "id": "816b9ef81234a2b9"
+        },
+        {
+          "title": "派生",
+          "head": "cun",
+          "id": "9bd2650c1c6cd789"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -25628,6 +26913,11 @@
           "title": "派生",
           "head": "-ta",
           "id": "879826555bd03286"
+        },
+        {
+          "title": "派生",
+          "head": "jod",
+          "id": "2633e2708f3c35eb"
         }
       ],
       "tables": [
@@ -25822,7 +27112,28 @@
       "protoForms": [
         "*nī́w-i"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "nivet",
+          "id": "f5b4dc7306ed6244"
+        },
+        {
+          "title": "派生",
+          "head": "soniv",
+          "id": "62bcd095bddc2b0e"
+        },
+        {
+          "title": "派生",
+          "head": "honiv",
+          "id": "1967fc61723038ca"
+        },
+        {
+          "title": "派生",
+          "head": "toniv",
+          "id": "422ed1bcb244c08d"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -26168,8 +27479,103 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "snett",
+          "id": "31f04094e87a79ab"
+        }
+      ],
       "tables": []
+    },
+    {
+      "id": "6d0562704f81003c",
+      "head": "Jočarna",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヨチャルナ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*jód-šarnā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "jod",
+          "id": "2633e2708f3c35eb"
+        },
+        {
+          "title": "派生",
+          "head": "šarna",
+          "id": "06145a9666735b19"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Jočarna"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Jočarnan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Jočarnar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Jočarno"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Jočarnal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "6d6b9b46d4715693",
@@ -26620,6 +28026,95 @@
       ]
     },
     {
+      "id": "7183045362c11ce1",
+      "head": "Völrida",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヴェルリダ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*wáwl-rīdā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "wul",
+          "id": "ac296d123788e372"
+        },
+        {
+          "title": "派生",
+          "head": "rida",
+          "id": "1855e4c47b185a47"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Völrida"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Völridan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Völridar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Völrido"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Völridal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "7183588399684bfe",
       "head": "scöq",
       "pos": "名詞",
@@ -26636,7 +28131,13 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "scoq",
+          "id": "3aced9f3f4c7c447"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -26729,7 +28230,18 @@
       "gender": "",
       "class": "非交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "cwisprägel",
+          "id": "e9687dd46f8fd589"
+        },
+        {
+          "title": "派生",
+          "head": "cwisprägela",
+          "id": "d6ecd25d1b32edbb"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -26877,7 +28389,13 @@
       "gender": "",
       "class": "e/i交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "deqa",
+          "id": "d4fc7854e7baf417"
+        }
+      ],
       "tables": [
         {
           "title": "現在",
@@ -27320,7 +28838,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "mälen",
+          "id": "a197d33c73aee9b9"
+        }
+      ],
       "tables": []
     },
     {
@@ -27439,7 +28963,13 @@
       "protoForms": [
         "*gan"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "ganet",
+          "id": "455fbf287f42d310"
+        }
+      ],
       "tables": [
         {
           "title": "性・格の一致（単数）",
@@ -27634,6 +29164,95 @@
       ]
     },
     {
+      "id": "73ff05a29c91e31f",
+      "head": "Völžiber",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヴェルツィベル（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*wáwl-tsibr"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "wul",
+          "id": "ac296d123788e372"
+        },
+        {
+          "title": "派生",
+          "head": "žiber",
+          "id": "65546c71a907be71"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Völžiber"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Völžibren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Völžibrer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Völžibru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Völžibrel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "7409653b6361e3cb",
       "head": "hrum",
       "pos": "名詞",
@@ -27727,7 +29346,18 @@
       "gender": "M",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "cifipen",
+          "id": "b2f7820d5a96bebb"
+        },
+        {
+          "title": "派生",
+          "head": "-el",
+          "id": "3f10bbf80aafb26c"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -27819,7 +29449,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "žih",
+          "id": "02ac2156361ec56b"
+        }
+      ],
       "tables": []
     },
     {
@@ -28141,7 +29777,13 @@
       "gender": "",
       "class": "a/e交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "han",
+          "id": "9db72c03b536637b"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -28387,7 +30029,18 @@
       "gender": "F",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "mössel",
+          "id": "4f2d0b80cc97f2c5"
+        },
+        {
+          "title": "派生",
+          "head": "-ela",
+          "id": "26ae1ba4c255015d"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -28853,7 +30506,13 @@
       "gender": "",
       "class": "子音幹",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "rosta",
+          "id": "5667f45ff712e306"
+        }
+      ],
       "tables": [
         {
           "title": "性・格の一致（単数）",
@@ -29298,7 +30957,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "to",
+          "id": "1b8570e6572339ac"
+        }
+      ],
       "tables": []
     },
     {
@@ -29737,6 +31402,66 @@
           "title": "集合名詞",
           "head": "höri",
           "id": "0213c534171a924e"
+        },
+        {
+          "title": "派生",
+          "head": "horča",
+          "id": "f1f77995bc38b951"
+        },
+        {
+          "title": "派生",
+          "head": "Ämhor",
+          "id": "c1a2fcb1b36bff71"
+        },
+        {
+          "title": "派生",
+          "head": "Dronhor",
+          "id": "b8380e6e83ff1e7d"
+        },
+        {
+          "title": "派生",
+          "head": "Hörciva",
+          "id": "cb271849c0e828f0"
+        },
+        {
+          "title": "派生",
+          "head": "Horerta",
+          "id": "c26cca203c1c498c"
+        },
+        {
+          "title": "派生",
+          "head": "Horloma",
+          "id": "3e429bb88509776a"
+        },
+        {
+          "title": "派生",
+          "head": "Hörrida",
+          "id": "865d303b88b87f73"
+        },
+        {
+          "title": "派生",
+          "head": "Hortar",
+          "id": "8d35c3611a8860e1"
+        },
+        {
+          "title": "派生",
+          "head": "Horžöld",
+          "id": "0328b767157fdba9"
+        },
+        {
+          "title": "派生",
+          "head": "Jurehor",
+          "id": "e01aa1f671985338"
+        },
+        {
+          "title": "派生",
+          "head": "Nardhor",
+          "id": "e48c387a20640889"
+        },
+        {
+          "title": "派生",
+          "head": "Wolhor",
+          "id": "9bf8ab06013a0712"
         }
       ],
       "tables": [
@@ -30223,7 +31948,13 @@
       "protoForms": [
         "*kloxats"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "clohažcun",
+          "id": "6981c3c08254d958"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -30913,7 +32644,13 @@
       "protoForms": [
         "*tsód-en"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "žödel",
+          "id": "0f4985c0d0f4e429"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -31837,6 +33574,184 @@
       ]
     },
     {
+      "id": "865d303b88b87f73",
+      "head": "Hörrida",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヘルリダ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*xór-rīdā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        },
+        {
+          "title": "派生",
+          "head": "rida",
+          "id": "1855e4c47b185a47"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Hörrida"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Hörridan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Hörridar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Hörrido"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Hörridal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "872cb91ed9525a38",
+      "head": "Gadelvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ガデルヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*gádl-wers-i"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "gidal",
+          "id": "8aeaabdd34a72395"
+        },
+        {
+          "title": "派生",
+          "head": "vers",
+          "id": "b32bbf75c06a0e76"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Gadelvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Gadelversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Gadelverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Gadelversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Gadelversel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "8734d0c6dac861cf",
       "head": "čacaq",
       "pos": "名詞",
@@ -32225,7 +34140,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "pfeso",
+          "id": "2b3177df692814ea"
+        }
+      ],
       "tables": []
     },
     {
@@ -32516,7 +34437,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "sloso",
+          "id": "09cf9cde30e4ea01"
+        }
+      ],
       "tables": []
     },
     {
@@ -32648,7 +34575,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "ho",
+          "id": "ad6de320a2c7263b"
+        }
+      ],
       "tables": []
     },
     {
@@ -32688,7 +34621,18 @@
         "*gidal",
         "*gadl-ā"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Gädelfiha",
+          "id": "a80b13730046d506"
+        },
+        {
+          "title": "派生",
+          "head": "Gadelvers",
+          "id": "872cb91ed9525a38"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -32984,6 +34928,11 @@
           "title": "派生",
           "head": "benaq",
           "id": "794344508847ec95"
+        },
+        {
+          "title": "派生",
+          "head": "bengalt",
+          "id": "43979e3cf6b0b8f3"
         }
       ],
       "tables": [
@@ -33337,6 +35286,95 @@
       "tables": []
     },
     {
+      "id": "8d35c3611a8860e1",
+      "head": "Hortar",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ホルタル（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*xór-tar"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        },
+        {
+          "title": "派生",
+          "head": "tar",
+          "id": "0867262b1bd9efcb"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Hortar"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Hortaren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Hortärer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Hortaru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Hortarel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "8d64df68e1a519e1",
       "head": "foll",
       "pos": "名詞",
@@ -33449,7 +35487,13 @@
       "gender": "",
       "class": "子音幹",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "giltžih",
+          "id": "60e4755ddc62a477"
+        }
+      ],
       "tables": [
         {
           "title": "性・格の一致（単数）",
@@ -34921,7 +36965,23 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "togevet",
+          "id": "1a246dff711aa033"
+        },
+        {
+          "title": "派生",
+          "head": "to",
+          "id": "1b8570e6572339ac"
+        },
+        {
+          "title": "派生",
+          "head": "gev",
+          "id": "0b121b99e5a03185"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -35114,7 +37174,13 @@
       "protoForms": [
         "*or-tの古い分詞"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "oren",
+          "id": "5522d6991a79bd3b"
+        }
+      ],
       "tables": []
     },
     {
@@ -35153,7 +37219,18 @@
       "gender": "M",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "fett",
+          "id": "acbef1d2d2b0f7b7"
+        },
+        {
+          "title": "派生",
+          "head": "äm",
+          "id": "fe0e6ddb5424190e"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -35246,7 +37323,13 @@
       "gender": "",
       "class": "非交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "seben",
+          "id": "c4a1d811b164bf05"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -35862,7 +37945,13 @@
       "gender": "",
       "class": "非交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "sud",
+          "id": "c933315f7d5ec16c"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -36929,6 +39018,11 @@
           "title": "派生",
           "head": "cunaq",
           "id": "be46f5dc54299870"
+        },
+        {
+          "title": "派生",
+          "head": "clohažcun",
+          "id": "6981c3c08254d958"
         }
       ],
       "tables": [
@@ -37001,6 +39095,100 @@
                 {
                   "label": "複数再帰格",
                   "value": "cunels"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9bf8ab06013a0712",
+      "head": "Wolhor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ウォルホル（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*wáwl-xore"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "wul",
+          "id": "ac296d123788e372"
+        },
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        },
+        {
+          "title": "派生",
+          "head": "Wolhorča",
+          "id": "aca9af28780cd95f"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Wolhor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Wolhoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Wolhörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Wolhoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Wolhorel"
                 }
               ]
             }
@@ -37216,7 +39404,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hannen",
+          "id": "77636e47fe9293d2"
+        }
+      ],
       "tables": []
     },
     {
@@ -37481,7 +39675,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "pfe",
+          "id": "e4c5ef610bced356"
+        }
+      ],
       "tables": []
     },
     {
@@ -37596,7 +39796,13 @@
       "gender": "",
       "class": "e/i交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "tešten",
+          "id": "3224e85b91439f21"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -37747,7 +39953,13 @@
       "protoForms": [
         "*lum"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Reftlum",
+          "id": "19b81298e2d98cd5"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -38443,7 +40655,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hogev",
+          "id": "36e7baf3515a6321"
+        }
+      ],
       "tables": []
     },
     {
@@ -38562,7 +40780,13 @@
       "protoForms": [
         "*reft"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Reftlum",
+          "id": "19b81298e2d98cd5"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -38762,7 +40986,13 @@
       "gender": "M",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "bengalt",
+          "id": "43979e3cf6b0b8f3"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -38857,7 +41087,13 @@
       "protoForms": [
         "*mēl-"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "mäl",
+          "id": "72ae51371c113a07"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -39257,7 +41493,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "he",
+          "id": "637bc60af21acfbc"
+        }
+      ],
       "tables": []
     },
     {
@@ -39502,7 +41744,13 @@
       "gender": "M",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "žih",
+          "id": "02ac2156361ec56b"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -39739,7 +41987,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "len",
+          "id": "eb5c5146095a455f"
+        }
+      ],
       "tables": []
     },
     {
@@ -39871,8 +42125,98 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "penk",
+          "id": "3a95e1e25b6b4e51"
+        }
+      ],
       "tables": []
+    },
+    {
+      "id": "a7737447dac6e92d",
+      "head": "Lontara",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ロンタラ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*láwn-tar-ā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Lontar",
+          "id": "c3a68eb831628c7d"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Lontara"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Lontaran"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Lontarar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Lontaro"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Lontaral"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "a7a1b3ab6c0a256f",
@@ -39968,6 +42312,95 @@
                 {
                   "label": "複数再帰格",
                   "value": "žofücaqels"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a80b13730046d506",
+      "head": "Gädelfiha",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ゲデルフィハ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*gádl-fīxā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "gidal",
+          "id": "8aeaabdd34a72395"
+        },
+        {
+          "title": "派生",
+          "head": "fiha",
+          "id": "b11d904a73fbacab"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Gädelfiha"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Gädelfihan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Gädelfihar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Gädelfiho"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Gädelfihal"
                 }
               ]
             }
@@ -40816,7 +43249,38 @@
         "*wul-ú",
         "*wáwl-"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "wolen",
+          "id": "d5dcd65083874a28"
+        },
+        {
+          "title": "派生",
+          "head": "wulžaf",
+          "id": "e2abaa3506715372"
+        },
+        {
+          "title": "派生",
+          "head": "Völrida",
+          "id": "7183045362c11ce1"
+        },
+        {
+          "title": "派生",
+          "head": "Völžiber",
+          "id": "73ff05a29c91e31f"
+        },
+        {
+          "title": "派生",
+          "head": "Wolhor",
+          "id": "9bf8ab06013a0712"
+        },
+        {
+          "title": "派生",
+          "head": "Wolhorča",
+          "id": "aca9af28780cd95f"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -41008,7 +43472,13 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "gassen",
+          "id": "0a0c49bbef7cb8a1"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -41101,8 +43571,108 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "swo",
+          "id": "34f5369230c8c685"
+        }
+      ],
       "tables": []
+    },
+    {
+      "id": "aca9af28780cd95f",
+      "head": "Wolhorča",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ウォルホルチャ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*wáwl-xor-tʃā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "wul",
+          "id": "ac296d123788e372"
+        },
+        {
+          "title": "派生",
+          "head": "horča",
+          "id": "f1f77995bc38b951"
+        },
+        {
+          "title": "派生",
+          "head": "Wolhor",
+          "id": "9bf8ab06013a0712"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Wolhorča"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Wolhorčan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Wolhorčar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Wolhorčo"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Wolhorčal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "acbef1d2d2b0f7b7",
@@ -41124,7 +43694,18 @@
         "*fətt-ú",
         "*fátt-"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "fatta",
+          "id": "b48f6d73fd53af82"
+        },
+        {
+          "title": "派生",
+          "head": "fettäm",
+          "id": "94c718b2df03a305"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -41316,7 +43897,28 @@
       "protoForms": [
         "*ho"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hot",
+          "id": "89ec75bdc2e5a16c"
+        },
+        {
+          "title": "派生",
+          "head": "hodiv",
+          "id": "f156b787423bfc12"
+        },
+        {
+          "title": "派生",
+          "head": "hogev",
+          "id": "36e7baf3515a6321"
+        },
+        {
+          "title": "派生",
+          "head": "honiv",
+          "id": "1967fc61723038ca"
+        }
+      ],
       "tables": []
     },
     {
@@ -42665,7 +45267,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "todiv",
+          "id": "3cce234b63b35e53"
+        }
+      ],
       "tables": []
     },
     {
@@ -42687,7 +45295,13 @@
       "protoForms": [
         "*fīxā"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Gädelfiha",
+          "id": "a80b13730046d506"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -43233,7 +45847,13 @@
       "gender": "",
       "class": "非交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "cifipel",
+          "id": "75339c68048df859"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -43538,7 +46158,13 @@
       "protoForms": [
         "*wers-i"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Gadelvers",
+          "id": "872cb91ed9525a38"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -43711,7 +46337,18 @@
       "protoForms": [
         "*értā"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "ert",
+          "id": "cd7d12423c6344ea"
+        },
+        {
+          "title": "派生",
+          "head": "Horerta",
+          "id": "c26cca203c1c498c"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -43811,6 +46448,11 @@
           "title": "派生",
           "head": "-a",
           "id": "15f28641a962375b"
+        },
+        {
+          "title": "派生",
+          "head": "fett",
+          "id": "acbef1d2d2b0f7b7"
         }
       ],
       "tables": [
@@ -44150,7 +46792,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "zen pfor",
+          "id": "3b141c0d560405a4"
+        }
+      ],
       "tables": []
     },
     {
@@ -44168,7 +46816,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "tagen",
+          "id": "2887a986f74d8550"
+        }
+      ],
       "tables": []
     },
     {
@@ -44284,7 +46938,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "čipu",
+          "id": "182402ac99e013d3"
+        }
+      ],
       "tables": []
     },
     {
@@ -44937,6 +47597,90 @@
       ]
     },
     {
+      "id": "b8380e6e83ff1e7d",
+      "head": "Dronhor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ドロンホル（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*dráwn-xore"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Dronhor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Dronhoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Dronhörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Dronhoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Dronhorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "b88f2ce5d21621e1",
       "head": "hlenqorn",
       "pos": "名詞",
@@ -44953,7 +47697,18 @@
       "gender": "M",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hlen",
+          "id": "6185694a82a9014b"
+        },
+        {
+          "title": "派生",
+          "head": "qorn",
+          "id": "15a45696c2cf35cf"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -45123,7 +47878,13 @@
       "gender": "",
       "class": "a/e交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "žänk",
+          "id": "f81de1d9d34b5089"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -45673,7 +48434,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "so",
+          "id": "2edd2275c60968e6"
+        }
+      ],
       "tables": []
     },
     {
@@ -45889,7 +48656,13 @@
       "protoForms": [
         "*tónn"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Tonnarda",
+          "id": "d519ab71b5f22747"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -47260,7 +50033,18 @@
       "gender": "M",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "gassen",
+          "id": "0a0c49bbef7cb8a1"
+        },
+        {
+          "title": "派生",
+          "head": "-el",
+          "id": "3f10bbf80aafb26c"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -47331,6 +50115,95 @@
                 {
                   "label": "複数再帰格",
                   "value": "gässelels"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1a2fcb1b36bff71",
+      "head": "Ämhor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "エムホル（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*ḗm-xore"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "äm",
+          "id": "fe0e6ddb5424190e"
+        },
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Ämhor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Ämhoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Ämhörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Ämhoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Ämhorel"
                 }
               ]
             }
@@ -47594,6 +50467,95 @@
                 {
                   "label": "過去分詞",
                   "value": "diginset"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c26cca203c1c498c",
+      "head": "Horerta",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ホレルタ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*xór-értā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        },
+        {
+          "title": "派生",
+          "head": "erta",
+          "id": "b47233f375789358"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Horerta"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Horertan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Horertar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Horerto"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Horertal"
                 }
               ]
             }
@@ -48057,6 +51019,100 @@
       ]
     },
     {
+      "id": "c3a68eb831628c7d",
+      "head": "Lontar",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ロンタル（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*láwn-tar"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "lun",
+          "id": "dc7a77aaf2bb4e1b"
+        },
+        {
+          "title": "派生",
+          "head": "tar",
+          "id": "0867262b1bd9efcb"
+        },
+        {
+          "title": "派生",
+          "head": "Lontara",
+          "id": "a7737447dac6e92d"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Lontar"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Lontaren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Lontärer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Lontaru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Lontarel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "c4a1d811b164bf05",
       "head": "seben",
       "pos": "動詞",
@@ -48071,7 +51127,13 @@
       "gender": "",
       "class": "e/i交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "septen",
+          "id": "94f9d1b0d67af4b7"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -48906,7 +51968,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "div",
+          "id": "f74f7f451858a348"
+        }
+      ],
       "tables": []
     },
     {
@@ -49266,7 +52334,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "suden",
+          "id": "9813525aed535bb0"
+        }
+      ],
       "tables": []
     },
     {
@@ -49283,7 +52357,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "ša",
+          "id": "3f6a13413cdba7f4"
+        }
+      ],
       "tables": []
     },
     {
@@ -49632,6 +52712,95 @@
                 {
                   "label": "副詞形",
                   "value": "japu"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cb271849c0e828f0",
+      "head": "Hörciva",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヘルキヴァ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*xór-kiwā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        },
+        {
+          "title": "派生",
+          "head": "civa",
+          "id": "0479ae98eccd3332"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Hörciva"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Hörcivan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Hörcivar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Hörcivo"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Hörcival"
                 }
               ]
             }
@@ -50039,7 +53208,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "erta",
+          "id": "b47233f375789358"
+        }
+      ],
       "tables": []
     },
     {
@@ -50154,7 +53329,13 @@
       "gender": "",
       "class": "非交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "žifen",
+          "id": "fad694fac5c3f09e"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -51309,7 +54490,13 @@
       "gender": "",
       "class": "a/e交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "bänn",
+          "id": "e6f9fbd1062842c8"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -51461,7 +54648,13 @@
       "protoForms": [
         "*déɣā"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "deqen",
+          "id": "71d607e334f19b21"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -51511,6 +54704,95 @@
                 {
                   "label": "単数再帰格",
                   "value": "deqal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d519ab71b5f22747",
+      "head": "Tonnarda",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "トンナルダ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*tónn-nard-ā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "tonn",
+          "id": "bbcb8433142977d3"
+        },
+        {
+          "title": "派生",
+          "head": "nerda",
+          "id": "e4ea79afe6dc8b43"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Tonnarda"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Tonnardan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Tonnardar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Tonnardo"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Tonnardal"
                 }
               ]
             }
@@ -51810,7 +55092,13 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "laq",
+          "id": "24c5e8e80c3f8827"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -51906,7 +55194,13 @@
         "*wul-",
         "*wawl-"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "wul",
+          "id": "ac296d123788e372"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -52053,7 +55347,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "sodiv",
+          "id": "1bb163c8de6d36c6"
+        }
+      ],
       "tables": []
     },
     {
@@ -52109,7 +55409,23 @@
       "gender": "F",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "cwisprägen",
+          "id": "71a9eb3df98fe8a7"
+        },
+        {
+          "title": "派生",
+          "head": "cwisprägel",
+          "id": "e9687dd46f8fd589"
+        },
+        {
+          "title": "派生",
+          "head": "-ela",
+          "id": "26ae1ba4c255015d"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -52202,7 +55518,13 @@
       "gender": "",
       "class": "非交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "polen",
+          "id": "0b5441b3b54b3a02"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -52734,7 +56056,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "len",
+          "id": "eb5c5146095a455f"
+        }
+      ],
       "tables": []
     },
     {
@@ -53014,7 +56342,23 @@
         "*lun-ú",
         "*láwn-"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "lona",
+          "id": "14972890d454d124"
+        },
+        {
+          "title": "派生",
+          "head": "Lönrida",
+          "id": "036cfbe941df1dc2"
+        },
+        {
+          "title": "派生",
+          "head": "Lontar",
+          "id": "c3a68eb831628c7d"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -53693,7 +57037,13 @@
       "gender": "",
       "class": "母音幹",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "zen pfor",
+          "id": "3b141c0d560405a4"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -53857,7 +57207,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "sogev",
+          "id": "57f76b1a2f724da5"
+        }
+      ],
       "tables": []
     },
     {
@@ -54381,7 +57737,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hodiv",
+          "id": "f156b787423bfc12"
+        }
+      ],
       "tables": []
     },
     {
@@ -54482,6 +57844,184 @@
       ]
     },
     {
+      "id": "e01aa1f671985338",
+      "head": "Jurehor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ユレホル（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*júraj-xore"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "jure",
+          "id": "4979fe204fbb1d25"
+        },
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Jurehor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Jurehoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Jurehörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Jurehoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Jurehorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e0d32b245b38d730",
+      "head": "Täršin",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "テルシン（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tár-šīn-i"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "tar",
+          "id": "0867262b1bd9efcb"
+        },
+        {
+          "title": "派生",
+          "head": "šin",
+          "id": "faec6fc92535b52a"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Täršin"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Täršinen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Täršiner"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Täršinu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Täršinel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "e1536af87923cf2b",
       "head": "ma",
       "pos": "接続詞",
@@ -54568,6 +58108,100 @@
                 {
                   "label": "単数再帰格",
                   "value": "bažudel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e1dc0ee381c9f0ff",
+      "head": "Nardhorča",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ナルドホルチャ（女性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "女性",
+        "固定型",
+        "-a幹",
+        "複数形なし"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*nárd-xor-tʃā"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "nerda",
+          "id": "e4ea79afe6dc8b43"
+        },
+        {
+          "title": "派生",
+          "head": "horča",
+          "id": "f1f77995bc38b951"
+        },
+        {
+          "title": "派生",
+          "head": "Nardhor",
+          "id": "e48c387a20640889"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Nardhorča"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Nardhorčan"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Nardhorčar"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Nardhorčo"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Nardhorčal"
                 }
               ]
             }
@@ -54689,7 +58323,18 @@
       "gender": "M",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "wul",
+          "id": "ac296d123788e372"
+        },
+        {
+          "title": "派生",
+          "head": "žaf",
+          "id": "5bdfb6047ba86585"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -54782,8 +58427,108 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "honiv",
+          "id": "1967fc61723038ca"
+        }
+      ],
       "tables": []
+    },
+    {
+      "id": "e48c387a20640889",
+      "head": "Nardhor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ナルドホル（男性人名）",
+      "tags": [
+        "名詞",
+        "人名",
+        "男性",
+        "固定型",
+        "子音幹",
+        "複数形なし"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*nárd-xore"
+      ],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "nerda",
+          "id": "e4ea79afe6dc8b43"
+        },
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        },
+        {
+          "title": "派生",
+          "head": "Nardhorča",
+          "id": "e1dc0ee381c9f0ff"
+        }
+      ],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Nardhor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Nardhoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Nardhörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Nardhoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Nardhorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "e4c5ef610bced356",
@@ -54802,7 +58547,18 @@
       "protoForms": [
         "*pwe"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "pfet",
+          "id": "9e632653fc18d742"
+        },
+        {
+          "title": "派生",
+          "head": "pfeso",
+          "id": "2b3177df692814ea"
+        }
+      ],
       "tables": []
     },
     {
@@ -55082,7 +58838,23 @@
         "*nərd-ā́",
         "*nárd-"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Nardhor",
+          "id": "e48c387a20640889"
+        },
+        {
+          "title": "派生",
+          "head": "Nardhorča",
+          "id": "e1dc0ee381c9f0ff"
+        },
+        {
+          "title": "派生",
+          "head": "Tonnarda",
+          "id": "d519ab71b5f22747"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -55500,7 +59272,13 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "bannen",
+          "id": "d46546c43fa4f847"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -56108,7 +59886,23 @@
       "gender": "M",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "cwisprägen",
+          "id": "71a9eb3df98fe8a7"
+        },
+        {
+          "title": "派生",
+          "head": "cwisprägela",
+          "id": "d6ecd25d1b32edbb"
+        },
+        {
+          "title": "派生",
+          "head": "-el",
+          "id": "3f10bbf80aafb26c"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -56415,7 +60209,13 @@
         "*lum-ā́",
         "*láwm-"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Horloma",
+          "id": "3e429bb88509776a"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -56706,7 +60506,18 @@
         "*lé-en",
         "*lī-t"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "le",
+          "id": "da615a72f6ef0450"
+        },
+        {
+          "title": "派生",
+          "head": "lit",
+          "id": "a5f4b80cabb314b8"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -56857,7 +60668,13 @@
       "protoForms": [
         "*tág"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "tagen",
+          "id": "2887a986f74d8550"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -57212,6 +61029,16 @@
           "title": "派生",
           "head": "elfosclaq",
           "id": "2d1a038e27b79594"
+        },
+        {
+          "title": "派生",
+          "head": "el-",
+          "id": "f268839dd7d45d08"
+        },
+        {
+          "title": "派生",
+          "head": "foscle",
+          "id": "41643d8098aed6bb"
         }
       ],
       "tables": [
@@ -58928,7 +62755,23 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "taqsot",
+          "id": "0d565bd93be72759"
+        },
+        {
+          "title": "派生",
+          "head": "taq",
+          "id": "3600ff4fbaa0a057"
+        },
+        {
+          "title": "派生",
+          "head": "so",
+          "id": "2edd2275c60968e6"
+        }
+      ],
       "tables": []
     },
     {
@@ -59055,7 +62898,23 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hodivet",
+          "id": "dfefa114dc1a9bc9"
+        },
+        {
+          "title": "派生",
+          "head": "ho",
+          "id": "ad6de320a2c7263b"
+        },
+        {
+          "title": "派生",
+          "head": "div",
+          "id": "f74f7f451858a348"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -59402,7 +63261,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "soniv",
+          "id": "62bcd095bddc2b0e"
+        }
+      ],
       "tables": []
     },
     {
@@ -59521,7 +63386,23 @@
       "protoForms": [
         "*xor-tʃā"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "hor",
+          "id": "7e22081a70b04203"
+        },
+        {
+          "title": "派生",
+          "head": "Nardhorča",
+          "id": "e1dc0ee381c9f0ff"
+        },
+        {
+          "title": "派生",
+          "head": "Wolhorča",
+          "id": "aca9af28780cd95f"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -59614,7 +63495,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "elfoscle",
+          "id": "ec1bebce95942342"
+        }
+      ],
       "tables": []
     },
     {
@@ -59927,7 +63814,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "niv",
+          "id": "6b621f2dd9f35181"
+        }
+      ],
       "tables": []
     },
     {
@@ -60139,7 +64032,13 @@
       "gender": "",
       "class": "",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "toniv",
+          "id": "422ed1bcb244c08d"
+        }
+      ],
       "tables": []
     },
     {
@@ -60162,7 +64061,28 @@
       "protoForms": [
         "*díw-i"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "divet",
+          "id": "c75c0468c02643b3"
+        },
+        {
+          "title": "派生",
+          "head": "sodiv",
+          "id": "1bb163c8de6d36c6"
+        },
+        {
+          "title": "派生",
+          "head": "hodiv",
+          "id": "f156b787423bfc12"
+        },
+        {
+          "title": "派生",
+          "head": "todiv",
+          "id": "3cce234b63b35e53"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -60334,7 +64254,13 @@
       "gender": "N",
       "class": "固定型",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "žangen",
+          "id": "b8a0990daef97c76"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -60975,7 +64901,13 @@
       "gender": "",
       "class": "非交替",
       "protoForms": [],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "žiften",
+          "id": "ce138287c06abea3"
+        }
+      ],
       "tables": [
         {
           "title": "現在の人称活用",
@@ -61126,7 +65058,13 @@
       "protoForms": [
         "*šī́n-i"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "Täršin",
+          "id": "e0d32b245b38d730"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -61981,7 +65919,18 @@
       "protoForms": [
         "*ēm"
       ],
-      "relations": [],
+      "relations": [
+        {
+          "title": "派生",
+          "head": "fettäm",
+          "id": "94c718b2df03a305"
+        },
+        {
+          "title": "派生",
+          "head": "Ämhor",
+          "id": "c1a2fcb1b36bff71"
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
