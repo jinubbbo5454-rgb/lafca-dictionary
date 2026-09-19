@@ -12,8 +12,7 @@
       "tags": [
         "名詞",
         "男性",
-        "固定型",
-        "子音幹"
+        "固定型"
       ],
       "gender": "M",
       "class": "固定型",
@@ -102,7 +101,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "c30d9cc890d927f4",
@@ -115,8 +122,7 @@
       "tags": [
         "名詞",
         "男性",
-        "Ⅱ型",
-        "子音幹"
+        "Ⅱ型"
       ],
       "gender": "M",
       "class": "Ⅱ型",
@@ -205,7 +211,19 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "sänen"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     }
+  ],
+  "deletedIds": [
+    "cd303411897bbe0f"
   ]
 }

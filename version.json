@@ -1,12 +1,12 @@
 {
-  "entries": 669,
+  "entries": 668,
   "sources": [
     {
       "file": "ラフカ語文法.md",
       "sha256": "af1f170e8d1edb91254e93d44e15aa64d9474960bb17c08593a4065fe13b49d2"
     }
   ],
-  "htmlSha256": "e54db3bf2c062b8011e067eda88ad683a6dbbea3e36aa333ffc0f176fd728f15",
+  "htmlSha256": "b00b8591f3c0e5c57f24b21b2cb6c8eff00452e0662e5e6608e886a63c2a93b9",
   "grammarPdfSha256": "cbaf45ba926c4c79146ea6b00addcc79a61bfad4c363f71d6d2d727ffe8c17c0",
-  "editsSha256": "f6465679831b972c228a0816ad16874c3cbea013d135cb1d4057a0c7459fe70a"
+  "editsSha256": "92bd52662baf9e2ecba2355acf663ec2ec2ce56947c5a05de7f21897e0df2c18"
 }
