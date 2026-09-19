@@ -221,6 +221,110 @@
         "overrides": {},
         "omitted": []
       }
+    },
+    {
+      "id": "fe0e6ddb5424190e",
+      "head": "äm",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "",
+      "meaning": "家, 建物, 住居, 家屋",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*ēm"
+      ],
+      "relations": [],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数",
+            "複数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "äm"
+                },
+                {
+                  "label": "複数主格",
+                  "value": "ämes"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "ämen"
+                },
+                {
+                  "label": "複数属格",
+                  "value": "ämens"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "ämer"
+                },
+                {
+                  "label": "複数与格",
+                  "value": "ämers"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "ämu"
+                },
+                {
+                  "label": "複数奪格",
+                  "value": "ämus"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "ämel"
+                },
+                {
+                  "label": "複数再帰格",
+                  "value": "ämels"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     }
   ],
   "deletedIds": [
