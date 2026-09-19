@@ -218,6 +218,111 @@
       }
     },
     {
+      "id": "a147e6e223425f14",
+      "head": "ara",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "",
+      "meaning": "りんご, リンゴ, 林檎, 苹果, 蘋果",
+      "tags": [
+        "名詞",
+        "女性",
+        "固定型",
+        "-a幹"
+      ],
+      "gender": "F",
+      "class": "固定型",
+      "protoForms": [
+        "*arā"
+      ],
+      "relations": [],
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数",
+            "複数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "ara"
+                },
+                {
+                  "label": "複数主格",
+                  "value": "aras"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "aran"
+                },
+                {
+                  "label": "複数属格",
+                  "value": "arans"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "arar"
+                },
+                {
+                  "label": "複数与格",
+                  "value": "arars"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "aro"
+                },
+                {
+                  "label": "複数奪格",
+                  "value": "aros"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "aral"
+                },
+                {
+                  "label": "複数再帰格",
+                  "value": "arals"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
+    },
+    {
       "id": "c30d9cc890d927f4",
       "head": "sänan",
       "pos": "名詞",
