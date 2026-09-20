@@ -16218,7 +16218,7 @@
       "kind": "単語",
       "numeralType": "",
       "numberRestriction": "",
-      "meaning": "荷車, 台車, 手押し車（荷台を備えた車）",
+      "meaning": "荷車, 台車, 手押し車",
       "tags": [
         "名詞",
         "女性",
@@ -16316,7 +16316,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "3e27a50c11e94a31",
@@ -67542,7 +67550,7 @@
       "kind": "単語",
       "numeralType": "",
       "numberRestriction": "",
-      "meaning": "車, 車両\n自動車, くるま（現代の日常語）",
+      "meaning": "車, 車両, 車輌\n自動車, 乗用車",
       "tags": [
         "名詞",
         "女性",
@@ -67640,7 +67648,15 @@
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "f156b787423bfc12",
