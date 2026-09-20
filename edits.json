@@ -855,6 +855,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -864,6 +865,14 @@
         "*xór-tsold-i"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -918,15 +927,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "0332faea5486ea13",
@@ -1035,11 +1036,11 @@
       "meaning": "レンリダ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -1047,6 +1048,14 @@
         "*láwn-rīdā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -1101,15 +1110,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "0375ba4be6f90d27",
@@ -3389,10 +3390,10 @@
       "meaning": "八, 8, はち",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -6385,10 +6386,10 @@
       "meaning": "九百, 900, きゅうひゃく",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -6499,6 +6500,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -6508,6 +6510,14 @@
         "*réft-lum"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -6562,15 +6572,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "1a246dff711aa033",
@@ -6841,10 +6843,10 @@
       "meaning": "七十, 70, ななじゅう",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -13042,10 +13044,10 @@
       "meaning": "八百, 800, はっぴゃく",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -13970,6 +13972,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -13979,6 +13982,14 @@
         "*jód-seb-i"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -14033,15 +14044,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "3c5458d1706eed8b",
@@ -14150,10 +14153,10 @@
       "meaning": "七千, 7000, ななせん",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -14272,6 +14275,15 @@
         "*amlā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "eml"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -14347,16 +14359,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto",
-          "obliqueStem": "eml"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "3d2db012c4ef1a7a",
@@ -14990,11 +14993,11 @@
       "meaning": "ホルロマ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -15002,6 +15005,14 @@
         "*xór-lawm-ā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -15056,15 +15067,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "3e8030f5e325ed2c",
@@ -16632,10 +16635,10 @@
       "meaning": "九千, 9000, きゅうせん",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -21005,11 +21008,11 @@
       "meaning": "オチャルナ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -21017,6 +21020,14 @@
         "*ód-šarnā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -21071,15 +21082,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "529e26f53e65c07c",
@@ -22657,10 +22660,10 @@
       "meaning": "八十, 80, はちじゅう",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -24736,10 +24739,10 @@
       "meaning": "九十, 90, きゅうじゅう",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -27014,10 +27017,10 @@
       "meaning": "九, 9, きゅう, く",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -27410,11 +27413,11 @@
       "meaning": "ヨチャルナ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -27422,6 +27425,14 @@
         "*jód-šarnā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -27476,15 +27487,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "6d6b9b46d4715693",
@@ -27944,11 +27947,11 @@
       "meaning": "ヴェルリダ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -27956,6 +27959,14 @@
         "*wáwl-rīdā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -28010,15 +28021,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "7183588399684bfe",
@@ -28860,9 +28863,9 @@
       "meaning": "一, 1, いち",
       "tags": [
         "形容詞",
-        "基数",
         "子音幹",
-        "中性ウムラウト型"
+        "中性ウムラウト型",
+        "基数"
       ],
       "gender": "",
       "class": "子音幹",
@@ -29081,6 +29084,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -29090,6 +29094,15 @@
         "*wáwl-tsibr"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "Völžibr"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -29144,16 +29157,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto",
-          "obliqueStem": "Völžibr"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "7409653b6361e3cb",
@@ -29372,7 +29376,8 @@
       "tags": [
         "名詞",
         "男性",
-        "固定型"
+        "固定型",
+        "子音幹"
       ],
       "gender": "M",
       "class": "固定型",
@@ -29386,6 +29391,14 @@
           "head": "sänan"
         }
       ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -29461,15 +29474,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "75ef5dea748677fc",
@@ -33431,11 +33436,11 @@
       "meaning": "ヘルリダ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -33443,6 +33448,14 @@
         "*xór-rīdā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -33497,15 +33510,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "872cb91ed9525a38",
@@ -33519,6 +33524,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -33528,6 +33534,14 @@
         "*gádl-wers-i"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -33582,15 +33596,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "8734d0c6dac861cf",
@@ -35127,6 +35133,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -35136,6 +35143,14 @@
         "*xór-tar"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -35190,15 +35205,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "8d64df68e1a519e1",
@@ -36783,10 +36790,10 @@
       "meaning": "八千, 8000, はっせん",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -38940,6 +38947,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -38949,6 +38957,14 @@
         "*wáwl-xore"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -39003,15 +39019,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "9d2f058e47c4eb59",
@@ -40689,6 +40697,14 @@
         "*arā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -40764,15 +40780,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "a166c3d53dd2c808",
@@ -41949,11 +41957,11 @@
       "meaning": "ロンタラ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -41961,6 +41969,14 @@
         "*láwn-tar-ā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -42015,15 +42031,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "a7a1b3ab6c0a256f",
@@ -42136,11 +42144,11 @@
       "meaning": "ゲデルフィハ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -42148,6 +42156,14 @@
         "*gádl-fīxā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -42202,15 +42218,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "a935e76c8b384d7a",
@@ -43374,11 +43382,11 @@
       "meaning": "ウォルホルチャ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -43386,6 +43394,14 @@
         "*wáwl-xor-tʃā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -43440,15 +43456,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "acbef1d2d2b0f7b7",
@@ -47367,6 +47375,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -47376,6 +47385,14 @@
         "*dráwn-xore"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -47430,15 +47447,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "b88f2ce5d21621e1",
@@ -49888,6 +49897,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -49897,6 +49907,14 @@
         "*ḗm-xore"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -49951,15 +49969,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "c1cafe987f64fd02",
@@ -50234,11 +50244,11 @@
       "meaning": "ホレルタ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -50246,6 +50256,14 @@
         "*xór-értā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -50300,15 +50318,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "c274dc7c163df22f",
@@ -50568,7 +50578,8 @@
       "tags": [
         "名詞",
         "男性",
-        "Ⅱ型"
+        "Ⅱ型",
+        "子音幹"
       ],
       "gender": "M",
       "class": "Ⅱ型",
@@ -50582,6 +50593,15 @@
           "head": "amalbuh"
         }
       ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "sänen"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -50657,16 +50677,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto",
-          "obliqueStem": "sänen"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "c365451614adbef9",
@@ -50777,6 +50788,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -50786,6 +50798,14 @@
         "*láwn-tar"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -50840,15 +50860,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "c4a1d811b164bf05",
@@ -52467,11 +52479,11 @@
       "meaning": "ヘルキヴァ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -52479,6 +52491,14 @@
         "*xór-kiwā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -52533,15 +52553,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "cbd85d1758dd5329",
@@ -54456,11 +54468,11 @@
       "meaning": "トンナルダ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -54468,6 +54480,14 @@
         "*tónn-nard-ā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -54522,15 +54542,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "d531819f64b7ef4a",
@@ -57577,6 +57589,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -57586,6 +57599,14 @@
         "*júraj-xore"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -57640,15 +57661,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "e0d32b245b38d730",
@@ -57662,6 +57675,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -57671,6 +57685,14 @@
         "*tár-šīn-i"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -57725,15 +57747,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "e1536af87923cf2b",
@@ -57839,11 +57853,11 @@
       "meaning": "ナルドホルチャ（女性人名）",
       "tags": [
         "名詞",
-        "人名",
         "女性",
         "固定型",
         "-a幹",
-        "複数形なし"
+        "複数形なし",
+        "人名"
       ],
       "gender": "F",
       "class": "固定型",
@@ -57851,6 +57865,14 @@
         "*nárd-xor-tʃā"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -57905,15 +57927,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "e1eec3cbbe3a7dfb",
@@ -58154,6 +58168,7 @@
         "名詞",
         "男性",
         "固定型",
+        "子音幹",
         "複数形なし",
         "人名"
       ],
@@ -58163,6 +58178,14 @@
         "*nárd-xore"
       ],
       "relations": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -58217,15 +58240,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "e4c5ef610bced356",
@@ -62565,10 +62580,10 @@
       "meaning": "七百, 700, ななひゃく",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -63716,10 +63731,10 @@
       "meaning": "七, 7, なな, しち",
       "tags": [
         "名詞",
-        "基数",
         "中性",
         "固定型",
-        "子音幹"
+        "子音幹",
+        "基数"
       ],
       "gender": "N",
       "class": "固定型",
@@ -65571,7 +65586,8 @@
       "tags": [
         "名詞",
         "男性",
-        "固定型"
+        "固定型",
+        "子音幹"
       ],
       "gender": "M",
       "class": "固定型",
@@ -65585,6 +65601,14 @@
           "id": "94c718b2df03a305"
         }
       ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -65660,15 +65684,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "fe359ccfec05e891",
