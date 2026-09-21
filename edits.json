@@ -3030,47 +3030,6 @@
       "tables": []
     },
     {
-      "id": "09cf9cde30e4ea01",
-      "head": "sloso",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "三十, 30, さんじゅう",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "slosot",
-          "id": "88cf4a073b190abd"
-        },
-        {
-          "title": "派生",
-          "head": "slo",
-          "id": "5015cf54c7db896f"
-        },
-        {
-          "title": "派生",
-          "head": "so",
-          "id": "2edd2275c60968e6"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "三十, 30, さんじゅう",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "0a0c49bbef7cb8a1",
       "head": "gassen",
       "pos": "動詞",
@@ -3313,47 +3272,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "0a48663b4634041e",
-      "head": "pencso",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "五十, 50, ごじゅう",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "pencsot",
-          "id": "1541cae5be49dca4"
-        },
-        {
-          "title": "派生",
-          "head": "penk",
-          "id": "3a95e1e25b6b4e51"
-        },
-        {
-          "title": "派生",
-          "head": "so",
-          "id": "2edd2275c60968e6"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "五十, 50, ごじゅう",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": []
     },
     {
       "id": "0a4f1e2202cec389",
@@ -3789,21 +3707,6 @@
           "title": "派生",
           "head": "gevet",
           "id": "56632da485a4b56a"
-        },
-        {
-          "title": "派生",
-          "head": "sogev",
-          "id": "57f76b1a2f724da5"
-        },
-        {
-          "title": "派生",
-          "head": "hogev",
-          "id": "36e7baf3515a6321"
-        },
-        {
-          "title": "派生",
-          "head": "togev",
-          "id": "933232cb386540a7"
         }
       ],
       "senseTags": [
@@ -4899,37 +4802,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "0d565bd93be72759",
-      "head": "taqsot",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第六十, 第60, 六十番目, 60番目, ろくじゅうばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "taqso",
-          "id": "f04db10cb2fdd72c"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第六十, 第60, 六十番目, 60番目, ろくじゅうばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
     },
     {
       "id": "0d7aaef614ee76d2",
@@ -6346,37 +6218,6 @@
       ]
     },
     {
-      "id": "1541cae5be49dca4",
-      "head": "pencsot",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第五十, 第50, 五十番目, 50番目, ごじゅうばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "pencso",
-          "id": "0a48663b4634041e"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第五十, 第50, 五十番目, 50番目, ごじゅうばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "15799cde5901ac10",
       "head": "začwo",
       "pos": "名詞",
@@ -7041,125 +6882,6 @@
       ]
     },
     {
-      "id": "1967fc61723038ca",
-      "head": "honiv",
-      "pos": "名詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "九百, 900, きゅうひゃく",
-      "tags": [
-        "名詞",
-        "中性",
-        "固定型",
-        "子音幹型"
-      ],
-      "gender": "N",
-      "class": "固定型",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "honivet",
-          "id": "e398aeb97f150c70"
-        },
-        {
-          "title": "派生",
-          "head": "ho",
-          "id": "ad6de320a2c7263b"
-        },
-        {
-          "title": "派生",
-          "head": "niv",
-          "id": "6b621f2dd9f35181"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "九百, 900, きゅうひゃく",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "曲用",
-          "columns": [
-            "単数",
-            "複数"
-          ],
-          "rows": [
-            {
-              "label": "主格",
-              "cells": [
-                {
-                  "label": "単数主格",
-                  "value": "honiv"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "honivi"
-                }
-              ]
-            },
-            {
-              "label": "属格",
-              "cells": [
-                {
-                  "label": "単数属格",
-                  "value": "honiven"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "honivins"
-                }
-              ]
-            },
-            {
-              "label": "与格",
-              "cells": [
-                {
-                  "label": "単数与格",
-                  "value": "honiver"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "honivirs"
-                }
-              ]
-            },
-            {
-              "label": "奪格",
-              "cells": [
-                {
-                  "label": "単数奪格",
-                  "value": "honivu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "honivus"
-                }
-              ]
-            },
-            {
-              "label": "再帰格",
-              "cells": [
-                {
-                  "label": "単数再帰格",
-                  "value": "honivel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "honivils"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "19b81298e2d98cd5",
       "head": "Reftlum",
       "pos": "名詞",
@@ -7245,37 +6967,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "1a246dff711aa033",
-      "head": "togevet",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第八千, 第8000, 八千番目, 8000番目, はっせんばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "togev",
-          "id": "933232cb386540a7"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第八千, 第8000, 八千番目, 8000番目, はっせんばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
     },
     {
       "id": "1a9840d7e023433b",
@@ -7620,173 +7311,6 @@
                 {
                   "label": "単数再帰格",
                   "value": "Izvešal"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "1b8570e6572339ac",
-      "head": "to",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "千, 1000, せん",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [
-        "*to"
-      ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "tot",
-          "id": "7b876bea768a24a4"
-        },
-        {
-          "title": "派生",
-          "head": "todiv",
-          "id": "3cce234b63b35e53"
-        },
-        {
-          "title": "派生",
-          "head": "togev",
-          "id": "933232cb386540a7"
-        },
-        {
-          "title": "派生",
-          "head": "toniv",
-          "id": "422ed1bcb244c08d"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "千, 1000, せん",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
-      "id": "1bb163c8de6d36c6",
-      "head": "sodiv",
-      "pos": "名詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "七十, 70, ななじゅう",
-      "tags": [
-        "名詞",
-        "中性",
-        "固定型",
-        "子音幹型"
-      ],
-      "gender": "N",
-      "class": "固定型",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "sodivet",
-          "id": "d5ec1eb2177da92f"
-        },
-        {
-          "title": "派生",
-          "head": "so",
-          "id": "2edd2275c60968e6"
-        },
-        {
-          "title": "派生",
-          "head": "div",
-          "id": "f74f7f451858a348"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "七十, 70, ななじゅう",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "曲用",
-          "columns": [
-            "単数",
-            "複数"
-          ],
-          "rows": [
-            {
-              "label": "主格",
-              "cells": [
-                {
-                  "label": "単数主格",
-                  "value": "sodiv"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "sodivi"
-                }
-              ]
-            },
-            {
-              "label": "属格",
-              "cells": [
-                {
-                  "label": "単数属格",
-                  "value": "sodiven"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "sodivins"
-                }
-              ]
-            },
-            {
-              "label": "与格",
-              "cells": [
-                {
-                  "label": "単数与格",
-                  "value": "sodiver"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "sodivirs"
-                }
-              ]
-            },
-            {
-              "label": "奪格",
-              "cells": [
-                {
-                  "label": "単数奪格",
-                  "value": "sodivu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "sodivus"
-                }
-              ]
-            },
-            {
-              "label": "再帰格",
-              "cells": [
-                {
-                  "label": "単数再帰格",
-                  "value": "sodivel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "sodivils"
                 }
               ]
             }
@@ -11729,47 +11253,6 @@
       ]
     },
     {
-      "id": "2b3177df692814ea",
-      "head": "pfeso",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "四十, 40, よんじゅう",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "pfesot",
-          "id": "87f2fa15f4b09fde"
-        },
-        {
-          "title": "派生",
-          "head": "pfe",
-          "id": "e4c5ef610bced356"
-        },
-        {
-          "title": "派生",
-          "head": "so",
-          "id": "2edd2275c60968e6"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "四十, 40, よんじゅう",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "2bf79bfb8bdc4d52",
       "head": "scarn",
       "pos": "名詞",
@@ -12438,79 +11921,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "2edd2275c60968e6",
-      "head": "so",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "十, 10, じゅう",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [
-        "*so"
-      ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "sot",
-          "id": "b9a9584ce3abf1c5"
-        },
-        {
-          "title": "派生",
-          "head": "pencso",
-          "id": "0a48663b4634041e"
-        },
-        {
-          "title": "派生",
-          "head": "pfeso",
-          "id": "2b3177df692814ea"
-        },
-        {
-          "title": "派生",
-          "head": "sloso",
-          "id": "09cf9cde30e4ea01"
-        },
-        {
-          "title": "派生",
-          "head": "swoso",
-          "id": "4b3dd19fc941755a"
-        },
-        {
-          "title": "派生",
-          "head": "taqso",
-          "id": "f04db10cb2fdd72c"
-        },
-        {
-          "title": "派生",
-          "head": "sodiv",
-          "id": "1bb163c8de6d36c6"
-        },
-        {
-          "title": "派生",
-          "head": "sogev",
-          "id": "57f76b1a2f724da5"
-        },
-        {
-          "title": "派生",
-          "head": "soniv",
-          "id": "62bcd095bddc2b0e"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "十, 10, じゅう",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": []
     },
     {
       "id": "2fa1846cf7414865",
@@ -14007,11 +13417,6 @@
           "title": "派生",
           "head": "swot",
           "id": "aca0598ac1138b96"
-        },
-        {
-          "title": "派生",
-          "head": "swoso",
-          "id": "4b3dd19fc941755a"
         }
       ],
       "senseTags": [
@@ -14070,11 +13475,6 @@
           "title": "派生",
           "head": "taqet",
           "id": "281e7e8602fb901d"
-        },
-        {
-          "title": "派生",
-          "head": "taqso",
-          "id": "f04db10cb2fdd72c"
         }
       ],
       "senseTags": [
@@ -14178,125 +13578,6 @@
                 {
                   "label": "複数再帰格",
                   "value": "zusžrals"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "36e7baf3515a6321",
-      "head": "hogev",
-      "pos": "名詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "八百, 800, はっぴゃく",
-      "tags": [
-        "名詞",
-        "中性",
-        "固定型",
-        "子音幹型"
-      ],
-      "gender": "N",
-      "class": "固定型",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hogevet",
-          "id": "a04dd66a33263e8e"
-        },
-        {
-          "title": "派生",
-          "head": "ho",
-          "id": "ad6de320a2c7263b"
-        },
-        {
-          "title": "派生",
-          "head": "gev",
-          "id": "0b121b99e5a03185"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "八百, 800, はっぴゃく",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "曲用",
-          "columns": [
-            "単数",
-            "複数"
-          ],
-          "rows": [
-            {
-              "label": "主格",
-              "cells": [
-                {
-                  "label": "単数主格",
-                  "value": "hogev"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "hogevi"
-                }
-              ]
-            },
-            {
-              "label": "属格",
-              "cells": [
-                {
-                  "label": "単数属格",
-                  "value": "hogeven"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "hogevins"
-                }
-              ]
-            },
-            {
-              "label": "与格",
-              "cells": [
-                {
-                  "label": "単数与格",
-                  "value": "hogever"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "hogevirs"
-                }
-              ]
-            },
-            {
-              "label": "奪格",
-              "cells": [
-                {
-                  "label": "単数奪格",
-                  "value": "hogevu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "hogevus"
-                }
-              ]
-            },
-            {
-              "label": "再帰格",
-              "cells": [
-                {
-                  "label": "単数再帰格",
-                  "value": "hogevel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "hogevils"
                 }
               ]
             }
@@ -14981,11 +14262,6 @@
           "title": "派生",
           "head": "pencet",
           "id": "a76ca38918a83f44"
-        },
-        {
-          "title": "派生",
-          "head": "pencso",
-          "id": "0a48663b4634041e"
         }
       ],
       "senseTags": [
@@ -15480,125 +14756,6 @@
       ]
     },
     {
-      "id": "3cce234b63b35e53",
-      "head": "todiv",
-      "pos": "名詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "七千, 7000, ななせん",
-      "tags": [
-        "名詞",
-        "中性",
-        "固定型",
-        "子音幹型"
-      ],
-      "gender": "N",
-      "class": "固定型",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "todivet",
-          "id": "b0872bfb2eaf1c9e"
-        },
-        {
-          "title": "派生",
-          "head": "to",
-          "id": "1b8570e6572339ac"
-        },
-        {
-          "title": "派生",
-          "head": "div",
-          "id": "f74f7f451858a348"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "七千, 7000, ななせん",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "曲用",
-          "columns": [
-            "単数",
-            "複数"
-          ],
-          "rows": [
-            {
-              "label": "主格",
-              "cells": [
-                {
-                  "label": "単数主格",
-                  "value": "todiv"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "todivi"
-                }
-              ]
-            },
-            {
-              "label": "属格",
-              "cells": [
-                {
-                  "label": "単数属格",
-                  "value": "todiven"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "todivins"
-                }
-              ]
-            },
-            {
-              "label": "与格",
-              "cells": [
-                {
-                  "label": "単数与格",
-                  "value": "todiver"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "todivirs"
-                }
-              ]
-            },
-            {
-              "label": "奪格",
-              "cells": [
-                {
-                  "label": "単数奪格",
-                  "value": "todivu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "todivus"
-                }
-              ]
-            },
-            {
-              "label": "再帰格",
-              "cells": [
-                {
-                  "label": "単数再帰格",
-                  "value": "todivel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "todivils"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "3d057fda858f9b07",
       "head": "amla",
       "pos": "名詞",
@@ -16083,37 +15240,6 @@
       ]
     },
     {
-      "id": "3d7e529343fd16c0",
-      "head": "swosot",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第二十, 第20, 二十番目, 20番目, にじゅうばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "swoso",
-          "id": "4b3dd19fc941755a"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第二十, 第20, 二十番目, 20番目, にじゅうばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "3db021cb0a5fcc2e",
       "head": "gurn",
       "pos": "名詞",
@@ -16241,6 +15367,14 @@
         }
       ],
       "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -16316,15 +15450,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "3e27a50c11e94a31",
@@ -18087,125 +17213,6 @@
                 {
                   "label": "複数再帰格",
                   "value": "wosnifels"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "422ed1bcb244c08d",
-      "head": "toniv",
-      "pos": "名詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "九千, 9000, きゅうせん",
-      "tags": [
-        "名詞",
-        "中性",
-        "固定型",
-        "子音幹型"
-      ],
-      "gender": "N",
-      "class": "固定型",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "tonivet",
-          "id": "f6c18d8ddca32cfc"
-        },
-        {
-          "title": "派生",
-          "head": "to",
-          "id": "1b8570e6572339ac"
-        },
-        {
-          "title": "派生",
-          "head": "niv",
-          "id": "6b621f2dd9f35181"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "九千, 9000, きゅうせん",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "曲用",
-          "columns": [
-            "単数",
-            "複数"
-          ],
-          "rows": [
-            {
-              "label": "主格",
-              "cells": [
-                {
-                  "label": "単数主格",
-                  "value": "toniv"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "tonivi"
-                }
-              ]
-            },
-            {
-              "label": "属格",
-              "cells": [
-                {
-                  "label": "単数属格",
-                  "value": "toniven"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "tonivins"
-                }
-              ]
-            },
-            {
-              "label": "与格",
-              "cells": [
-                {
-                  "label": "単数与格",
-                  "value": "toniver"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "tonivirs"
-                }
-              ]
-            },
-            {
-              "label": "奪格",
-              "cells": [
-                {
-                  "label": "単数奪格",
-                  "value": "tonivu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "tonivus"
-                }
-              ]
-            },
-            {
-              "label": "再帰格",
-              "cells": [
-                {
-                  "label": "単数再帰格",
-                  "value": "tonivel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "tonivils"
                 }
               ]
             }
@@ -21021,47 +20028,6 @@
       ]
     },
     {
-      "id": "4b3dd19fc941755a",
-      "head": "swoso",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "二十, 20, にじゅう",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "swosot",
-          "id": "3d7e529343fd16c0"
-        },
-        {
-          "title": "派生",
-          "head": "swo",
-          "id": "34f5369230c8c685"
-        },
-        {
-          "title": "派生",
-          "head": "so",
-          "id": "2edd2275c60968e6"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "二十, 20, にじゅう",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "4bfe0f5c72c4bebb",
       "head": "vin",
       "pos": "名詞",
@@ -22303,11 +21269,6 @@
           "title": "派生",
           "head": "slot",
           "id": "1680fa8e4506635c"
-        },
-        {
-          "title": "派生",
-          "head": "sloso",
-          "id": "09cf9cde30e4ea01"
         }
       ],
       "senseTags": [
@@ -24434,125 +23395,6 @@
       ]
     },
     {
-      "id": "57f76b1a2f724da5",
-      "head": "sogev",
-      "pos": "名詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "八十, 80, はちじゅう",
-      "tags": [
-        "名詞",
-        "中性",
-        "固定型",
-        "子音幹型"
-      ],
-      "gender": "N",
-      "class": "固定型",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "sogevet",
-          "id": "def63ff571d97873"
-        },
-        {
-          "title": "派生",
-          "head": "so",
-          "id": "2edd2275c60968e6"
-        },
-        {
-          "title": "派生",
-          "head": "gev",
-          "id": "0b121b99e5a03185"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "八十, 80, はちじゅう",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "曲用",
-          "columns": [
-            "単数",
-            "複数"
-          ],
-          "rows": [
-            {
-              "label": "主格",
-              "cells": [
-                {
-                  "label": "単数主格",
-                  "value": "sogev"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "sogevi"
-                }
-              ]
-            },
-            {
-              "label": "属格",
-              "cells": [
-                {
-                  "label": "単数属格",
-                  "value": "sogeven"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "sogevins"
-                }
-              ]
-            },
-            {
-              "label": "与格",
-              "cells": [
-                {
-                  "label": "単数与格",
-                  "value": "sogever"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "sogevirs"
-                }
-              ]
-            },
-            {
-              "label": "奪格",
-              "cells": [
-                {
-                  "label": "単数奪格",
-                  "value": "sogevu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "sogevus"
-                }
-              ]
-            },
-            {
-              "label": "再帰格",
-              "cells": [
-                {
-                  "label": "単数再帰格",
-                  "value": "sogevel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "sogevils"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "58165ee55f54ec78",
       "head": "pišeq",
       "pos": "名詞",
@@ -26634,125 +25476,6 @@
                 {
                   "label": "副詞形",
                   "value": "hlenu"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "62bcd095bddc2b0e",
-      "head": "soniv",
-      "pos": "名詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "九十, 90, きゅうじゅう",
-      "tags": [
-        "名詞",
-        "中性",
-        "固定型",
-        "子音幹型"
-      ],
-      "gender": "N",
-      "class": "固定型",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "sonivet",
-          "id": "f1a67651cd1056f2"
-        },
-        {
-          "title": "派生",
-          "head": "so",
-          "id": "2edd2275c60968e6"
-        },
-        {
-          "title": "派生",
-          "head": "niv",
-          "id": "6b621f2dd9f35181"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "九十, 90, きゅうじゅう",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "曲用",
-          "columns": [
-            "単数",
-            "複数"
-          ],
-          "rows": [
-            {
-              "label": "主格",
-              "cells": [
-                {
-                  "label": "単数主格",
-                  "value": "soniv"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "sonivi"
-                }
-              ]
-            },
-            {
-              "label": "属格",
-              "cells": [
-                {
-                  "label": "単数属格",
-                  "value": "soniven"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "sonivins"
-                }
-              ]
-            },
-            {
-              "label": "与格",
-              "cells": [
-                {
-                  "label": "単数与格",
-                  "value": "soniver"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "sonivirs"
-                }
-              ]
-            },
-            {
-              "label": "奪格",
-              "cells": [
-                {
-                  "label": "単数奪格",
-                  "value": "sonivu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "sonivus"
-                }
-              ]
-            },
-            {
-              "label": "再帰格",
-              "cells": [
-                {
-                  "label": "単数再帰格",
-                  "value": "sonivel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "sonivils"
                 }
               ]
             }
@@ -29090,21 +27813,6 @@
           "title": "派生",
           "head": "nivet",
           "id": "f5b4dc7306ed6244"
-        },
-        {
-          "title": "派生",
-          "head": "soniv",
-          "id": "62bcd095bddc2b0e"
-        },
-        {
-          "title": "派生",
-          "head": "honiv",
-          "id": "1967fc61723038ca"
-        },
-        {
-          "title": "派生",
-          "head": "toniv",
-          "id": "422ed1bcb244c08d"
         }
       ],
       "senseTags": [
@@ -33300,37 +32008,6 @@
       ]
     },
     {
-      "id": "7b876bea768a24a4",
-      "head": "tot",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第千, 第1000, 千番目, 1000番目, せんばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "to",
-          "id": "1b8570e6572339ac"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第千, 第1000, 千番目, 1000番目, せんばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "7c1a891416fa38e1",
       "head": "šacö",
       "pos": "名詞",
@@ -36566,37 +35243,6 @@
       ]
     },
     {
-      "id": "87f2fa15f4b09fde",
-      "head": "pfesot",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第四十, 第40, 四十番目, 40番目, よんじゅうばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "pfeso",
-          "id": "2b3177df692814ea"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第四十, 第40, 四十番目, 40番目, よんじゅうばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "887e09e5b79f2c5b",
       "head": "hleh",
       "pos": "形容詞",
@@ -36885,37 +35531,6 @@
       "tables": []
     },
     {
-      "id": "88cf4a073b190abd",
-      "head": "slosot",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第三十, 第30, 三十番目, 30番目, さんじゅうばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "sloso",
-          "id": "09cf9cde30e4ea01"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第三十, 第30, 三十番目, 30番目, さんじゅうばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "89003a3729addbff",
       "head": "Davarük",
       "pos": "名詞",
@@ -37187,37 +35802,6 @@
           "meaning": "〜とき, 〜時, 〜するとき",
           "tags": [
             "時間"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
-      "id": "89ec75bdc2e5a16c",
-      "head": "hot",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第百, 第100, 百番目, 100番目, ひゃくばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "ho",
-          "id": "ad6de320a2c7263b"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第百, 第100, 百番目, 100番目, ひゃくばんめ",
-          "tags": [
-            "序数"
           ]
         }
       ],
@@ -39922,125 +38506,6 @@
                 {
                   "label": "複数再帰格",
                   "value": "defellels"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "933232cb386540a7",
-      "head": "togev",
-      "pos": "名詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "八千, 8000, はっせん",
-      "tags": [
-        "名詞",
-        "中性",
-        "固定型",
-        "子音幹型"
-      ],
-      "gender": "N",
-      "class": "固定型",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "togevet",
-          "id": "1a246dff711aa033"
-        },
-        {
-          "title": "派生",
-          "head": "to",
-          "id": "1b8570e6572339ac"
-        },
-        {
-          "title": "派生",
-          "head": "gev",
-          "id": "0b121b99e5a03185"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "八千, 8000, はっせん",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "曲用",
-          "columns": [
-            "単数",
-            "複数"
-          ],
-          "rows": [
-            {
-              "label": "主格",
-              "cells": [
-                {
-                  "label": "単数主格",
-                  "value": "togev"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "togevi"
-                }
-              ]
-            },
-            {
-              "label": "属格",
-              "cells": [
-                {
-                  "label": "単数属格",
-                  "value": "togeven"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "togevins"
-                }
-              ]
-            },
-            {
-              "label": "与格",
-              "cells": [
-                {
-                  "label": "単数与格",
-                  "value": "togever"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "togevirs"
-                }
-              ]
-            },
-            {
-              "label": "奪格",
-              "cells": [
-                {
-                  "label": "単数奪格",
-                  "value": "togevu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "togevus"
-                }
-              ]
-            },
-            {
-              "label": "再帰格",
-              "cells": [
-                {
-                  "label": "単数再帰格",
-                  "value": "togevel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "togevils"
                 }
               ]
             }
@@ -43830,37 +42295,6 @@
       ]
     },
     {
-      "id": "a04dd66a33263e8e",
-      "head": "hogevet",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第八百, 第800, 八百番目, 800番目, はっぴゃくばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hogev",
-          "id": "36e7baf3515a6321"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第八百, 第800, 八百番目, 800番目, はっぴゃくばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "a05337f9015942b0",
       "head": "tazap",
       "pos": "名詞",
@@ -47445,54 +45879,6 @@
       ]
     },
     {
-      "id": "ad6de320a2c7263b",
-      "head": "ho",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "百, 100, ひゃく",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [
-        "*ho"
-      ],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hot",
-          "id": "89ec75bdc2e5a16c"
-        },
-        {
-          "title": "派生",
-          "head": "hodiv",
-          "id": "f156b787423bfc12"
-        },
-        {
-          "title": "派生",
-          "head": "hogev",
-          "id": "36e7baf3515a6321"
-        },
-        {
-          "title": "派生",
-          "head": "honiv",
-          "id": "1967fc61723038ca"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "百, 100, ひゃく",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "ad7e5a90391fda08",
       "head": "moč",
       "pos": "名詞",
@@ -48844,37 +47230,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "b0872bfb2eaf1c9e",
-      "head": "todivet",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第七千, 第7000, 七千番目, 7000番目, ななせんばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "todiv",
-          "id": "3cce234b63b35e53"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第七千, 第7000, 七千番目, 7000番目, ななせんばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
     },
     {
       "id": "b11d904a73fbacab",
@@ -52400,37 +50755,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "b9a9584ce3abf1c5",
-      "head": "sot",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第十, 第10, 十番目, 10番目, じゅうばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "so",
-          "id": "2edd2275c60968e6"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第十, 第10, 十番目, 10番目, じゅうばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
     },
     {
       "id": "b9e65699c960483c",
@@ -59651,37 +57975,6 @@
       ]
     },
     {
-      "id": "d5ec1eb2177da92f",
-      "head": "sodivet",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第七十, 第70, 七十番目, 70番目, ななじゅうばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "sodiv",
-          "id": "1bb163c8de6d36c6"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第七十, 第70, 七十番目, 70番目, ななじゅうばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "d66d716c35da4bb1",
       "head": "sta",
       "pos": "接続詞",
@@ -61688,37 +59981,6 @@
       "tables": []
     },
     {
-      "id": "def63ff571d97873",
-      "head": "sogevet",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第八十, 第80, 八十番目, 80番目, はちじゅうばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "sogev",
-          "id": "57f76b1a2f724da5"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第八十, 第80, 八十番目, 80番目, はちじゅうばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "df7dfeecf1f4921a",
       "head": "šabom",
       "pos": "名詞",
@@ -62226,37 +60488,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "dfefa114dc1a9bc9",
-      "head": "hodivet",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第七百, 第700, 七百番目, 700番目, ななひゃくばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hodiv",
-          "id": "f156b787423bfc12"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第七百, 第700, 七百番目, 700番目, ななひゃくばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
     },
     {
       "id": "e00c71f0312b1500",
@@ -62933,37 +61164,6 @@
       ]
     },
     {
-      "id": "e398aeb97f150c70",
-      "head": "honivet",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第九百, 第900, 九百番目, 900番目, きゅうひゃくばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "honiv",
-          "id": "1967fc61723038ca"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第九百, 第900, 九百番目, 900番目, きゅうひゃくばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "e48c387a20640889",
       "head": "Nardhor",
       "pos": "名詞",
@@ -63071,11 +61271,6 @@
           "title": "派生",
           "head": "pfet",
           "id": "9e632653fc18d742"
-        },
-        {
-          "title": "派生",
-          "head": "pfeso",
-          "id": "2b3177df692814ea"
         }
       ],
       "senseTags": [
@@ -67503,47 +65698,6 @@
       ]
     },
     {
-      "id": "f04db10cb2fdd72c",
-      "head": "taqso",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "六十, 60, ろくじゅう",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "taqsot",
-          "id": "0d565bd93be72759"
-        },
-        {
-          "title": "派生",
-          "head": "taq",
-          "id": "3600ff4fbaa0a057"
-        },
-        {
-          "title": "派生",
-          "head": "so",
-          "id": "2edd2275c60968e6"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "六十, 60, ろくじゅう",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "f06ee3d86d16df71",
       "head": "banüja",
       "pos": "名詞",
@@ -67573,6 +65727,14 @@
         }
       ],
       "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -67643,133 +65805,6 @@
                 {
                   "label": "複数再帰格",
                   "value": "banüjals"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
-    },
-    {
-      "id": "f156b787423bfc12",
-      "head": "hodiv",
-      "pos": "名詞",
-      "kind": "単語",
-      "numeralType": "基数",
-      "numberRestriction": "",
-      "meaning": "七百, 700, ななひゃく",
-      "tags": [
-        "名詞",
-        "中性",
-        "固定型",
-        "子音幹型"
-      ],
-      "gender": "N",
-      "class": "固定型",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "hodivet",
-          "id": "dfefa114dc1a9bc9"
-        },
-        {
-          "title": "派生",
-          "head": "ho",
-          "id": "ad6de320a2c7263b"
-        },
-        {
-          "title": "派生",
-          "head": "div",
-          "id": "f74f7f451858a348"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "七百, 700, ななひゃく",
-          "tags": [
-            "基数"
-          ]
-        }
-      ],
-      "tables": [
-        {
-          "title": "曲用",
-          "columns": [
-            "単数",
-            "複数"
-          ],
-          "rows": [
-            {
-              "label": "主格",
-              "cells": [
-                {
-                  "label": "単数主格",
-                  "value": "hodiv"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "hodivi"
-                }
-              ]
-            },
-            {
-              "label": "属格",
-              "cells": [
-                {
-                  "label": "単数属格",
-                  "value": "hodiven"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "hodivins"
-                }
-              ]
-            },
-            {
-              "label": "与格",
-              "cells": [
-                {
-                  "label": "単数与格",
-                  "value": "hodiver"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "hodivirs"
-                }
-              ]
-            },
-            {
-              "label": "奪格",
-              "cells": [
-                {
-                  "label": "単数奪格",
-                  "value": "hodivu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "hodivus"
-                }
-              ]
-            },
-            {
-              "label": "再帰格",
-              "cells": [
-                {
-                  "label": "単数再帰格",
-                  "value": "hodivel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "hodivils"
                 }
               ]
             }
@@ -68031,37 +66066,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "f1a67651cd1056f2",
-      "head": "sonivet",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第九十, 第90, 九十番目, 90番目, きゅうじゅうばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "soniv",
-          "id": "62bcd095bddc2b0e"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第九十, 第90, 九十番目, 90番目, きゅうじゅうばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
     },
     {
       "id": "f1d31d362cce51d1",
@@ -68914,37 +66918,6 @@
       ]
     },
     {
-      "id": "f6c18d8ddca32cfc",
-      "head": "tonivet",
-      "pos": "連体詞",
-      "kind": "単語",
-      "numeralType": "序数",
-      "numberRestriction": "",
-      "meaning": "第九千, 第9000, 九千番目, 9000番目, きゅうせんばんめ",
-      "tags": [
-        "連体詞"
-      ],
-      "gender": "",
-      "class": "",
-      "protoForms": [],
-      "relations": [
-        {
-          "title": "派生",
-          "head": "toniv",
-          "id": "422ed1bcb244c08d"
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "第九千, 第9000, 九千番目, 9000番目, きゅうせんばんめ",
-          "tags": [
-            "序数"
-          ]
-        }
-      ],
-      "tables": []
-    },
-    {
       "id": "f74f7f451858a348",
       "head": "div",
       "pos": "名詞",
@@ -68968,21 +66941,6 @@
           "title": "派生",
           "head": "divet",
           "id": "c75c0468c02643b3"
-        },
-        {
-          "title": "派生",
-          "head": "sodiv",
-          "id": "1bb163c8de6d36c6"
-        },
-        {
-          "title": "派生",
-          "head": "hodiv",
-          "id": "f156b787423bfc12"
-        },
-        {
-          "title": "派生",
-          "head": "todiv",
-          "id": "3cce234b63b35e53"
         }
       ],
       "senseTags": [
@@ -71668,7 +69626,41 @@
     }
   ],
   "deletedIds": [
+    "09cf9cde30e4ea01",
+    "0a48663b4634041e",
+    "0d565bd93be72759",
+    "1541cae5be49dca4",
+    "1967fc61723038ca",
+    "1a246dff711aa033",
+    "1b8570e6572339ac",
+    "1bb163c8de6d36c6",
+    "2b3177df692814ea",
+    "2edd2275c60968e6",
+    "36e7baf3515a6321",
+    "3cce234b63b35e53",
+    "3d7e529343fd16c0",
+    "422ed1bcb244c08d",
+    "4b3dd19fc941755a",
+    "57f76b1a2f724da5",
+    "62bcd095bddc2b0e",
+    "7b876bea768a24a4",
+    "87f2fa15f4b09fde",
+    "88cf4a073b190abd",
+    "89ec75bdc2e5a16c",
+    "933232cb386540a7",
+    "a04dd66a33263e8e",
+    "ad6de320a2c7263b",
+    "b0872bfb2eaf1c9e",
+    "b9a9584ce3abf1c5",
     "cd303411897bbe0f",
-    "e294a887652a5218"
+    "d5ec1eb2177da92f",
+    "def63ff571d97873",
+    "dfefa114dc1a9bc9",
+    "e294a887652a5218",
+    "e398aeb97f150c70",
+    "f04db10cb2fdd72c",
+    "f156b787423bfc12",
+    "f1a67651cd1056f2",
+    "f6c18d8ddca32cfc"
   ]
 }
