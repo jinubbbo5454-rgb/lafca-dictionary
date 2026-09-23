@@ -3707,6 +3707,16 @@
           "title": "派生",
           "head": "gevet",
           "id": "56632da485a4b56a"
+        },
+        {
+          "title": "派生",
+          "head": "cwendegev",
+          "id": "c42a942bdbedc5e0"
+        },
+        {
+          "title": "派生",
+          "head": "cweningev",
+          "id": "707c64f1f2471064"
         }
       ],
       "senseTags": [
@@ -13417,6 +13427,16 @@
           "title": "派生",
           "head": "swot",
           "id": "aca0598ac1138b96"
+        },
+        {
+          "title": "派生",
+          "head": "cwendeswo",
+          "id": "b4742b3a6deca752"
+        },
+        {
+          "title": "派生",
+          "head": "swocven",
+          "id": "ef6b3560afbe3ac9"
         }
       ],
       "senseTags": [
@@ -13475,6 +13495,16 @@
           "title": "派生",
           "head": "taqet",
           "id": "281e7e8602fb901d"
+        },
+        {
+          "title": "派生",
+          "head": "cwendetaq",
+          "id": "719680ae185939df"
+        },
+        {
+          "title": "派生",
+          "head": "tahcven",
+          "id": "33088a03f24aa299"
         }
       ],
       "senseTags": [
@@ -14262,6 +14292,16 @@
           "title": "派生",
           "head": "pencet",
           "id": "a76ca38918a83f44"
+        },
+        {
+          "title": "派生",
+          "head": "cwendepenk",
+          "id": "7c30b65a332cb9b8"
+        },
+        {
+          "title": "派生",
+          "head": "pencven",
+          "id": "c0cb8c1c86fb9dbb"
         }
       ],
       "senseTags": [
@@ -21269,6 +21309,16 @@
           "title": "派生",
           "head": "slot",
           "id": "1680fa8e4506635c"
+        },
+        {
+          "title": "派生",
+          "head": "cwendeslo",
+          "id": "ddd04734219d134f"
+        },
+        {
+          "title": "派生",
+          "head": "slocven",
+          "id": "daaab4685b9e3d99"
         }
       ],
       "senseTags": [
@@ -27813,6 +27863,16 @@
           "title": "派生",
           "head": "nivet",
           "id": "f5b4dc7306ed6244"
+        },
+        {
+          "title": "派生",
+          "head": "cwendeniv",
+          "id": "916b30fc22b169aa"
+        },
+        {
+          "title": "派生",
+          "head": "cweniniv",
+          "id": "50c702653807a02f"
         }
       ],
       "senseTags": [
@@ -29750,6 +29810,11 @@
           "title": "派生",
           "head": "ganet",
           "id": "455fbf287f42d310"
+        },
+        {
+          "title": "派生",
+          "head": "cwendegan",
+          "id": "06b74aaa35fb6685"
         }
       ],
       "senseTags": [
@@ -61271,6 +61336,16 @@
           "title": "派生",
           "head": "pfet",
           "id": "9e632653fc18d742"
+        },
+        {
+          "title": "派生",
+          "head": "cwendepfe",
+          "id": "22e384375ad38b8e"
+        },
+        {
+          "title": "派生",
+          "head": "pfecven",
+          "id": "6398082fab5193df"
         }
       ],
       "senseTags": [
@@ -66941,6 +67016,16 @@
           "title": "派生",
           "head": "divet",
           "id": "c75c0468c02643b3"
+        },
+        {
+          "title": "派生",
+          "head": "cwendediv",
+          "id": "3ef71026b4d91aab"
+        },
+        {
+          "title": "派生",
+          "head": "cwenindiv",
+          "id": "0cba5487a1badf06"
         }
       ],
       "senseTags": [

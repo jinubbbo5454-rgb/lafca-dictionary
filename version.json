@@ -1,16 +1,16 @@
 {
-  "entries": 641,
+  "entries": 675,
   "sources": [
     {
       "file": "ラフカ語辞書.md",
-      "sha256": "0f0bb04bab92a66d4d64615187618ae8a43b4cff8a485288d851dcc05c37344b"
+      "sha256": "8085a69bd7168cbd684b0e1a2792cd333ad5139b8302a38fcf2902739752cc24"
     },
     {
       "file": "ラフカ語文法.md",
-      "sha256": "84522e49e3ef8b77564959ac094318651632042547c8bfd86a464c16c0b50964"
+      "sha256": "f8d7e9144da2919cd760a5232453fcab00e3a49c4550eba6e0517ddf9d4fadb2"
     }
   ],
-  "htmlSha256": "4df52e53a5f2e5cdb9ecd7062e61477cd90c7ed99891c724e679c2a7d4b897fe",
-  "grammarPdfSha256": "630fe920a015caaa84520520af7608a74a240349b2cbc3d7a270b59e48653cfd",
-  "editsSha256": "0b9bd8c4dc639e03d715a715322a8269f88bf3a049a74eab9cc9d79fbff964f5"
+  "htmlSha256": "42e6cd9f4944729fc2e7d78985a8f43510e80d82cbf6d8faedafb707c0aead97",
+  "grammarPdfSha256": "1e1272e25ceeacc73b539537bb860c80b8b64e24038cfbbe8d70a4f6668bcdaf",
+  "editsSha256": "f96094fdbfc5bb4cd8c335cb1a969a2f3d98cb1aaa4f66195ed98028dd5afce7"
 }
