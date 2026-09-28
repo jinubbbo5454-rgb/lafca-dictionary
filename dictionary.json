@@ -3367,13 +3367,14 @@
       "pos": "名詞",
       "kind": "単語",
       "numeralType": "",
-      "numberRestriction": "",
+      "numberRestriction": "singular",
       "meaning": "大麦, オオムギ, おおむぎ",
       "tags": [
         "名詞",
         "男性",
         "固定型",
-        "子音幹型"
+        "子音幹型",
+        "単数のみ"
       ],
       "gender": "M",
       "class": "固定型",
@@ -3392,78 +3393,58 @@
         {
           "title": "曲用",
           "columns": [
-            "単数",
-            "複数"
+            "語形"
           ],
           "rows": [
             {
-              "label": "主格",
+              "label": "単数主格",
               "cells": [
                 {
                   "label": "単数主格",
                   "value": "barun"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "barunes"
                 }
               ]
             },
             {
-              "label": "属格",
+              "label": "単数属格",
               "cells": [
                 {
                   "label": "単数属格",
                   "value": "barunen"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "barunens"
                 }
               ]
             },
             {
-              "label": "与格",
+              "label": "単数与格",
               "cells": [
                 {
                   "label": "単数与格",
                   "value": "barüner"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "barüners"
                 }
               ]
             },
             {
-              "label": "奪格",
+              "label": "単数奪格",
               "cells": [
                 {
                   "label": "単数奪格",
                   "value": "barunu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "barunus"
                 }
               ]
             },
             {
-              "label": "再帰格",
+              "label": "単数再帰格",
               "cells": [
                 {
                   "label": "単数再帰格",
                   "value": "barunel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "barunels"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "senseTags": []
     },
     {
       "id": "afb6f362c72aaff7",
@@ -60900,13 +60881,14 @@
       "pos": "名詞",
       "kind": "単語",
       "numeralType": "",
-      "numberRestriction": "",
+      "numberRestriction": "singular",
       "meaning": "エンバク, 燕麦, えんばく",
       "tags": [
         "名詞",
         "男性",
         "Ⅱ型",
-        "子音幹型"
+        "子音幹型",
+        "単数のみ"
       ],
       "gender": "M",
       "class": "Ⅱ型",
@@ -60925,78 +60907,58 @@
         {
           "title": "曲用",
           "columns": [
-            "単数",
-            "複数"
+            "語形"
           ],
           "rows": [
             {
-              "label": "主格",
+              "label": "単数主格",
               "cells": [
                 {
                   "label": "単数主格",
                   "value": "seriven"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "serivines"
                 }
               ]
             },
             {
-              "label": "属格",
+              "label": "単数属格",
               "cells": [
                 {
                   "label": "単数属格",
                   "value": "serivinen"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "serivinens"
                 }
               ]
             },
             {
-              "label": "与格",
+              "label": "単数与格",
               "cells": [
                 {
                   "label": "単数与格",
                   "value": "seriviner"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "seriviners"
                 }
               ]
             },
             {
-              "label": "奪格",
+              "label": "単数奪格",
               "cells": [
                 {
                   "label": "単数奪格",
                   "value": "serivinu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "serivinus"
                 }
               ]
             },
             {
-              "label": "再帰格",
+              "label": "単数再帰格",
               "cells": [
                 {
                   "label": "単数再帰格",
                   "value": "serivinel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "serivinels"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "senseTags": []
     },
     {
       "id": "e992f75a047f37e9",
@@ -71389,13 +71351,14 @@
       "pos": "名詞",
       "kind": "単語",
       "numeralType": "",
-      "numberRestriction": "",
+      "numberRestriction": "singular",
       "meaning": "穀物, 穀類",
       "tags": [
         "名詞",
         "女性",
         "Ⅱ型",
-        "-a型"
+        "-a型",
+        "単数のみ"
       ],
       "gender": "F",
       "class": "Ⅱ型",
@@ -71408,78 +71371,66 @@
         {
           "title": "曲用",
           "columns": [
-            "単数",
-            "複数"
+            "語形"
           ],
           "rows": [
             {
-              "label": "主格",
+              "label": "単数主格",
               "cells": [
                 {
                   "label": "単数主格",
                   "value": "toma"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "tumas"
                 }
               ]
             },
             {
-              "label": "属格",
+              "label": "単数属格",
               "cells": [
                 {
                   "label": "単数属格",
                   "value": "tuman"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "tumans"
                 }
               ]
             },
             {
-              "label": "与格",
+              "label": "単数与格",
               "cells": [
                 {
                   "label": "単数与格",
                   "value": "tumar"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "tumars"
                 }
               ]
             },
             {
-              "label": "奪格",
+              "label": "単数奪格",
               "cells": [
                 {
                   "label": "単数奪格",
                   "value": "tumo"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "tumos"
                 }
               ]
             },
             {
-              "label": "再帰格",
+              "label": "単数再帰格",
               "cells": [
                 {
                   "label": "単数再帰格",
                   "value": "tumal"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "tumals"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "tum"
+        },
+        "overrides": {},
+        "omitted": []
+      }
     },
     {
       "id": "bbcb8433142977d3",
@@ -76029,13 +75980,14 @@
       "pos": "名詞",
       "kind": "単語",
       "numeralType": "",
-      "numberRestriction": "",
+      "numberRestriction": "singular",
       "meaning": "ライ麦, ライムギ, らいむぎ",
       "tags": [
         "名詞",
         "男性",
         "Ⅱ型",
-        "子音幹型"
+        "子音幹型",
+        "単数のみ"
       ],
       "gender": "M",
       "class": "Ⅱ型",
@@ -76054,78 +76006,58 @@
         {
           "title": "曲用",
           "columns": [
-            "単数",
-            "複数"
+            "語形"
           ],
           "rows": [
             {
-              "label": "主格",
+              "label": "単数主格",
               "cells": [
                 {
                   "label": "単数主格",
                   "value": "vreš"
-                },
-                {
-                  "label": "複数主格",
-                  "value": "vrišes"
                 }
               ]
             },
             {
-              "label": "属格",
+              "label": "単数属格",
               "cells": [
                 {
                   "label": "単数属格",
                   "value": "vrišen"
-                },
-                {
-                  "label": "複数属格",
-                  "value": "vrišens"
                 }
               ]
             },
             {
-              "label": "与格",
+              "label": "単数与格",
               "cells": [
                 {
                   "label": "単数与格",
                   "value": "vrišer"
-                },
-                {
-                  "label": "複数与格",
-                  "value": "vrišers"
                 }
               ]
             },
             {
-              "label": "奪格",
+              "label": "単数奪格",
               "cells": [
                 {
                   "label": "単数奪格",
                   "value": "vrišu"
-                },
-                {
-                  "label": "複数奪格",
-                  "value": "vrišus"
                 }
               ]
             },
             {
-              "label": "再帰格",
+              "label": "単数再帰格",
               "cells": [
                 {
                   "label": "単数再帰格",
                   "value": "vrišel"
-                },
-                {
-                  "label": "複数再帰格",
-                  "value": "vrišels"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "senseTags": []
     },
     {
       "id": "05d438c896095314",
