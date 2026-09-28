@@ -3444,7 +3444,14 @@
           ]
         }
       ],
-      "senseTags": []
+      "senseTags": [
+        {
+          "meaning": "大麦, オオムギ, おおむぎ",
+          "tags": [
+            "不可算"
+          ]
+        }
+      ]
     },
     {
       "id": "afb6f362c72aaff7",
@@ -60958,7 +60965,14 @@
           ]
         }
       ],
-      "senseTags": []
+      "senseTags": [
+        {
+          "meaning": "エンバク, 燕麦, えんばく",
+          "tags": [
+            "不可算"
+          ]
+        }
+      ]
     },
     {
       "id": "e992f75a047f37e9",
@@ -71366,7 +71380,14 @@
         "*tomā"
       ],
       "relations": [],
-      "senseTags": [],
+      "senseTags": [
+        {
+          "meaning": "穀物, 穀類",
+          "tags": [
+            "不可算"
+          ]
+        }
+      ],
       "tables": [
         {
           "title": "曲用",
@@ -76057,7 +76078,14 @@
           ]
         }
       ],
-      "senseTags": []
+      "senseTags": [
+        {
+          "meaning": "ライ麦, ライムギ, らいむぎ",
+          "tags": [
+            "不可算"
+          ]
+        }
+      ]
     },
     {
       "id": "05d438c896095314",
