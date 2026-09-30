@@ -891,6 +891,93 @@
       ]
     },
     {
+      "id": "bdc4621a258b0bab",
+      "head": "Ämžöld",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "エムツェルド（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*ḗm-tsold-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Ämžöld"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Ämžölden"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Ämžölder"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Ämžöldu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Ämžöldel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "9743f43978180060",
       "head": "aq",
       "pos": "間投詞",
@@ -2518,6 +2605,93 @@
       ]
     },
     {
+      "id": "5b6d9391c40271c9",
+      "head": "Balv",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "バルヴ（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*bálw-"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Balv"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Balven"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Bälver"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Balvu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Balvel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "f97aba6ba9af5ec7",
       "head": "balva",
       "pos": "名詞",
@@ -2608,6 +2782,93 @@
                 {
                   "label": "複数再帰格",
                   "value": "belvals"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fdfe0d27f2f47ea3",
+      "head": "Balväm",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "バルヴェム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*bálw-ēm"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Balväm"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Balvämen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Balvämer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Balvämu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Balvämel"
                 }
               ]
             }
@@ -3380,6 +3641,14 @@
       "class": "固定型",
       "protoForms": [],
       "relations": [],
+      "senseTags": [
+        {
+          "meaning": "大麦, オオムギ, おおむぎ",
+          "tags": [
+            "不可算"
+          ]
+        }
+      ],
       "inflection": {
         "version": 1,
         "settings": {
@@ -3441,14 +3710,6 @@
                 }
               ]
             }
-          ]
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "大麦, オオムギ, おおむぎ",
-          "tags": [
-            "不可算"
           ]
         }
       ]
@@ -3772,6 +4033,15 @@
       "class": "固定型",
       "protoForms": [],
       "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -3847,16 +4117,7 @@
             }
           ]
         }
-      ],
-      "senseTags": [],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "a09a50b1f6ab8f4f",
@@ -6384,6 +6645,267 @@
       ]
     },
     {
+      "id": "5360188e438aa94d",
+      "head": "Bracäm",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ブラケム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*brā́k-ēm"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Bracäm"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Bracämen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Bracämer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Bracämu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Bracämel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0893a73198daf9f8",
+      "head": "Bracšin",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ブラクシン（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*brā́k-šīn-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Bracšin"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Bracšinen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Bracšiner"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Bracšinu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Bracšinel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05b31b1c5594aefd",
+      "head": "Bracžif",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ブラクツィフ（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*brā́k-tsif"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Bracžif"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Bracžifen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Bracžifer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Bracžifu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Bracžifel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "7ea0b43ed289071a",
       "head": "brak",
       "pos": "名詞",
@@ -6559,6 +7081,180 @@
                 {
                   "label": "単数再帰格",
                   "value": "brämel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "104bd62a9f61e568",
+      "head": "Brämseb",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ブレムセブ（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*brḗm-seb-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Brämseb"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Brämseben"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Brämseber"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Brämsebu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Brämsebel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "091d385d949d36dd",
+      "head": "Brämtar",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ブレムタル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*brḗm-tar"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Brämtar"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Brämtaren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Brämtärer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Brämtaru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Brämtarel"
                 }
               ]
             }
@@ -10101,6 +10797,91 @@
       ]
     },
     {
+      "id": "1357b1e7d9b1ee24",
+      "head": "Cevan",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ケヴァン（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Cevan"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Cevanen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Ceväner"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Cevanu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Cevanel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "b1423e7ba9490bb5",
       "head": "čezrij",
       "pos": "名詞",
@@ -11025,6 +11806,354 @@
       ]
     },
     {
+      "id": "de26a51f905f79df",
+      "head": "Čirvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "チルヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tʃī́r-wers-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Čirvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Čirversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Čirverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Čirversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Čirversel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "849705fc9df93b01",
+      "head": "Čirwol",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "チルウォル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tʃī́r-wawl"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Čirwol"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Čirwolen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Čirwöler"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Čirwolu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Čirwolel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6bf9da24c0ee21aa",
+      "head": "Čiržel",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "チルツェル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tʃī́r-tsel-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Čiržel"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Čirželen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Čirželer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Čirželu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Čirželel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "183f5f3fe5a8e317",
+      "head": "Civ",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "キヴ（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*kíw-"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Civ"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Civen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Civer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Civu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Civel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "0479ae98eccd3332",
       "head": "civa",
       "pos": "名詞",
@@ -11115,6 +12244,180 @@
                 {
                   "label": "複数再帰格",
                   "value": "civals"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "721fb95815a38645",
+      "head": "Civtar",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "キヴタル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*kíw-tar"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Civtar"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Civtaren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Civtärer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Civtaru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Civtarel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ebed2d520b87fa60",
+      "head": "Civžöld",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "キヴツェルド（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*kíw-tsold-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Civžöld"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Civžölden"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Civžölder"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Civžöldu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Civžöldel"
                 }
               ]
             }
@@ -12249,6 +13552,181 @@
                 {
                   "label": "複数再帰格",
                   "value": "cunnels"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7ce95c7cbd6894a",
+      "head": "Connbront",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "コンブロント（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*kónn-bront"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Connbront"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Connbronten"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Connbrönter"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Connbrontu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Connbrontel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "81082cd56a45dfbb",
+      "head": "Cönnžiber",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ケンツィベル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*kónn-tsibr"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "Cönnžibr"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Cönnžiber"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Cönnžibren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Cönnžibrer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Cönnžibru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Cönnžibrel"
                 }
               ]
             }
@@ -19373,6 +20851,93 @@
       ]
     },
     {
+      "id": "cc8a81a982ba46f2",
+      "head": "Drönfirr",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ドレンフィル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*dráwn-firr"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Drönfirr"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Drönfirren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Drönfirrer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Drönfirru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Drönfirrel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "b8380e6e83ff1e7d",
       "head": "Dronhor",
       "pos": "名詞",
@@ -19452,6 +21017,267 @@
                 {
                   "label": "単数再帰格",
                   "value": "Dronhorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5a8067e4135793aa",
+      "head": "Dronlum",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ドロンルム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*dráwn-lum"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Dronlum"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Dronlumen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Dronlümer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Dronlumu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Dronlumel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "437b41c3f6d641e7",
+      "head": "Drontar",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ドロンタル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*dráwn-tar"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Drontar"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Drontaren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Drontärer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Drontaru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Drontarel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d3a449a4dccd90ac",
+      "head": "Dronvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ドロンヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*dráwn-wers-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Dronvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Dronversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Dronverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Dronversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Dronversel"
                 }
               ]
             }
@@ -20249,6 +22075,180 @@
       ]
     },
     {
+      "id": "01ebfbdc08e58bbd",
+      "head": "Emelhor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "エメルホル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*éml-xore"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Emelhor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Emelhoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Emelhörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Emelhoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Emelhorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "61499ac8daf58180",
+      "head": "Emelvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "エメルヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*éml-wers-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Emelvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Emelversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Emelverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Emelversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Emelversel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "e9a257a2b7909fc2",
       "head": "emla",
       "pos": "名詞",
@@ -20712,6 +22712,93 @@
       "tables": []
     },
     {
+      "id": "4dbd0c68fe019a2d",
+      "head": "Ert",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "エルト（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*ért-"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Ert"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Erten"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Erter"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Ertu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Ertel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cd7d12423c6344ea",
       "head": "ert",
       "pos": "連体詞",
@@ -20839,6 +22926,180 @@
                 {
                   "label": "複数再帰格",
                   "value": "ertals"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25edb1dc5c94a772",
+      "head": "Ertvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "エルトヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*ért-wers-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Ertvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Ertversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Ertverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Ertversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Ertversel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7446348e3aa6f988",
+      "head": "Ertžöld",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "エルトツェルド（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*ért-tsold-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Ertžöld"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Ertžölden"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Ertžölder"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Ertžöldu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Ertžöldel"
                 }
               ]
             }
@@ -21797,6 +24058,267 @@
                 {
                   "label": "複数再帰格",
                   "value": "fattals"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dc31fa5d09b8ca16",
+      "head": "Fattäm",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ファッテム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*fátt-ēm"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Fattäm"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Fattämen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Fattämer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Fattämu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Fattämel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0b2975d537b5e253",
+      "head": "Fattlum",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ファットルム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*fátt-lum"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Fattlum"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Fattlumen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Fattlümer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Fattlumu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Fattlumel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4d60c43d77bc3a68",
+      "head": "Fattvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ファットヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*fátt-wers-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Fattvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Fattversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Fattverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Fattversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Fattversel"
                 }
               ]
             }
@@ -22780,6 +25302,180 @@
                 {
                   "label": "複数再帰格",
                   "value": "fihals"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fdccdca5677d59eb",
+      "head": "Fihbront",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "フィヒブロント（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*fī́x-bront"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Fihbront"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Fihbronten"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Fihbrönter"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Fihbrontu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Fihbrontel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fe87f327f6700020",
+      "head": "Fihtar",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "フィヒタル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*fī́x-tar"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Fihtar"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Fihtaren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Fihtärer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Fihtaru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Fihtarel"
                 }
               ]
             }
@@ -24231,6 +26927,180 @@
                 {
                   "label": "複数再帰格",
                   "value": "fitels"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "75871aa983c4a99e",
+      "head": "Fitbront",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "フィトブロント（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*fī́t-bront"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Fitbront"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Fitbronten"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Fitbrönter"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Fitbrontu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Fitbrontel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8850a2f877d324ab",
+      "head": "Fithor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "フィトホル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*fī́t-xore"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Fithor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Fithoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Fithörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Fithoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Fithorel"
                 }
               ]
             }
@@ -26160,6 +29030,180 @@
                 {
                   "label": "単数再帰格",
                   "value": "Gädelfihal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9c3a2f348dea975e",
+      "head": "Gädelšin",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ゲデルシン（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*gádl-šīn-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Gädelšin"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Gädelšinen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Gädelšiner"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Gädelšinu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Gädelšinel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30795ca7a5a8edea",
+      "head": "Gadeltar",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ガデルタル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*gádl-tar"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Gadeltar"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Gadeltaren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Gadeltärer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Gadeltaru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Gadeltarel"
                 }
               ]
             }
@@ -34263,6 +37307,180 @@
       ]
     },
     {
+      "id": "cdc9d1a58fdb1cfb",
+      "head": "Horwol",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ホルウォル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*xór-wawl"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Horwol"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Horwolen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Horwöler"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Horwolu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Horwolel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3327da7b774554c",
+      "head": "Horžägeh",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ホルツェゲヒ（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*xór-tsēgex"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Horžägeh"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Horžägehen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Horžägeher"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Horžägehu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Horžägehel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "0328b767157fdba9",
       "head": "Horžöld",
       "pos": "名詞",
@@ -36567,6 +39785,267 @@
       ]
     },
     {
+      "id": "61efa98433397fc2",
+      "head": "Irfatäm",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "イルファテム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*írfat-ēm"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Irfatäm"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Irfatämen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Irfatämer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Irfatämu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Irfatämel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "40c5d1ca9db0dadc",
+      "head": "Irfathor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "イルファトホル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*írfat-xore"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Irfathor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Irfathoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Irfathörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Irfathoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Irfathorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "821c7a3c8d8debf9",
+      "head": "Irfätšin",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "イルフェトシン（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*írfat-šīn-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Irfätšin"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Irfätšinen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Irfätšiner"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Irfätšinu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Irfätšinel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "dfeecf87b1ad9996",
       "head": "itten",
       "pos": "動詞",
@@ -37361,6 +40840,91 @@
                 {
                   "label": "複数再帰格",
                   "value": "japfužels"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3ee9479a59469a71",
+      "head": "Javen",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヤヴェン（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Javen"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Javenen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Javener"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Javenu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Javenel"
                 }
               ]
             }
@@ -38656,6 +42220,180 @@
       "tables": []
     },
     {
+      "id": "5d6e957c167eabcc",
+      "head": "Jödfirr",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "イェドフィル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*jód-firr"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Jödfirr"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Jödfirren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Jödfirrer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Jödfirru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Jödfirrel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3410b3337f4b6152",
+      "head": "Jodlum",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヨドルム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*jód-lum"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Jodlum"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Jodlumen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Jodlümer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Jodlumu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Jodlumel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "e88aaeeb970dcae5",
       "head": "Jomer",
       "pos": "名詞",
@@ -39318,6 +43056,93 @@
       ]
     },
     {
+      "id": "94111d00d72fb4f8",
+      "head": "Jurebront",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ユレブロント（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*júraj-bront"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Jurebront"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Jurebronten"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Jurebrönter"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Jurebrontu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Jurebrontel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "e01aa1f671985338",
       "head": "Jurehor",
       "pos": "名詞",
@@ -39397,6 +43222,265 @@
                 {
                   "label": "単数再帰格",
                   "value": "Jurehorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bac6c7e83bb8909b",
+      "head": "Jureseb",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ユレセブ（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*júraj-seb-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Jureseb"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Jureseben"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Jureseber"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Juresebu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Juresebel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "99007c71a6e38440",
+      "head": "Jurežöld",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ユレツェルド（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*júraj-tsold-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Jurežöld"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Jurežölden"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Jurežölder"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Jurežöldu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Jurežöldel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "767bc8a4c0bc7996",
+      "head": "Jutvan",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ユトヴァン（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Jutvan"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Jutvanen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Jutväner"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Jutvanu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Jutvanel"
                 }
               ]
             }
@@ -39733,6 +43817,180 @@
                 {
                   "label": "複数再帰格",
                   "value": "läfujels"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2c519ef77799721e",
+      "head": "Laglum",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ラグルム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*lág-lum"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Laglum"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Laglumen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Laglümer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Laglumu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Laglumel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0bc3613c78454d54",
+      "head": "Lagvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ラグヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*lág-wers-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Lagvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Lagversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Lagverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Lagversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Lagversel"
                 }
               ]
             }
@@ -41833,6 +46091,93 @@
       ]
     },
     {
+      "id": "69b382f533e07ea2",
+      "head": "Lönšin",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "レンシン（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*láwn-šīn-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Lönšin"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Lönšinen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Lönšiner"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Lönšinu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Lönšinel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "c3a68eb831628c7d",
       "head": "Lontar",
       "pos": "名詞",
@@ -42813,6 +47158,91 @@
       ]
     },
     {
+      "id": "36a85fbe5ceb35d3",
+      "head": "Lumit",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ルミット（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Lumit"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Lumiten"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Lumiter"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Lumitu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Lumitel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "dc7a77aaf2bb4e1b",
       "head": "lun",
       "pos": "名詞",
@@ -42940,6 +47370,15 @@
       "class": "固定型",
       "protoForms": [],
       "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -43015,16 +47454,7 @@
             }
           ]
         }
-      ],
-      "senseTags": [],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "e1536af87923cf2b",
@@ -46270,6 +50700,268 @@
       ]
     },
     {
+      "id": "288aecfcac867db0",
+      "head": "Nahäm",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ナヘム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*náx-ēm"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Nahäm"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Nahämen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Nahämer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Nahämu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Nahämel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e58fd49bd7a91edd",
+      "head": "Nahvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ナハヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*náx-wers-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Nahvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Nahversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Nahverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Nahversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Nahversel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6b425f76e8404a91",
+      "head": "Nähžiber",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ネヒツィベル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*náx-tsibr"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "Nähžibr"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Nähžiber"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Nähžibren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Nähžibrer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Nähžibru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Nähžibrel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "98e7f5cb03c1d5a0",
       "head": "napan",
       "pos": "動詞",
@@ -46410,6 +51102,93 @@
                 {
                   "label": "過去分詞",
                   "value": "dinapat"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "155abc93ee9dcce2",
+      "head": "Nardäm",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ナルデム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*nárd-ēm"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Nardäm"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Nardämen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Nardämer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Nardämu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Nardämel"
                 }
               ]
             }
@@ -46584,6 +51363,180 @@
                 {
                   "label": "単数再帰格",
                   "value": "Nardhorčal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f82d5e1d11cfb5d3",
+      "head": "Nardlum",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ナルドルム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*nárd-lum"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Nardlum"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Nardlumen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Nardlümer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Nardlumu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Nardlumel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f14bd22d037dc96c",
+      "head": "Nardvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ナルドヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*nárd-wers-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Nardvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Nardversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Nardverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Nardversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Nardversel"
                 }
               ]
             }
@@ -56449,6 +61402,180 @@
       ]
     },
     {
+      "id": "ea619e0cb1337fef",
+      "head": "Reftäm",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "レフテム（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*réft-ēm"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Reftäm"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Reftämen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Reftämer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Reftämu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Reftämel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a925bed02d2165ea",
+      "head": "Reftbront",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "レフトブロント（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*réft-bront"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Reftbront"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Reftbronten"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Reftbrönter"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Reftbrontu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Reftbrontel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "19b81298e2d98cd5",
       "head": "Reftlum",
       "pos": "名詞",
@@ -56709,6 +61836,180 @@
                 {
                   "label": "単数再帰格",
                   "value": "ridal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "64dfc229aff6c735",
+      "head": "Ridhor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "リドホル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*rī́d-xore"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Ridhor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Ridhoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Ridhörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Ridhoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Ridhorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab1cf7f7e1aad096",
+      "head": "Ridvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "リドヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*rī́d-wers-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Ridvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Ridversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Ridverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Ridversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Ridversel"
                 }
               ]
             }
@@ -58444,6 +63745,180 @@
       ]
     },
     {
+      "id": "09889d8ede7c060d",
+      "head": "Sänanhor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "セナンホル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*sḗnan-xore"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Sänanhor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Sänanhoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Sänanhörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Sänanhoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Sänanhorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ec6ae26bf24fb49f",
+      "head": "Sänantar",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "セナンタル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*sḗnan-tar"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Sänantar"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Sänantaren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Sänantärer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Sänantaru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Sänantarel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "a942b85ea99c0325",
       "head": "säriva",
       "pos": "名詞",
@@ -58554,6 +64029,93 @@
       ]
     },
     {
+      "id": "717f699fbe0f7748",
+      "head": "Šarn",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "シャルン（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*šárn-"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Šarn"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Šarnen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Šärner"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Šarnu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Šarnel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "06145a9666735b19",
       "head": "šarna",
       "pos": "名詞",
@@ -58644,6 +64206,181 @@
                 {
                   "label": "複数再帰格",
                   "value": "šarnals"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "48dc5dd684d03936",
+      "head": "Šarnhor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "シャルンホル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*šárn-xore"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Šarnhor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Šarnhoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Šarnhörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Šarnhoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Šarnhorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "415d0ea84034d740",
+      "head": "Šärnžiber",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "シェルンツィベル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*šárn-tsibr"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "Šärnžibr"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Šärnžiber"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Šärnžibren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Šärnžibrer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Šärnžibru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Šärnžibrel"
                 }
               ]
             }
@@ -60901,6 +66638,14 @@
       "class": "Ⅱ型",
       "protoForms": [],
       "relations": [],
+      "senseTags": [
+        {
+          "meaning": "エンバク, 燕麦, えんばく",
+          "tags": [
+            "不可算"
+          ]
+        }
+      ],
       "inflection": {
         "version": 1,
         "settings": {
@@ -60962,14 +66707,6 @@
                 }
               ]
             }
-          ]
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "エンバク, 燕麦, えんばく",
-          "tags": [
-            "不可算"
           ]
         }
       ]
@@ -62004,6 +67741,93 @@
       "tables": []
     },
     {
+      "id": "b1f66ea338f40973",
+      "head": "Siv",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "シヴ（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*síw"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Siv"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Siven"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Siver"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Sivu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Sivel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "f9276bf64a6bbce0",
       "head": "siv",
       "pos": "形容詞",
@@ -62253,6 +68077,93 @@
                 {
                   "label": "副詞形",
                   "value": "sivu"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8aa0b1fe725023b6",
+      "head": "Sivhor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "シヴホル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*síw-xore"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Sivhor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Sivhoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Sivhörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Sivhoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Sivhorel"
                 }
               ]
             }
@@ -69518,6 +75429,93 @@
       ]
     },
     {
+      "id": "5abd7dbd45706237",
+      "head": "Tarbront",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "タルブロント（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tár-bront"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Tarbront"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Tarbronten"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Tarbrönter"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Tarbrontu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Tarbrontel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "e0d32b245b38d730",
       "head": "Täršin",
       "pos": "名詞",
@@ -71388,6 +77386,15 @@
           ]
         }
       ],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "tum"
+        },
+        "overrides": {},
+        "omitted": []
+      },
       "tables": [
         {
           "title": "曲用",
@@ -71442,16 +77449,7 @@
             }
           ]
         }
-      ],
-      "inflection": {
-        "version": 1,
-        "settings": {
-          "nounPattern": "auto",
-          "obliqueStem": "tum"
-        },
-        "overrides": {},
-        "omitted": []
-      }
+      ]
     },
     {
       "id": "bbcb8433142977d3",
@@ -71631,6 +77629,355 @@
                 {
                   "label": "単数再帰格",
                   "value": "Tonnardal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "950d70950620c814",
+      "head": "Tonnmüšo",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "トンミュショ（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "緩衝子音型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tónn-mūšaw"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "glide"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Tonnmüšo"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Tonnmüšowen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Tonnmüšöjer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Tonnmüšowu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Tonnmüšowel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cc7fdbf2e982097e",
+      "head": "Tonntäbir",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "トンテビル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tónn-tēbir"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Tonntäbir"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Tonntäbiren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Tonntäbirer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Tonntäbiru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Tonntäbirel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9785757e496ade05",
+      "head": "Tonnvers",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "トンヴェルス（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tónn-wers-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Tonnvers"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Tonnversen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Tonnverser"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Tonnversu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Tonnversel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ff78079083359a5e",
+      "head": "Tönnžiber",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "テンツィベル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tónn-tsibr"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto",
+          "obliqueStem": "Tönnžibr"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Tönnžiber"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Tönnžibren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Tönnžibrer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Tönnžibru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Tönnžibrel"
                 }
               ]
             }
@@ -75821,6 +82168,93 @@
       ]
     },
     {
+      "id": "7cc5404fde3aaf46",
+      "head": "Völfirr",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヴェルフィル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*wáwl-firr"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Völfirr"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Völfirren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Völfirrer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Völfirru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Völfirrel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "7183045362c11ce1",
       "head": "Völrida",
       "pos": "名詞",
@@ -75900,6 +82334,180 @@
                 {
                   "label": "単数再帰格",
                   "value": "Völridal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8aa33938494538b3",
+      "head": "Völšin",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヴェルシン（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*wáwl-šīn-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Völšin"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Völšinen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Völšiner"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Völšinu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Völšinel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "751de8612b52ec85",
+      "head": "Völsiv",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ヴェルシヴ（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*wáwl-siw"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Völsiv"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Völsiven"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Völsiver"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Völsivu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Völsivel"
                 }
               ]
             }
@@ -76014,6 +82622,14 @@
       "class": "Ⅱ型",
       "protoForms": [],
       "relations": [],
+      "senseTags": [
+        {
+          "meaning": "ライ麦, ライムギ, らいむぎ",
+          "tags": [
+            "不可算"
+          ]
+        }
+      ],
       "inflection": {
         "version": 1,
         "settings": {
@@ -76075,14 +82691,6 @@
                 }
               ]
             }
-          ]
-        }
-      ],
-      "senseTags": [
-        {
-          "meaning": "ライ麦, ライムギ, らいむぎ",
-          "tags": [
-            "不可算"
           ]
         }
       ]
@@ -76562,6 +83170,93 @@
       "tables": []
     },
     {
+      "id": "f39c3f5b82022fbf",
+      "head": "Wolbront",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ウォルブロント（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*wáwl-bront"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Wolbront"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Wolbronten"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Wolbrönter"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Wolbrontu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Wolbrontel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "d5dcd65083874a28",
       "head": "wolen",
       "pos": "動詞",
@@ -76885,6 +83580,93 @@
                 {
                   "label": "単数再帰格",
                   "value": "Wolhorčal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04d9c84b09b3069f",
+      "head": "Woltar",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ウォルタル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*wáwl-tar"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Woltar"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Woltaren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Woltärer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Woltaru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Woltarel"
                 }
               ]
             }
@@ -78817,6 +85599,93 @@
       ]
     },
     {
+      "id": "ef2ce28bbe729abf",
+      "head": "Žalhor",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ツァルホル（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tsā́l-xore"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Žalhor"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Žalhoren"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Žalhörer"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Žalhoru"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Žalhorel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "630ce4a53d565135",
       "head": "žallen",
       "pos": "動詞",
@@ -78957,6 +85826,93 @@
                 {
                   "label": "過去分詞",
                   "value": "dižellt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "442ac65d646daee8",
+      "head": "Žalšin",
+      "pos": "名詞",
+      "kind": "単語",
+      "numeralType": "",
+      "numberRestriction": "singular",
+      "meaning": "ツァルシン（男性人名）",
+      "tags": [
+        "名詞",
+        "男性",
+        "固定型",
+        "子音幹型",
+        "単数のみ",
+        "人名"
+      ],
+      "gender": "M",
+      "class": "固定型",
+      "protoForms": [
+        "*tsā́l-šīn-i"
+      ],
+      "relations": [],
+      "senseTags": [],
+      "inflection": {
+        "version": 1,
+        "settings": {
+          "nounPattern": "auto"
+        },
+        "overrides": {},
+        "omitted": []
+      },
+      "tables": [
+        {
+          "title": "曲用",
+          "columns": [
+            "単数"
+          ],
+          "rows": [
+            {
+              "label": "主格",
+              "cells": [
+                {
+                  "label": "単数主格",
+                  "value": "Žalšin"
+                }
+              ]
+            },
+            {
+              "label": "属格",
+              "cells": [
+                {
+                  "label": "単数属格",
+                  "value": "Žalšinen"
+                }
+              ]
+            },
+            {
+              "label": "与格",
+              "cells": [
+                {
+                  "label": "単数与格",
+                  "value": "Žalšiner"
+                }
+              ]
+            },
+            {
+              "label": "奪格",
+              "cells": [
+                {
+                  "label": "単数奪格",
+                  "value": "Žalšinu"
+                }
+              ]
+            },
+            {
+              "label": "再帰格",
+              "cells": [
+                {
+                  "label": "単数再帰格",
+                  "value": "Žalšinel"
                 }
               ]
             }
@@ -93740,6 +100696,974 @@
       },
       "usage": [],
       "issues": []
+    },
+    "f39c3f5b82022fbf": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*wáwl-bront\n語構成：戦い・盾",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A16:C16。語構成：戦い・盾。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "04d9c84b09b3069f": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*wáwl-tar\n語構成：戦い・強き",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A17:C17。語構成：戦い・強き。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "f14bd22d037dc96c": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*nárd-wers-i\n語構成：民・光",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A18:C18。語構成：民・光。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "f82d5e1d11cfb5d3": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*nárd-lum\n語構成：民・領主",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A19:C19。語構成：民・領主。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "bdc4621a258b0bab": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*ḗm-tsold-i\n語構成：家・守り",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A20:C20。語構成：家・守り。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "bac6c7e83bb8909b": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*júraj-seb-i\n語構成：神・生",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A21:C21。語構成：神・生。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "a925bed02d2165ea": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*réft-bront\n語構成：軍・盾",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A22:C22。語構成：軍・盾。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "fdfe0d27f2f47ea3": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*bálw-ēm\n語構成：獅子・家",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A23:C23。語構成：獅子・家。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "5b6d9391c40271c9": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*bálw-\n語構成：獅子",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A24:C24。語構成：獅子。祖語型は構成要素に基づく再建案。独立した男性短名として登録。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "30795ca7a5a8edea": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*gádl-tar\n語構成：鷲・強き",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A25:C25。語構成：鷲・強き。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "104bd62a9f61e568": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*brḗm-seb-i\n語構成：麦・生",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A26:C26。語構成：麦・生。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "de26a51f905f79df": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*tʃī́r-wers-i\n語構成：金・光",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A27:C27。語構成：金・光。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "0893a73198daf9f8": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*brā́k-šīn-i\n語構成：岩・石",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A28:C28。語構成：岩・石。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "9785757e496ade05": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*tónn-wers-i\n語構成：太陽・光",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A29:C29。語構成：太陽・光。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "ff78079083359a5e": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*tónn-tsibr\n語構成：太陽・槍",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A30:C30。語構成：太陽・槍。祖語型は構成要素に基づく再建案。文法1.4と既存名 Völžiber に従い、斜格幹 Tönnžibr-。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {
+        "斜格幹": "Tönnžibr-"
+      },
+      "usage": []
+    },
+    "69b382f533e07ea2": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*láwn-šīn-i\n語構成：木・石",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A31:C31。語構成：木・石。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "3410b3337f4b6152": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*jód-lum\n語構成：良き・領主",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A32:C32。語構成：良き・領主。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "5abd7dbd45706237": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*tár-bront\n語構成：強き・盾",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A33:C33。語構成：強き・盾。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "64dfc229aff6c735": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*rī́d-xore\n語構成：平和・王",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A34:C34。語構成：平和・王。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "ab1cf7f7e1aad096": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*rī́d-wers-i\n語構成：平和・光",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A35:C35。語構成：平和・光。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "721fb95815a38645": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*kíw-tar\n語構成：友・強き",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A36:C36。語構成：友・強き。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "ebed2d520b87fa60": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*kíw-tsold-i\n語構成：友・守り",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A37:C37。語構成：友・守り。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "fdccdca5677d59eb": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*fī́x-bront\n語構成：炎・盾",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A38:C38。語構成：炎・盾。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "fe87f327f6700020": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*fī́x-tar\n語構成：炎・強き",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A39:C39。語構成：炎・強き。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "48dc5dd684d03936": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*šárn-xore\n語構成：星・王",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A40:C40。語構成：星・王。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "415d0ea84034d740": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*šárn-tsibr\n語構成：星・槍",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A41:C41。語構成：星・槍。祖語型は構成要素に基づく再建案。文法1.4と既存名 Völžiber に従い、斜格幹 Šärnžibr-。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {
+        "斜格幹": "Šärnžibr-"
+      },
+      "usage": []
+    },
+    "25edb1dc5c94a772": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*ért-wers-i\n語構成：心臓・光",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A42:C42。語構成：心臓・光。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "7446348e3aa6f988": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*ért-tsold-i\n語構成：心臓・守り",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A43:C43。語構成：心臓・守り。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "01ebfbdc08e58bbd": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*éml-xore\n語構成：海・王",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A44:C44。語構成：海・王。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "61499ac8daf58180": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*éml-wers-i\n語構成：海・光",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A45:C45。語構成：海・光。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "8850a2f877d324ab": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*fī́t-xore\n語構成：風・王",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A46:C46。語構成：風・王。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "75871aa983c4a99e": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*fī́t-bront\n語構成：風・盾",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A47:C47。語構成：風・盾。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "09889d8ede7c060d": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*sḗnan-xore\n語構成：雷・王",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A48:C48。語構成：雷・王。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "ec6ae26bf24fb49f": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*sḗnan-tar\n語構成：雷・強き",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A49:C49。語構成：雷・強き。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "40c5d1ca9db0dadc": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*írfat-xore\n語構成：狼・王",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A50:C50。語構成：狼・王。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "821c7a3c8d8debf9": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*írfat-šīn-i\n語構成：狼・石",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A51:C51。語構成：狼・石。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "b7ce95c7cbd6894a": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*kónn-bront\n語構成：馬・盾",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A52:C52。語構成：馬・盾。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "81082cd56a45dfbb": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*kónn-tsibr\n語構成：馬・槍",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A53:C53。語構成：馬・槍。祖語型は構成要素に基づく再建案。文法1.4と既存名 Völžiber に従い、斜格幹 Cönnžibr-。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {
+        "斜格幹": "Cönnžibr-"
+      },
+      "usage": []
+    },
+    "0b2975d537b5e253": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*fátt-lum\n語構成：森・領主",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A54:C54。語構成：森・領主。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "4d60c43d77bc3a68": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*fátt-wers-i\n語構成：森・光",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A55:C55。語構成：森・光。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "0bc3613c78454d54": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*lág-wers-i\n語構成：山・光",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A56:C56。語構成：山・光。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "2c519ef77799721e": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*lág-lum\n語構成：山・領主",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A57:C57。語構成：山・領主。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "ef2ce28bbe729abf": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*tsā́l-xore\n語構成：火・王",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A58:C58。語構成：火・王。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "442ac65d646daee8": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*tsā́l-šīn-i\n語構成：火・石",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A59:C59。語構成：火・石。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "e58fd49bd7a91edd": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*náx-wers-i\n語構成：雪・光",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A60:C60。語構成：雪・光。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "6b425f76e8404a91": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*náx-tsibr\n語構成：雪・槍",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A61:C61。語構成：雪・槍。祖語型は構成要素に基づく再建案。文法1.4と既存名 Völžiber に従い、斜格幹 Nähžibr-。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {
+        "斜格幹": "Nähžibr-"
+      },
+      "usage": []
+    },
+    "8aa0b1fe725023b6": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*síw-xore\n語構成：自由な・王",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A62:C62。語構成：自由な・王。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "751de8612b52ec85": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*wáwl-siw\n語構成：戦い・自由な",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A63:C63。語構成：戦い・自由な。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "5d6e957c167eabcc": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*jód-firr\n語構成：良き・確かな",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A64:C64。語構成：良き・確かな。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "cc7fdbf2e982097e": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*tónn-tēbir\n語構成：太陽・聖なる",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A65:C65。語構成：太陽・聖なる。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "05b31b1c5594aefd": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*brā́k-tsif\n語構成：岩・鋭き",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A66:C66。語構成：岩・鋭き。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "950d70950620c814": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*tónn-mūšaw\n語構成：太陽・喜ばしい",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A67:C67。語構成：太陽・喜ばしい。祖語型は構成要素に基づく再建案。後部 müšo の母音幹を保持し、müšowen・müšöjer と同じ緩衝子音型で曲用（文法1.4・2.2.7）。",
+      "status": "採用済み",
+      "stemType": "母音幹",
+      "stems": {},
+      "usage": []
+    },
+    "6bf9da24c0ee21aa": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*tʃī́r-tsel-i\n語構成：金・言葉",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A68:C68。語構成：金・言葉。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "e3327da7b774554c": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*xór-tsēgex\n語構成：王・刀",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A69:C69。語構成：王・刀。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "8aa33938494538b3": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*wáwl-šīn-i\n語構成：戦い・石",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A70:C70。語構成：戦い・石。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "437b41c3f6d641e7": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*dráwn-tar\n語構成：語義未詳・強き",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A71:C71。語構成：語義未詳・強き。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "5a8067e4135793aa": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*dráwn-lum\n語構成：語義未詳・領主",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A72:C72。語構成：語義未詳・領主。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "94111d00d72fb4f8": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*júraj-bront\n語構成：神・盾",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A73:C73。語構成：神・盾。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "849705fc9df93b01": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*tʃī́r-wawl\n語構成：金・戦い",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A74:C74。語構成：金・戦い。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "183f5f3fe5a8e317": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*kíw-\n語構成：友",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A75:C75。語構成：友。祖語型は構成要素に基づく再建案。独立した男性短名として登録。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "99007c71a6e38440": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*júraj-tsold-i\n語構成：神・守り",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A76:C76。語構成：神・守り。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "091d385d949d36dd": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*brḗm-tar\n語構成：麦・強き",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A77:C77。語構成：麦・強き。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "717f699fbe0f7748": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*šárn-\n語構成：星",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A78:C78。語構成：星。祖語型は構成要素に基づく再建案。独立した男性短名として登録。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "7cc5404fde3aaf46": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*wáwl-firr\n語構成：戦い・確かな",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A79:C79。語構成：戦い・確かな。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "4dbd0c68fe019a2d": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*ért-\n語構成：心臓",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A80:C80。語構成：心臓。祖語型は構成要素に基づく再建案。独立した男性短名として登録。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "155abc93ee9dcce2": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*nárd-ēm\n語構成：民・家",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A81:C81。語構成：民・家。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "ea619e0cb1337fef": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*réft-ēm\n語構成：軍・家",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A82:C82。語構成：軍・家。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "61efa98433397fc2": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*írfat-ēm\n語構成：狼・家",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A83:C83。語構成：狼・家。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "9c3a2f348dea975e": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*gádl-šīn-i\n語構成：鷲・石",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A84:C84。語構成：鷲・石。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "d3a449a4dccd90ac": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*dráwn-wers-i\n語構成：語義未詳・光",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A85:C85。語構成：語義未詳・光。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "dc31fa5d09b8ca16": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*fátt-ēm\n語構成：森・家",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A86:C86。語構成：森・家。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "cc8a81a982ba46f2": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*dráwn-firr\n語構成：語義未詳・確かな",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A87:C87。語構成：語義未詳・確かな。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "288aecfcac867db0": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*náx-ēm\n語構成：雪・家",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A88:C88。語構成：雪・家。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "cdc9d1a58fdb1cfb": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*xór-wawl\n語構成：王・戦い",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A89:C89。語構成：王・戦い。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "b1f66ea338f40973": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*síw\n語構成：自由な",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A90:C90。語構成：自由な。祖語型は構成要素に基づく再建案。独立した男性短名として登録。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "5360188e438aa94d": {
+      "section": "固有人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "*brā́k-ēm\n語構成：岩・家",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「固有人名」A91:C91。語構成：岩・家。祖語型は構成要素に基づく再建案。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "36a85fbe5ceb35d3": {
+      "section": "借用人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "借用人名。出自言語・語源未詳。",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「借用人名」A56:A57。出自言語・語源は未詳。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "767bc8a4c0bc7996": {
+      "section": "借用人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "借用人名。出自言語・語源未詳。",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「借用人名」A60:A61。出自言語・語源は未詳。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "1357b1e7d9b1ee24": {
+      "section": "借用人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "借用人名。出自言語・語源未詳。",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「借用人名」A62:A63。出自言語・語源は未詳。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
+    },
+    "3ee9479a59469a71": {
+      "section": "借用人名",
+      "grammar": "M / 固 / 単数のみ",
+      "etymology": "借用人名。出自言語・語源未詳。",
+      "ald": "",
+      "relation": "",
+      "note": "2026-09-30 作者の辞書登録指示により採用。出典：「借用人名」A64:A65。出自言語・語源は未詳。",
+      "status": "採用済み",
+      "stemType": "子音幹",
+      "stems": {},
+      "usage": []
     }
   },
   "deletedIds": [
